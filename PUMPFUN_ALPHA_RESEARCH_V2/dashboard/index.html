@@ -35,6 +35,8 @@
   .pa { background:rgba(245,158,11,0.2); color:#fbbf24; }
   .pr { background:rgba(239,68,68,0.2); color:#f87171; }
   canvas { max-height:310px; }
+
+.coin-link{color:inherit;text-decoration:underline dotted;text-underline-offset:3px}.coin-link:hover{text-decoration:underline;color:#4da3ff}
 </style>
 </head>
 <body>
@@ -77,6 +79,13 @@
   </section>
 </main>
 <script>
+// Link do strony tokena na pump.fun (otwiera się w nowej karcie)
+function coinLink(r) {
+  const sym = String(r.symbol || '-').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  if (!r.mint) return sym;
+  return `<a class="coin-link" href="https://pump.fun/coin/${encodeURIComponent(r.mint)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" title="Otwórz ${sym} na pump.fun">${sym}</a>`;
+}
+
 const D = window.PUMP_V2_DATA;
 function sw(i,b){ document.querySelectorAll('.view').forEach(v=>v.classList.remove('active')); document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active')); document.getElementById('v'+i).classList.add('active'); b.classList.add('active'); }
 document.getElementById('hdrMeta').innerHTML = `Frozen V2 SHA256: <code>${D.core.frozen_model.frozen_sha256.slice(0,16)}...</code> | Przecieki danych: <b>${D.core.leakage_violations}</b>`;
@@ -116,7 +125,7 @@ document.getElementById('tWf').innerHTML = `<table><thead><tr><th>Fold</th><th>O
   D.walk_forward.map(w=>`<tr><td>Fold ${w.fold}</td><td>${w.test_period_start_utc} → ${w.test_period_end_utc}</td><td>${w.embargo_status}</td><td><b>${w.strategy}</b></td><td>${w.n_obs}</td><td>${w.positives}</td><td>${(w.precision_at_10*100).toFixed(0)}%</td><td>${w.lift_at_10||0}x</td><td>${w.roc_auc||'-'}</td><td>${w.top10_mean_event_net_ret_pct}%</td></tr>`).join('') + `</tbody></table>`;
 
 document.getElementById('tTok').innerHTML = `<table><thead><tr><th>Ticker</th><th>Start UTC</th><th>Potential V2</th><th>Manip. Risk</th><th>Insider Risk</th><th>Confidence</th><th>Status 4h</th><th>Status 24h</th><th>Mnożnik 4h</th><th>Sim 4h Net%</th><th>Powody Oceny</th></tr></thead><tbody>` +
-  D.tokens.map(t=>`<tr><td><b>${t.symbol||'-'}</b></td><td>${t.created_utc}</td><td><span class="pill pg">${t.pump_potential_v2_5m||'-'}</span></td><td>${t.manipulation_risk_v2_5m}</td><td>${t.insider_supply_risk_v2_5m}</td><td>${t.score_confidence_level}</td><td>${t.status_4h}</td><td>${t.status_24h}</td><td>${t.reliable_market_mult_4h||'censored'}</td><td>${t.sim_4h_net_ret_pct!==null?t.sim_4h_net_ret_pct+'%':'censored'}</td><td>${t.score_reasons||''}</td></tr>`).join('') + `</tbody></table>`;
+  D.tokens.map(t=>`<tr><td><b>${coinLink(t)}</b></td><td>${t.created_utc}</td><td><span class="pill pg">${t.pump_potential_v2_5m||'-'}</span></td><td>${t.manipulation_risk_v2_5m}</td><td>${t.insider_supply_risk_v2_5m}</td><td>${t.score_confidence_level}</td><td>${t.status_4h}</td><td>${t.status_24h}</td><td>${t.reliable_market_mult_4h||'censored'}</td><td>${t.sim_4h_net_ret_pct!==null?t.sim_4h_net_ret_pct+'%':'censored'}</td><td>${t.score_reasons||''}</td></tr>`).join('') + `</tbody></table>`;
 
 new Chart(document.getElementById('cCats'), {
   type:'bar',
@@ -125,7 +134,7 @@ new Chart(document.getElementById('cCats'), {
 });
 
 document.getElementById('tFifo').innerHTML = `<table><thead><tr><th>Ticker</th><th>Portfel</th><th>FIFO Realized SOL</th><th>FIFO Unrealized SOL</th><th>Nieprzypisane Sprzedaże SOL</th><th>Kompletność FIFO</th><th>Sygnatury RPC</th><th>Kompletność RPC</th></tr></thead><tbody>` +
-  D.fifo_top.map(f=>`<tr><td><b>${f.symbol}</b></td><td><code>${f.wallet.slice(0,6)}..${f.wallet.slice(-4)}</code></td><td><span class="pill ${f.fifo_realized_pnl_sol>=0?'pg':'pr'}">${f.fifo_realized_pnl_sol} SOL</span></td><td>${f.fifo_unrealized_pnl_sol} SOL</td><td>${f.unattributed_sell_proceeds_sol} SOL</td><td>${f.pnl_completeness}</td><td>${f.rpc_signatures_analyzed}</td><td>${f.rpc_history_completeness}</td></tr>`).join('') + `</tbody></table>`;
+  D.fifo_top.map(f=>`<tr><td><b>${coinLink(f)}</b></td><td><code>${f.wallet.slice(0,6)}..${f.wallet.slice(-4)}</code></td><td><span class="pill ${f.fifo_realized_pnl_sol>=0?'pg':'pr'}">${f.fifo_realized_pnl_sol} SOL</span></td><td>${f.fifo_unrealized_pnl_sol} SOL</td><td>${f.unattributed_sell_proceeds_sol} SOL</td><td>${f.pnl_completeness}</td><td>${f.rpc_signatures_analyzed}</td><td>${f.rpc_history_completeness}</td></tr>`).join('') + `</tbody></table>`;
 
 document.getElementById('kpis5').innerHTML = `
   <div class="kpi"><div class="l">Nowe Nieznane Tokeny (Post-Freeze)</div><div class="v">${D.oot.total_unseen_tokens_observed||0}</div><div class="s">Uncensored 1h: ${D.oot.uncensored_1h_count||0} | Censored 4h: ${D.oot.censored_4h_count||0}</div></div>
@@ -134,10 +143,10 @@ document.getElementById('kpis5').innerHTML = `
 `;
 
 document.getElementById('tOot').innerHTML = `<table><thead><tr><th>Ticker</th><th>Start UTC</th><th>V2 Frozen</th><th>V1 Frozen</th><th>Manip. Risk</th><th>Status 1h</th><th>Status 4h</th><th>hit_2x_1h</th><th>Mnożnik 1h</th><th>Sim 1h Net%</th><th>Powody</th></tr></thead><tbody>` +
-  D.oot_tokens.map(o=>`<tr><td><b>${o.symbol||'-'}</b></td><td>${o.created_utc}</td><td><span class="pill pg">${o.pump_potential_v2_frozen}</span></td><td>${o.pump_potential_v1_frozen}</td><td>${o.manipulation_risk_v2}</td><td>${o.status_1h}</td><td><span class="pill pa">${o.status_4h}</span></td><td>${o.hit_2x_1h!==null?o.hit_2x_1h:'censored'}</td><td>${o.reliable_market_mult_1h||'censored'}</td><td>${o.sim_1h_net_ret_pct!==null?o.sim_1h_net_ret_pct+'%':'censored'}</td><td>${o.score_reasons}</td></tr>`).join('') + `</tbody></table>`;
+  D.oot_tokens.map(o=>`<tr><td><b>${coinLink(o)}</b></td><td>${o.created_utc}</td><td><span class="pill pg">${o.pump_potential_v2_frozen}</span></td><td>${o.pump_potential_v1_frozen}</td><td>${o.manipulation_risk_v2}</td><td>${o.status_1h}</td><td><span class="pill pa">${o.status_4h}</span></td><td>${o.hit_2x_1h!==null?o.hit_2x_1h:'censored'}</td><td>${o.reliable_market_mult_1h||'censored'}</td><td>${o.sim_1h_net_ret_pct!==null?o.sim_1h_net_ret_pct+'%':'censored'}</td><td>${o.score_reasons}</td></tr>`).join('') + `</tbody></table>`;
 
 document.getElementById('tPap').innerHTML = `<table><thead><tr><th>Czas Alertu UTC</th><th>Ticker</th><th>Tier</th><th>Potential V2</th><th>Manip. Risk</th><th>Insider Risk</th><th>Cena Wejścia</th><th>Płynność</th><th>Kupujący</th><th>Eval 15m</th><th>Eval 1h</th><th>Powody</th></tr></thead><tbody>` +
-  D.paper_alerts.map(p=>`<tr><td>${(p.alert_timestamp_utc||'').slice(0,19)}</td><td><b>${p.symbol||'-'}</b></td><td>${p.alert_tier}</td><td><span class="pill pg">${p.pump_potential_v2}</span></td><td>${p.manipulation_risk_v2}</td><td>${p.insider_supply_risk_v2}</td><td>$${p.entry_price_usd}</td><td>$${p.implied_liquidity_usd}</td><td>${p.unique_buyers}</td><td>${p.eval_15m_status}</td><td>${p.eval_1h_status}</td><td>${p.score_reasons}</td></tr>`).join('') + `</tbody></table>`;
+  D.paper_alerts.map(p=>`<tr><td>${(p.alert_timestamp_utc||'').slice(0,19)}</td><td><b>${coinLink(p)}</b></td><td>${p.alert_tier}</td><td><span class="pill pg">${p.pump_potential_v2}</span></td><td>${p.manipulation_risk_v2}</td><td>${p.insider_supply_risk_v2}</td><td>$${p.entry_price_usd}</td><td>$${p.implied_liquidity_usd}</td><td>${p.unique_buyers}</td><td>${p.eval_15m_status}</td><td>${p.eval_1h_status}</td><td>${p.score_reasons}</td></tr>`).join('') + `</tbody></table>`;
 </script>
 </body>
 </html>

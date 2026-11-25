@@ -52,6 +52,8 @@
   .heatmap-table td, .heatmap-table th { text-align: center; padding: 6px 4px; font-size: 0.73rem; }
   canvas { max-height: 320px; }
   svg#bubbleGraph { width: 100%; height: 340px; background: #090d16; border-radius: 8px; border: 1px solid var(--border); }
+
+.coin-link{color:inherit;text-decoration:underline dotted;text-underline-offset:3px}.coin-link:hover{text-decoration:underline;color:#4da3ff}
 </style>
 </head>
 <body>
@@ -187,6 +189,13 @@
 </main>
 
 <script>
+// Link do strony tokena na pump.fun (otwiera się w nowej karcie)
+function coinLink(r) {
+  const sym = String(r.symbol || '-').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  if (!r.mint) return sym;
+  return `<a class="coin-link" href="https://pump.fun/coin/${encodeURIComponent(r.mint)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" title="Otwórz ${sym} na pump.fun">${sym}</a>`;
+}
+
 const D = window.PUMP_ALPHA_DATA;
 let filteredTokens = [...D.tokens];
 let charts = {};
@@ -274,7 +283,7 @@ function renderDynamicViews() {
 
   const topRows = filteredTokens.slice(0, 60).map((t, i) => `
     <tr onclick="plotCoin('${t.mint}')">
-      <td>${i+1}</td><td><b>${t.symbol || '-'}</b></td><td>${(t.name || '').slice(0,24)}</td>
+      <td>${i+1}</td><td><b>${coinLink(t)}</b></td><td>${(t.name || '').slice(0,24)}</td>
       <td><span class="pill p-green">${(t.reliable_market_multiple||1).toFixed(2)}x</span></td>
       <td>${(t.realizable_liquidity_adj_multiple||1).toFixed(2)}x</td>
       <td>$${Number(t.max_mcap_usd||0).toLocaleString()}</td>
@@ -355,7 +364,7 @@ function renderStaticViews() {
     D.summary.top_10_early_signals.map(s => `<tr><td><b>${s.signal_name}</b></td><td>${s.availability_window}</td><td>${s.n_tokens_triggered}</td><td><span class="pill p-green">${(s.hit_rate_future_3x*100).toFixed(1)}%</span></td><td><b>${s.lift_vs_baseline}x</b></td><td>${s.median_future_multiple}x</td><td>${s.median_max_drawdown_pct}%</td><td><span class="pill p-blue">${s.evidence_grade}</span></td><td>${s.manipulation_resilience_and_risk}</td></tr>`).join('') + `</tbody></table>`;
 
   document.getElementById('v3EarlyTable').innerHTML = `<table><thead><tr><th>Ticker</th><th>Pump Potential (5m)</th><th>Manip. Risk</th><th>Insider Risk</th><th>Niezależni Kupujący</th><th>Przyspieszenie Kupujących</th><th>Buy/Sell USD</th><th>Dotychczasowy Ruch</th><th>Przyszły Max Mnożnik (po 5m!)</th></tr></thead><tbody>` +
-    D.early_5m.slice(0, 80).map(e => `<tr><td><b>${e.symbol || '-'}</b></td><td><span class="pill p-green">${e.pump_potential_score}</span></td><td>${riskPill(e.realtime_manipulation_risk)}</td><td>${riskPill(e.realtime_insider_risk)}</td><td>${e.independent_buyers_cum}</td><td>${Number(e.buyer_acceleration_ratio).toFixed(2)}x</td><td>${Number(e.buy_sell_usd_ratio).toFixed(2)}</td><td>${e.already_moved_multiple}x</td><td><b>${e.future_max_multiple_from_signal}x</b></td></tr>`).join('') + `</tbody></table>`;
+    D.early_5m.slice(0, 80).map(e => `<tr><td><b>${coinLink(e)}</b></td><td><span class="pill p-green">${e.pump_potential_score}</span></td><td>${riskPill(e.realtime_manipulation_risk)}</td><td>${riskPill(e.realtime_insider_risk)}</td><td>${e.independent_buyers_cum}</td><td>${Number(e.buyer_acceleration_ratio).toFixed(2)}x</td><td>${Number(e.buy_sell_usd_ratio).toFixed(2)}</td><td>${e.already_moved_multiple}x</td><td><b>${e.future_max_multiple_from_signal}x</b></td></tr>`).join('') + `</tbody></table>`;
 
   // View 4: Bubblemaps SVG + Clusters + Smart Money
   const svg = document.getElementById('bubbleGraph');
@@ -376,7 +385,7 @@ function renderStaticViews() {
   svg.innerHTML = svgHtml;
 
   document.getElementById('v4ClustersTable').innerHTML = `<table><thead><tr><th>Klaster</th><th>Ticker</th><th>Portfele</th><th>Typ Powiązania</th><th>Pewność</th><th>Zgromadzona Podaż %</th><th>Zatrzymana Podaż %</th><th>Alternatywne Wyjaśnienie</th></tr></thead><tbody>` +
-    D.clusters.slice(0, 60).map(c => `<tr><td>${c.cluster_id}</td><td><b>${c.symbol}</b></td><td>${c.wallets_count}</td><td>${c.dominant_link_type}</td><td><span class="pill ${c.confidence_level==='HIGH'?'p-red':'p-amber'}">${c.confidence_level}</span></td><td>${c.accumulated_supply_pct}%</td><td>${c.retained_supply_pct}%</td><td>${c.alternative_explanation}</td></tr>`).join('') + `</tbody></table>`;
+    D.clusters.slice(0, 60).map(c => `<tr><td>${c.cluster_id}</td><td><b>${coinLink(c)}</b></td><td>${c.wallets_count}</td><td>${c.dominant_link_type}</td><td><span class="pill ${c.confidence_level==='HIGH'?'p-red':'p-amber'}">${c.confidence_level}</span></td><td>${c.accumulated_supply_pct}%</td><td>${c.retained_supply_pct}%</td><td>${c.alternative_explanation}</td></tr>`).join('') + `</tbody></table>`;
 
   document.getElementById('v4WalletsTable').innerHTML = `<table><thead><tr><th>Portfel</th><th>Klasyfikacja</th><th>Smart Money Score</th><th>Tokeny</th><th>Wczesne Wejścia</th><th>Przed Pumpem</th><th>Hit Rate</th><th>Mediana Mnożnika</th><th>Zrealizowane Netto SOL</th></tr></thead><tbody>` +
     D.wallets.slice(0, 80).map(w => `<tr><td><code>${w.wallet.slice(0,6)}...${w.wallet.slice(-4)}</code></td><td>${w.participant_class}</td><td><span class="pill p-green">${w.smart_money_score}</span></td><td>${w.tokens_analyzed}</td><td>${w.early_entries_top25}</td><td>${w.pre_pump_entries}</td><td>${(w.pre_pump_hit_rate*100).toFixed(0)}%</td><td>${w.median_max_multiple_after_entry}x</td><td>${w.observed_net_sol_flow} SOL</td></tr>`).join('') + `</tbody></table>`;
@@ -398,10 +407,10 @@ function renderStaticViews() {
   });
 
   document.getElementById('v5RiskTable').innerHTML = `<table><thead><tr><th>Ticker</th><th>Insider Risk</th><th>Manip. Risk</th><th>Insider Peak %</th><th>Insider Teraz %</th><th>Wpływ Zrzutu 1%</th><th>Wpływ 5%</th><th>Wpływ 10%</th><th>Wpływ 25%</th></tr></thead><tbody>` +
-    D.insider_risk.slice(0, 70).map(r => `<tr><td><b>${r.symbol}</b></td><td>${riskPill(r.insider_supply_risk_score)}</td><td>${riskPill(r.manipulation_risk_score)}</td><td>${r.potential_insiders_peak_pct}%</td><td>${r.potential_insiders_retained_pct}%</td><td>-${r.sell_impact_1pct_supply_pct}%</td><td>-${r.sell_impact_5pct_supply_pct}%</td><td>-${r.sell_impact_10pct_supply_pct}%</td><td>-${r.sell_impact_25pct_supply_pct}%</td></tr>`).join('') + `</tbody></table>`;
+    D.insider_risk.slice(0, 70).map(r => `<tr><td><b>${coinLink(r)}</b></td><td>${riskPill(r.insider_supply_risk_score)}</td><td>${riskPill(r.manipulation_risk_score)}</td><td>${r.potential_insiders_peak_pct}%</td><td>${r.potential_insiders_retained_pct}%</td><td>-${r.sell_impact_1pct_supply_pct}%</td><td>-${r.sell_impact_5pct_supply_pct}%</td><td>-${r.sell_impact_10pct_supply_pct}%</td><td>-${r.sell_impact_25pct_supply_pct}%</td></tr>`).join('') + `</tbody></table>`;
 
   document.getElementById('v5ProfitTable').innerHTML = `<table><thead><tr><th>Klaster</th><th>Ticker</th><th>Wydane SOL</th><th>Uzyskane SOL</th><th>Zrealizowany Zysk SOL</th><th>Zatrzymana Podaż %</th><th>Niezrealizowana Wycena (nie zysk!)</th><th>Wzorzec Retencji</th></tr></thead><tbody>` +
-    D.insider_profits.slice(0, 60).map(p => `<tr><td>${p.cluster_id}</td><td><b>${p.symbol}</b></td><td>${p.sol_spent_buys}</td><td>${p.sol_received_sells}</td><td><span class="pill ${p.realized_profit_sol>=0?'p-green':'p-red'}">${p.realized_profit_sol} SOL</span></td><td>${p.retained_supply_pct}%</td><td>$${Number(p.unrealized_mtm_usd_not_realized||0).toLocaleString()}</td><td>${p.retention_pattern}</td></tr>`).join('') + `</tbody></table>`;
+    D.insider_profits.slice(0, 60).map(p => `<tr><td>${p.cluster_id}</td><td><b>${coinLink(p)}</b></td><td>${p.sol_spent_buys}</td><td>${p.sol_received_sells}</td><td><span class="pill ${p.realized_profit_sol>=0?'p-green':'p-red'}">${p.realized_profit_sol} SOL</span></td><td>${p.retained_supply_pct}%</td><td>$${Number(p.unrealized_mtm_usd_not_realized||0).toLocaleString()}</td><td>${p.retention_pattern}</td></tr>`).join('') + `</tbody></table>`;
 
   // View 6: Narratives & Socials
   charts.narr = new Chart(document.getElementById('cNarratives'), {
@@ -417,7 +426,7 @@ function renderStaticViews() {
     D.narratives.map(n => `<tr><td><b>${n.narrative_category}</b></td><td>${n.count}</td><td>${n.pumps_5x}</td><td>${(n.rate_5x*100).toFixed(1)}%</td><td>${Number(n.median_mult).toFixed(2)}x</td><td>${Number(n.avg_buyers_15m).toFixed(1)}</td></tr>`).join('') + `</tbody></table>`;
 
   document.getElementById('v6SocialTable').innerHTML = `<table><thead><tr><th>Ticker</th><th>Narracja</th><th>X na starcie</th><th>Typ X</th><th>First-Mover</th><th>Shareability</th><th>Wydarzenie Zewnętrzne</th><th>Mnożnik</th></tr></thead><tbody>` +
-    D.socials.slice(0, 70).map(s => `<tr><td><b>${s.symbol}</b></td><td>${s.narrative_category}</td><td>${s.has_twitter_at_launch?'TAK':'NIE'}</td><td>${s.twitter_link_type}</td><td>${s.is_ticker_first_mover?'TAK':'Klon'}</td><td>${s.meme_shareability_score}</td><td>${s.external_event_alignment}</td><td>${s.reliable_multiple}x</td></tr>`).join('') + `</tbody></table>`;
+    D.socials.slice(0, 70).map(s => `<tr><td><b>${coinLink(s)}</b></td><td>${s.narrative_category}</td><td>${s.has_twitter_at_launch?'TAK':'NIE'}</td><td>${s.twitter_link_type}</td><td>${s.is_ticker_first_mover?'TAK':'Klon'}</td><td>${s.meme_shareability_score}</td><td>${s.external_event_alignment}</td><td>${s.reliable_multiple}x</td></tr>`).join('') + `</tbody></table>`;
 
   // View 7: Heatmap default Polish time
   renderHeatmap('warsaw');
@@ -449,7 +458,7 @@ function renderStaticViews() {
     bm.map(b => `<tr><td><b>${b.strategy}</b></td><td>${(b.precision_at_10*100).toFixed(1)}%</td><td>${(b.precision_at_20*100).toFixed(1)}%</td><td><b>${b.lift_at_10}x</b></td><td>${(b.recall_at_top25pct*100).toFixed(1)}%</td><td>${b.roc_auc}</td><td>${b.top20_mean_net_return_after_costs_pct}%</td></tr>`).join('') + `</tbody></table>`;
 
   document.getElementById('v8SignalsTable').innerHTML = `<table><thead><tr><th>Rank OOS</th><th>Czas Sygnału UTC</th><th>Ticker</th><th>Potential Score</th><th>Manip. Risk</th><th>Insider Risk</th><th>Max Mnożnik Po Sygnale</th><th>Zwrot 1h</th><th>Zwrot 4h</th><th>Wynik Netto Po Kosztach</th></tr></thead><tbody>` +
-    D.backtest_signals.slice(0, 60).map(s => `<tr><td>${s.oos_rank}</td><td>${s.signal_timestamp_utc}</td><td><b>${s.symbol}</b></td><td><span class="pill p-green">${s.pump_potential_score}</span></td><td>${riskPill(s.manipulation_risk_score)}</td><td>${riskPill(s.insider_supply_risk_score)}</td><td><b>${s.max_multiple_post_signal}x</b></td><td>${s.ret_1h_pct}%</td><td>${s.ret_4h_pct}%</td><td><span class="pill ${s.net_strategy_return_after_costs_pct>=0?'p-green':'p-red'}">${s.net_strategy_return_after_costs_pct}%</span></td></tr>`).join('') + `</tbody></table>`;
+    D.backtest_signals.slice(0, 60).map(s => `<tr><td>${s.oos_rank}</td><td>${s.signal_timestamp_utc}</td><td><b>${coinLink(s)}</b></td><td><span class="pill p-green">${s.pump_potential_score}</span></td><td>${riskPill(s.manipulation_risk_score)}</td><td>${riskPill(s.insider_supply_risk_score)}</td><td><b>${s.max_multiple_post_signal}x</b></td><td>${s.ret_1h_pct}%</td><td>${s.ret_4h_pct}%</td><td><span class="pill ${s.net_strategy_return_after_costs_pct>=0?'p-green':'p-red'}">${s.net_strategy_return_after_costs_pct}%</span></td></tr>`).join('') + `</tbody></table>`;
 
   document.getElementById('v8HypTable').innerHTML = `<table><thead><tr><th>ID</th><th>Kategoria</th><th>Hipoteza Badawcza</th><th>Mediana Zwycięzcy</th><th>Mediana Control</th><th>Cliff's d</th><th>q-value (FDR)</th><th>Siła Dowodu</th></tr></thead><tbody>` +
     D.summary.hypotheses_35.map(h => `<tr><td><b>${h.id}</b></td><td>${h.category}</td><td>${h.question}</td><td>${h.median_winners}</td><td>${h.median_controls}</td><td>${h.effect_size_cliffs_d}</td><td>${h.q_value_bh_fdr}</td><td><span class="pill ${h.evidence_grade==='A'?'p-green':(h.evidence_grade==='B'?'p-blue':(h.evidence_grade==='C'?'p-amber':'p-red'))}">${h.evidence_grade}</span></td></tr>`).join('') + `</tbody></table>`;
