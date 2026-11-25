@@ -1,0 +1,2 @@
+{"event_type": "SESSION_START", "session_id": "sess_d713d4103d", "timestamp_ms": 1795605289652, "timestamp_utc": "2026-11-25T11:14:49.652000+00:00", "downtime_gap_since_last_event_sec": 0.0, "note": "Live V2.2 scanner cycle started"}
+{"event_type": "HEARTBEAT_CYCLE_DONE", "session_id": "sess_d713d4103d", "timestamp_ms": 1795605304679, "timestamp_utc": "2026-11-25T11:15:04.679000+00:00", "downtime_gap_since_last_event_sec": 0.0, "note": "evaluated=20, opened=1, rejected=19"}

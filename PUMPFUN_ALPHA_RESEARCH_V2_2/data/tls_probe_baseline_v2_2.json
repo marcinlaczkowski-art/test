@@ -1,0 +1,68 @@
+[
+  {
+    "source": "pumpfun_v3",
+    "host": "frontend-api-v3.pump.fun",
+    "tls_verified": true,
+    "tls_version": "TLSv1.3",
+    "cipher": "TLS_AES_256_GCM_SHA384",
+    "subject_cn": "frontend-api-v3.pump.fun",
+    "issuer_org": "Google Trust Services",
+    "not_after": "Jan 27 16:52:01 2027 GMT",
+    "handshake_ms": 105.1
+  },
+  {
+    "source": "pumpfun_profile",
+    "host": "profile-api.pump.fun",
+    "tls_verified": true,
+    "tls_version": "TLSv1.3",
+    "cipher": "TLS_AES_256_GCM_SHA384",
+    "subject_cn": "profile-api.pump.fun",
+    "issuer_org": "Google Trust Services",
+    "not_after": "Jan  6 04:42:11 2027 GMT",
+    "handshake_ms": 88.4
+  },
+  {
+    "source": "solana_rpc_publicnode",
+    "host": "solana-rpc.publicnode.com",
+    "tls_verified": true,
+    "tls_version": "TLSv1.3",
+    "cipher": "TLS_AES_256_GCM_SHA384",
+    "subject_cn": "publicnode.com",
+    "issuer_org": "Google Trust Services",
+    "not_after": "Jan  3 05:50:48 2027 GMT",
+    "handshake_ms": 108.3
+  },
+  {
+    "source": "solana_rpc_mainnet_official",
+    "host": "api.mainnet-beta.solana.com",
+    "tls_verified": true,
+    "tls_version": "TLSv1.3",
+    "cipher": "TLS_AES_256_GCM_SHA384",
+    "subject_cn": "api.mainnet-beta.solana.com",
+    "issuer_org": "ZeroSSL GmbH",
+    "not_after": "Feb 20 23:59:59 2027 GMT",
+    "handshake_ms": 125.6
+  },
+  {
+    "source": "binance_spot",
+    "host": "api.binance.com",
+    "tls_verified": true,
+    "tls_version": "TLSv1.3",
+    "cipher": "TLS_AES_128_GCM_SHA256",
+    "subject_cn": "*.binance.com",
+    "issuer_org": "DigiCert Inc",
+    "not_after": "Jan  9 23:59:59 2027 GMT",
+    "handshake_ms": 95.4
+  },
+  {
+    "source": "dexscreener_api",
+    "host": "api.dexscreener.com",
+    "tls_verified": true,
+    "tls_version": "TLSv1.3",
+    "cipher": "TLS_AES_256_GCM_SHA384",
+    "subject_cn": "dexscreener.com",
+    "issuer_org": "Google Trust Services",
+    "not_after": "Feb 15 10:33:41 2027 GMT",
+    "handshake_ms": 101.3
+  }
+]
