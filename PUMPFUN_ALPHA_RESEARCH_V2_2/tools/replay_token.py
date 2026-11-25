@@ -91,13 +91,13 @@ def price_of(t: dict) -> float:
         return 0.0
 
 
-def replay(mint: str, offsets_min: list) -> dict:
+def replay(mint: str, offsets_min: list, delays_s: tuple = (0, 30, 60, 120)) -> dict:
     http = VerifiedHttpClient()
     base = DATA_SOURCES_REGISTRY["pumpfun_v3"]["base_url"]
     first = http.request_json("pumpfun_v3", f"{base}/trades/{SOLANA_CHAIN_ID}/{mint}?limit=1&after=1-0-0-0")
     ft = ((first["data"] or {}).get("trades") or [{}])[0] if first["ok"] else {}
     t0 = int(ft.get("blockTimeMs") or 0)
-    trades = fetch_all_trades(http, mint, stop_after_ms=t0 + int(max(offsets_min) * 60_000) + 60_000)
+    trades = fetch_all_trades(http, mint, stop_after_ms=t0 + int(max(offsets_min) * 60_000) + 300_000)
     if not trades:
         raise SystemExit("Brak transakcji dla tego mintu")
     candles = fetch_candles(http, mint)
@@ -155,7 +155,16 @@ def replay(mint: str, offsets_min: list) -> dict:
             "max_future_x": round(max(fut) / entry, 2) if fut and entry else None,
             "last_x": round(last_px / entry, 2) if entry else None,
             "components": conf["component_scores"],
+            "delayed_entry": {},
         }
+        for d in delays_s:  # wejscie z opoznieniem d sekund po sygnale
+            e = px_at(cutoff + d * 1000)
+            f = [h for ts, h, _ in cpx if ts > cutoff + d * 1000] or [p for ts, p in priced if ts > cutoff + d * 1000]
+            row["delayed_entry"][str(d)] = {
+                "entry_price_usd": e,
+                "last_x": round(last_px / e, 2) if e else None,
+                "max_future_x": round(max(f) / e, 2) if f and e else None,
+            }
         if row["would_open"] and first_signal is None:
             first_signal = row
         rows.append(row)
@@ -176,9 +185,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("token")
     ap.add_argument("--offsets", default="1,2,3,5,10,15,30,60,120")
+    ap.add_argument("--delays", default="0,30,60,120", help="opoznienia wejscia w sekundach")
     ap.add_argument("--out")
     a = ap.parse_args()
-    res = replay(extract_mint(a.token), [float(x) for x in a.offsets.split(",")])
+    res = replay(extract_mint(a.token), [float(x) for x in a.offsets.split(",")],
+                 tuple(int(x) for x in a.delays.split(",")))
     print(f"{res['symbol']} {res['mint']}  transakcji={res['trades_fetched']}")
     print(f"szczyt = {res['peak_x_from_first_trade']}x ceny pierwszej transakcji po {res['peak_after_min']} min; "
           f"cena teraz / szczyt = {res['last_vs_peak']}")
@@ -189,6 +200,11 @@ def main():
             continue
         print(f"{r['offset_min']:>5} {r['score']:>6} {r['class']:<18} {str(r['would_open']):<10} "
               f"{str(r['max_future_x']):>12} {str(r['last_x']):>7}  {','.join(r['risk_flags'])}")
+    print("wejscie z opoznieniem po sygnale (cena teraz / cena wejscia):")
+    for r in res["rows"]:
+        if "delayed_entry" in r:
+            print(f"  sygnal min {r['offset_min']:>4}: " + "  ".join(
+                f"+{d}s={v['last_x']}x" for d, v in r["delayed_entry"].items()))
     if a.out:
         Path(a.out).write_text(json.dumps(res, indent=2), encoding="utf-8")
 
