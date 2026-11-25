@@ -3,6 +3,7 @@ Centralized Configuration for PUMPFUN ALPHA RESEARCH V2.2.
 Strictly read-only with respect to V1, V2, and V2.1 directories.
 Zero private keys, zero wallet signing, zero real trading.
 """
+import os
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
@@ -21,7 +22,8 @@ HYPOTHESIS_DIR = V2_2_ROOT / "hypothesis_engine"
 SCORING_DIR = V2_2_ROOT / "scoring"
 BACKTESTING_DIR = V2_2_ROOT / "backtesting"
 OOT_DIR = V2_2_ROOT / "oot"
-PAPER_DIR = V2_2_ROOT / "paper_trading"
+# Paper-trading state (append-only logs) can live outside the code tree, e.g. a Docker volume.
+PAPER_DIR = Path(os.environ["V2_2_PAPER_DIR"]) if os.environ.get("V2_2_PAPER_DIR") else V2_2_ROOT / "paper_trading"
 MONITORING_DIR = V2_2_ROOT / "monitoring"
 DASHBOARD_DIR = V2_2_ROOT / "dashboard"
 TESTS_DIR = V2_2_ROOT / "tests"

@@ -3,3 +3,10 @@ __pycache__/
 *$py.class
 .env
 *.secret
+
+# V2.2 runtime state (lives in the VPS volume /opt/pumpfun-data, never in git)
+PUMPFUN_ALPHA_RESEARCH_V2_2/paper_trading/*.jsonl
+PUMPFUN_ALPHA_RESEARCH_V2_2/paper_trading/paper_position_events_v2_2.csv
+PUMPFUN_ALPHA_RESEARCH_V2_2/paper_trading/paper_signals_snapshot_v2_2.csv
+PUMPFUN_ALPHA_RESEARCH_V2_2/paper_trading/paper_status_summary_v2_2.json
+PUMPFUN_ALPHA_RESEARCH_V2_2/monitoring/source_health_snapshot.json

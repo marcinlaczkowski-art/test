@@ -1,0 +1,37 @@
+# PUMPFUN ALPHA RESEARCH V2.2 on the VPS.
+# - paper: read-only 30-day paper-trading daemon (no keys, no real transactions).
+#   State lives in the host dir /opt/pumpfun-data (NOT in git): sudo mkdir -p /opt/pumpfun-data && sudo chown 10001 /opt/pumpfun-data
+# - web: static dashboards behind the existing Traefik (project n8n, network n8n_default).
+services:
+  paper:
+    build:
+      context: .
+      dockerfile: Dockerfile.paper
+    restart: unless-stopped
+    volumes:
+      - /opt/pumpfun-data:/data
+    mem_limit: 768m
+    cpus: 0.5
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
+  web:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    volumes:
+      - ./:/srv:ro
+      - ./deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    mem_limit: 128m
+    networks: [n8n_default]
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=n8n_default
+      - traefik.http.routers.pumpfun.rule=Host(`pumpfun.agentlead.cloud`)
+      - traefik.http.routers.pumpfun.entrypoints=websecure
+      - traefik.http.routers.pumpfun.tls.certresolver=mytlschallenge
+      - traefik.http.services.pumpfun.loadbalancer.server.port=80
+
+networks:
+  n8n_default:
+    external: true

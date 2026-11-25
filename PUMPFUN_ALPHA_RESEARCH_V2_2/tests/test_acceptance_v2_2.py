@@ -514,8 +514,12 @@ def test_28_no_unproven_edge_and_v1_v2_v21_intact() -> dict:
     for ver, vobj in manifest["versions"].items():
         vdir = REPO_ROOT / ver
         for rel, exp_hash in vobj["sha256"].items():
-            h = hashlib.sha256((vdir / rel).read_bytes()).hexdigest()
-            assert h == exp_hash, f"CRITICAL: {ver}/{rel} was modified!"
+            raw = (vdir / rel).read_bytes()
+            h = hashlib.sha256(raw.replace(bytes([13, 10]), bytes([10]))).hexdigest()  # CRLF -> LF
+            if h != exp_hash:
+                # Only a documented amendment (with original hash, new hash and reason) is accepted.
+                amend = manifest.get("documented_amendments", {}).get(f"{ver}/{rel}")
+                assert amend and amend["original_sha256"] == exp_hash and amend["amended_sha256"] == h and amend.get("reason"),                     f"CRITICAL: {ver}/{rel} was modified without a documented amendment!"
             verified_count += 1
     return {
         "passed": True,

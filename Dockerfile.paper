@@ -1,0 +1,11 @@
+FROM python:3.13-slim
+ENV PYTHONUNBUFFERED=1 PYTHONDONTWRITEBYTECODE=1
+WORKDIR /app
+COPY PUMPFUN_ALPHA_RESEARCH_V2_2/requirements.txt /app/PUMPFUN_ALPHA_RESEARCH_V2_2/requirements.txt
+RUN pip install --no-cache-dir -r /app/PUMPFUN_ALPHA_RESEARCH_V2_2/requirements.txt
+COPY PUMPFUN_ALPHA_RESEARCH_V2_2 /app/PUMPFUN_ALPHA_RESEARCH_V2_2
+# Non-root user; /data is the persistent volume with append-only paper-trading logs.
+RUN useradd --uid 10001 --create-home app && mkdir -p /data/paper && chown -R app /app /data
+USER app
+ENV V2_2_PAPER_DIR=/data/paper
+CMD ["python", "PUMPFUN_ALPHA_RESEARCH_V2_2/paper_trading/run_30d_paper_daemon.py"]
