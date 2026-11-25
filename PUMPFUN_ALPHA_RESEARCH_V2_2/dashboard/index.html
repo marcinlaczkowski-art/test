@@ -108,13 +108,24 @@ function openView(id, btn) {
   btn.classList.add('active');
 }
 
+function esc(s) { return String(s).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch])); }
+function cell(r, c) {
+  const v = r[c];
+  if (v !== null && typeof v === 'object') return esc(JSON.stringify(v));
+  const mint = r.token_mint || r.mint;
+  if (mint && (c === 'token_symbol' || c === 'symbol' || c === 'token_mint' || c === 'mint')) {
+    return `<a href="https://pump.fun/coin/${encodeURIComponent(mint)}" target="_blank" rel="noopener noreferrer" style="color:#58a6ff;text-decoration:underline" title="Otw\u00f3rz na pump.fun">${esc(v)}</a>`;
+  }
+  return v;
+}
+
 function fillTable(id, rows) {
   const el = document.getElementById(id);
   if (!rows || !rows.length) { el.innerHTML = '<tr><td>Brak zarejestrowanych wierszy</td></tr>'; return; }
   const cols = Object.keys(rows[0]);
   let h = '<thead><tr>' + cols.map(c => `<th>${c}</th>`).join('') + '</tr></thead><tbody>';
   for (const r of rows) {
-    h += '<tr>' + cols.map(c => `<td>${typeof r[c] === 'object' ? JSON.stringify(r[c]) : r[c]}</td>`).join('') + '</tr>';
+    h += '<tr>' + cols.map(c => `<td>${cell(r, c)}</td>`).join('') + '</tr>';
   }
   el.innerHTML = h + '</tbody>';
 }
