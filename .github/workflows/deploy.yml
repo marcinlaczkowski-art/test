@@ -1,0 +1,68 @@
+name: Deploy to VPS
+
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-pumpfun
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    # Only a commit pushed to main with a green CI run (or a manual run).
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.event == 'push')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check deploy secrets
+        id: cfg
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          if [ -n "$VPS_HOST" ] && [ -n "$VPS_USER" ] && [ -n "$VPS_SSH_KEY" ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Deploy skipped: set VPS_HOST, VPS_USER and VPS_SSH_KEY in Settings > Secrets > Actions."
+          fi
+
+      - name: Prepare SSH
+        if: steps.cfg.outputs.ok == 'true'
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Deploy over SSH
+        if: steps.cfg.outputs.ok == 'true'
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          DEPLOY_SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
+        run: |
+          ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes "$VPS_USER@$VPS_HOST" "DEPLOY_SHA=$DEPLOY_SHA bash -se" <<'REMOTE'
+          set -euo pipefail
+          cd /opt/pumpfun
+          test -d /opt/pumpfun-data || { echo "ERROR: /opt/pumpfun-data missing (paper-trading state volume)" >&2; exit 1; }
+          git fetch origin main
+          git checkout -q -B main "$DEPLOY_SHA"
+          # Rebuilds/restarts only services whose image/config changed; the data volume is never touched.
+          docker compose up -d --build --remove-orphans
+          docker compose ps
+          REMOTE
