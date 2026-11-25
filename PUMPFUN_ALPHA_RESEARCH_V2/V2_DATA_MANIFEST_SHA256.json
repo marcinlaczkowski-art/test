@@ -1,0 +1,246 @@
+{
+  "generated_utc": "2026-11-25T07:45:54.772460+00:00",
+  "total_deliverable_files": 48,
+  "files": [
+    {
+      "path": "AUDIT_FIXES.md",
+      "size_bytes": 4577,
+      "sha256": "da45b49bb297febb152975883042a85571df1d1e34db7a8b326aa5274ba860be"
+    },
+    {
+      "path": "BACKTEST_V2.md",
+      "size_bytes": 7274,
+      "sha256": "c5b6de479cb2c5be6d383e3e7d14354168a2fae7586e415742271b2b32ca09fa"
+    },
+    {
+      "path": "CONTROL_GROUP_V2.csv",
+      "size_bytes": 47362,
+      "sha256": "afc13ff6a8c0ca3e5f0ea6f223a6b8c44f36f0a7c72284842c4ae54d4a02f189"
+    },
+    {
+      "path": "dashboard/dashboard_v2_data.js",
+      "size_bytes": 414495,
+      "sha256": "33cc3a9d79dea6779edad86f4005b19ab4806360e1647d3c59c99c1a1b682e28"
+    },
+    {
+      "path": "dashboard/index.html",
+      "size_bytes": 13578,
+      "sha256": "d67cb43170b8a29f15e30f1acc9f33528b3f9da18e53a471c4d5eb0af81fcadd"
+    },
+    {
+      "path": "dashboard/serve_dashboard_v2.py",
+      "size_bytes": 541,
+      "sha256": "fec477bfa1e12f8577ee58d3eb683ea14fdde35e55b667926bbfe9996bfaf202"
+    },
+    {
+      "path": "DATA_QUALITY_REPORT.md",
+      "size_bytes": 3891,
+      "sha256": "e67a5d0bc1492f46aac0e600c651e6d0d19ad60ee3a70847e4f02e2a8d5a5d52"
+    },
+    {
+      "path": "EARLY_SIGNALS_V2.csv",
+      "size_bytes": 4219680,
+      "sha256": "ae652d11dbd953cae00d83f61190ce9c471fd85f0960795f14b5bd19cc7b6505"
+    },
+    {
+      "path": "FINAL_REPORT_V2.md",
+      "size_bytes": 4121,
+      "sha256": "938e456c8265428a0780432323a15d6d7f2cbb53338bcf871d0ee50d5c5fc8ce"
+    },
+    {
+      "path": "INSIDER_ANALYSIS_V2.csv",
+      "size_bytes": 97417,
+      "sha256": "486fc82aa3893a2c5b51127271c0e0d2dd1b477830a6127d888e4c6de873319a"
+    },
+    {
+      "path": "logs/step1_chronological_dataset_v2.log",
+      "size_bytes": 1885,
+      "sha256": "ed34b9fa275e2dd0722e46657e8838cf6156fda26c16f73eaed6c349d114d941"
+    },
+    {
+      "path": "logs/step2_paginated_wallet_rpc_v2.log",
+      "size_bytes": 645,
+      "sha256": "e2c8fda56e2f851ee552781f18190f70e89d43ffed815d69627f760dd0e05b8d"
+    },
+    {
+      "path": "logs/step3_core_pipeline_v2.log",
+      "size_bytes": 3725,
+      "sha256": "6d60c182eeee64d6b91720256afbf727dfb12870a70d4cc1502fd7d7d45a43ba"
+    },
+    {
+      "path": "logs/step4_out_of_time_v2.log",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "MODEL_COMPARISON.csv",
+      "size_bytes": 5245,
+      "sha256": "57cf47467c116c589928dfcad78141c8d5db04ad4cdca6dc7a3b45d7cd8fbde1"
+    },
+    {
+      "path": "MODEL_V1_V2_COMPARISON.md",
+      "size_bytes": 8341,
+      "sha256": "f95b6740a7022078369fa28c6316566f9262fae3e437239c87c45755d1632429"
+    },
+    {
+      "path": "OUT_OF_TIME_UNSEEN_TEST.csv",
+      "size_bytes": 27685,
+      "sha256": "630ac1f9c91c9409f1fd41dbbab5aaf0b512a61ba4b4a3b774760ec471ac57e7"
+    },
+    {
+      "path": "paper_trading/paper_alerts.csv",
+      "size_bytes": 16241,
+      "sha256": "9162651b7e942c826bae572c21b521ce50d4e2d45019b8d0020e61989a14b9a1"
+    },
+    {
+      "path": "paper_trading/paper_alerts_ledger.jsonl",
+      "size_bytes": 77854,
+      "sha256": "42c771056ffc935d1fc3e4ccaaad7ad42965846b1d34a5107a8ea567545859ed"
+    },
+    {
+      "path": "PAPER_TRADING.md",
+      "size_bytes": 5989,
+      "sha256": "b30133a0c87e197076ef8b85bdfba852e039b0104cbad4f2a52b31410e05c2b3"
+    },
+    {
+      "path": "PUMPFUN_ALPHA_RESEARCH_V2.xlsx",
+      "size_bytes": 2109037,
+      "sha256": "73e472d18e6a84ab618b7e05d68e1908d017a6b97f1c08357c0c68f69de1631a"
+    },
+    {
+      "path": "REALIZED_PNL_V2.csv",
+      "size_bytes": 681039,
+      "sha256": "cca3621c23634b4f7aa9fdf821dd7271d7f280062a05ce566fab8951bcd47404"
+    },
+    {
+      "path": "src/__pycache__/config_v2.cpython-314.pyc",
+      "size_bytes": 3237,
+      "sha256": "3f699c930a71a0d37cee20033e388efc79225fb88bb552744210d89155930c57"
+    },
+    {
+      "path": "src/__pycache__/event_backtest_and_walkforward_v2.cpython-314.pyc",
+      "size_bytes": 24467,
+      "sha256": "e118fe89176480cbaf7c6aa7faf0115b671e5720a7bfc6e7cae74f9fdb54a790"
+    },
+    {
+      "path": "src/__pycache__/paper_trader_v2.cpython-314.pyc",
+      "size_bytes": 19037,
+      "sha256": "858138b732bdcf1b31cb48180a74a38a02b587c7f60c835498d724d549e0ecf2"
+    },
+    {
+      "path": "src/__pycache__/step3_core_pipeline_v2.cpython-314.pyc",
+      "size_bytes": 63471,
+      "sha256": "1d25ea02fff2e122a7fc9ab208a855d3308b09e5ddbff2e9933bd662712b1cc7"
+    },
+    {
+      "path": "src/__pycache__/temporal_integrity_v2.cpython-314.pyc",
+      "size_bytes": 21316,
+      "sha256": "2081253cf01ee9e818dc9fb1212cb9ce25c3a3b97cbdcdfddc698ce45ff6cc29"
+    },
+    {
+      "path": "src/__pycache__/wallet_insider_fifo_v2.cpython-314.pyc",
+      "size_bytes": 24322,
+      "sha256": "551d9d579dd3d944f2124b07deebbab8f71be62a2a89e2e180683d1c5ebe4994"
+    },
+    {
+      "path": "src/config_v2.py",
+      "size_bytes": 2995,
+      "sha256": "ef54fe889b5f471e59adcc24063a6663ab34dbca6c5dd687cc13e44a3d8cdf88"
+    },
+    {
+      "path": "src/event_backtest_and_walkforward_v2.py",
+      "size_bytes": 17512,
+      "sha256": "7d93e1a4a0c19a99b4095f33afe72af0c6c167c954fae89a04e0208fa5c30728"
+    },
+    {
+      "path": "src/paper_trader_v2.py",
+      "size_bytes": 10942,
+      "sha256": "6fc9dd9dcd92f6e746568f21c5cc5684c79cb8396554c359f1ddb316cfd3d79f"
+    },
+    {
+      "path": "src/recover_429_candles_v2.py",
+      "size_bytes": 3358,
+      "sha256": "7e8ce537481c90e916dbf51f95e19bc936e34e5949652dbe3bd106e37f4c455f"
+    },
+    {
+      "path": "src/run_pipeline_v2.py",
+      "size_bytes": 1383,
+      "sha256": "9d497ac123242b5fa8c5366dc8eca0ad583c3cb8875979bf05c08cc09f8c1d56"
+    },
+    {
+      "path": "src/step0_freeze_v1.py",
+      "size_bytes": 4109,
+      "sha256": "0ade192b8d9bd2ebc6286b9ab806f2a2f3d7bc76bb8e619f206aab71f0c17716"
+    },
+    {
+      "path": "src/step1_build_chronological_dataset_v2.py",
+      "size_bytes": 15615,
+      "sha256": "b6c1d489d69ce83d8ef9cdc28ab822aa5225eb2e40e2ebfd272cc1374d15cb04"
+    },
+    {
+      "path": "src/step2_paginated_wallet_rpc_v2.py",
+      "size_bytes": 12921,
+      "sha256": "5ec2fa5e9a4ff2ce50f77c7680dd56eec7f974f4c1ea1975e73be8e6dd454d16"
+    },
+    {
+      "path": "src/step3_core_pipeline_v2.py",
+      "size_bytes": 49209,
+      "sha256": "1b8fd7e2ff5a7aaecd279cc0a75ca1d8d4b99d813c63a4b108726b9e69de364b"
+    },
+    {
+      "path": "src/step4_out_of_time_and_paper_trading_v2.py",
+      "size_bytes": 12628,
+      "sha256": "aa432d54713f10f03c7057540e1e2606d0ea95c6d1effae9b695305d1975fa09"
+    },
+    {
+      "path": "src/step5_export_xlsx_dashboard_reports_v2.py",
+      "size_bytes": 44843,
+      "sha256": "ae6d0383642dd6d0ff0b848ca3187a4e31a6ab35783ceb6a2a602e199e4aefdd"
+    },
+    {
+      "path": "src/temporal_integrity_v2.py",
+      "size_bytes": 15277,
+      "sha256": "90e188ea6665c6110743d1520ee23322a8049867f90fbf7cb2875e179b086615"
+    },
+    {
+      "path": "src/wallet_insider_fifo_v2.py",
+      "size_bytes": 20499,
+      "sha256": "2b114577713cea7a16e5fd7f87665180218fe0e42970353edd7c756d0e5d24e5"
+    },
+    {
+      "path": "SUPPLY_CONCENTRATION_V2.csv",
+      "size_bytes": 115210,
+      "sha256": "9d8970970ebc079aa5b2d2045ce67876e530f47b60cd79db620be99e5c4f1637"
+    },
+    {
+      "path": "tests/test_temporal_integrity_v2.py",
+      "size_bytes": 5706,
+      "sha256": "5cd2f597de942c058140d0e270c1bc62c8f4fc9e5c7ea35df4cc74bcf98206e0"
+    },
+    {
+      "path": "tests/test_wallet_fifo_and_backtest_v2.py",
+      "size_bytes": 5277,
+      "sha256": "00f98a010567460e66cd3be4fe94ed35e5358f41ee4f40e046331c78ae6c0ae4"
+    },
+    {
+      "path": "TOKEN_METRICS_V2.csv",
+      "size_bytes": 253876,
+      "sha256": "5fd109d194fb4656f5f7891b54f33e6442cbff62fa5a9797680c5f912ca29a70"
+    },
+    {
+      "path": "V1_MANIFEST_SHA256.json",
+      "size_bytes": 428618,
+      "sha256": "306c1a4f802de99d3ce4e8e1feb2c4529051c9c97f1768c90c2d8cbf3ad3ccbc"
+    },
+    {
+      "path": "WALK_FORWARD_RESULTS.csv",
+      "size_bytes": 3469,
+      "sha256": "a943b4c621680c5963d7d5c7eaf519dbdcb74e231c2647eaa84ff7f84afb2826"
+    },
+    {
+      "path": "WALLET_CLUSTERS_V2.csv",
+      "size_bytes": 1188983,
+      "sha256": "4024a7ca35206b751d35deab03e2176003c93bff7d0347dea4fc583149e578ba"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+2026-11-25 07:48:13,635 [INFO] Starting P0 Chronological Dataset Build at 2026-11-25T06:48:13.635000+00:00 (1795589293635)
+2026-11-25 07:48:13,806 [INFO] Stratum B (Contiguous Consecutive Emissions): 330 tokens | span: 1795557448000 .. 1795558095000
+2026-11-25 07:48:13,807 [INFO] Fetching full chronological launch lists for 201 arrival-sampled creators (reused 108 from cache)...
+2026-11-25 07:48:23,903 [INFO] Stratum A (30d Outcome-Blind Chronological Panel): 320 tokens (from 2000 unconditional 30d emissions)
+2026-11-25 07:48:23,905 [INFO] TOTAL V2 CHRONOLOGICAL OBSERVED DATASET (Train/Val/Walk-Forward): 650 tokens
+2026-11-25 07:48:32,628 [INFO] DexScreener active pair snapshots found for 383/650 tokens.
+2026-11-25 07:48:36,379 [INFO] History acquisition progress: 25/650 (22.7s)
+2026-11-25 07:49:19,494 [INFO] History acquisition progress: 75/650 (65.9s)
+2026-11-25 07:50:36,646 [INFO] History acquisition progress: 125/650 (143.0s)
+2026-11-25 07:51:53,074 [INFO] History acquisition progress: 175/650 (219.4s)
+2026-11-25 07:53:07,957 [INFO] History acquisition progress: 225/650 (294.3s)
+2026-11-25 07:54:22,312 [INFO] History acquisition progress: 275/650 (368.7s)
+2026-11-25 07:55:22,638 [INFO] History acquisition progress: 325/650 (429.0s)
+2026-11-25 07:56:19,139 [INFO] History acquisition progress: 375/650 (485.5s)
+2026-11-25 07:57:16,991 [INFO] History acquisition progress: 425/650 (543.4s)
+2026-11-25 07:58:16,162 [INFO] History acquisition progress: 475/650 (602.5s)
+2026-11-25 07:59:13,229 [INFO] History acquisition progress: 525/650 (659.6s)
+2026-11-25 08:00:12,563 [INFO] History acquisition progress: 575/650 (718.9s)
+2026-11-25 08:01:28,108 [INFO] History acquisition progress: 625/650 (794.5s)
+2026-11-25 08:02:05,578 [INFO] History acquisition progress: 650/650 (831.9s)
+2026-11-25 08:02:05,581 [INFO] V2 Step 1 completed in 831.9s.

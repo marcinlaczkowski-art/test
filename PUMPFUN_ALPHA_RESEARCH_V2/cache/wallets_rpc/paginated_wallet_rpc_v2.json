@@ -1,0 +1,4241 @@
+{
+  "wallets": {
+    "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s": {
+      "wallet": "BwWK17cbHxwWBKZkUYvzxLcNQ1YVyaFezduWbtm2de6s",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795590186,
+      "last_tx_blockTime": 1795590227,
+      "first_tx_utc": "2026-11-25T07:03:06+00:00",
+      "last_tx_utc": "2026-11-25T07:03:47+00:00",
+      "funders": [
+        {
+          "funder": "Gygj9QQby4j2jryqyqBHvLP7ctv2SaANgh4sCb69BUpA",
+          "sol": 0.005,
+          "blockTime": 1795590186,
+          "tx": "2j5STLceuLhKJcRbjDdCmyR8W87MxURBKCmBsH7rrLrSBzfkffLF7AmkqNxfGgutLGRxoy3RQVT2RUpocyPtF68c",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "2Kt9sesxDTHknEzGYay1fKpj9mJ1ZbR6tEwrwC2QznAT",
+          "sol": 0.1627,
+          "blockTime": 1795590186,
+          "tx": "R1WpQJmCwqadDz36Ry6G57aJhr1jPN2qkYhj6WjdNuzajZQnCyy26kDBQBotjRrop7jeQcZEwjctBRmhza6hkM1"
+        },
+        {
+          "target": "6uYgWZz6rTmQbahGUbNQvdh9FFJia9ATtkKCyXvEp6yc",
+          "sol": 0.01862,
+          "blockTime": 1795590227,
+          "tx": "3D1bPzYeF35SwykW162NixCGKVxpgMDA7FA7jgFTNi9jWLbt5798ReVA6pojXP2FWuMZiy5HQz4tExqikRpp62Um"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "haqq6qnVBCZt97amh9VUFZRFCkD6NJxoYifacCuqqqq": {
+      "wallet": "haqq6qnVBCZt97amh9VUFZRFCkD6NJxoYifacCuqqqq",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795587786,
+      "last_tx_blockTime": 1795590226,
+      "first_tx_utc": "2026-11-25T06:23:06+00:00",
+      "last_tx_utc": "2026-11-25T07:03:46+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "7siN3qkQNXbzxu8qVp7NgPctdt3niPRcx14tNXg67SNk": {
+      "wallet": "7siN3qkQNXbzxu8qVp7NgPctdt3niPRcx14tNXg67SNk",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795570455,
+      "last_tx_blockTime": 1795590185,
+      "first_tx_utc": "2026-11-25T01:34:15+00:00",
+      "last_tx_utc": "2026-11-25T07:03:05+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "DGq2Meb8mrEGWjJR7LtPigA2w8HM14bWaFqeePpqXBTw": {
+      "wallet": "DGq2Meb8mrEGWjJR7LtPigA2w8HM14bWaFqeePpqXBTw",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795585973,
+      "last_tx_blockTime": 1795589057,
+      "first_tx_utc": "2026-11-25T05:52:53+00:00",
+      "last_tx_utc": "2026-11-25T06:44:17+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "DshRtXbxyThrPh3UWoTA2Spak2im84zcRYcyvQ4ZZJB4",
+          "sol": 0.01189,
+          "blockTime": 1795585973,
+          "tx": "2u4JZ6YJ4dFUU2x1Z63XBVQqQThr552CRoUczRaugHXF13eSqmhJHAxa71eCoNmwPY5s6m3UQBuwaez7HFUix45k"
+        },
+        {
+          "target": "98r9bbWJqqzWittcnMKk5yNeikxBU8BzP8nEMZ27kXRV",
+          "sol": 0.01768,
+          "blockTime": 1795589057,
+          "tx": "MzjCPviGwhek1vWyMz5FVL3KsWKGsiKd6jWb2QUPYb3c4ZFNc9srXrX9JAmxdxjQkoEfMuDPyCFGAWgqqnj1swA"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "29utMUyyfbmAcg1CYmSrGjqsHxLGFTYxEeDY6iPfYZbp": {
+      "wallet": "29utMUyyfbmAcg1CYmSrGjqsHxLGFTYxEeDY6iPfYZbp",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795552669,
+      "last_tx_blockTime": 1795559417,
+      "first_tx_utc": "2026-11-24T20:37:49+00:00",
+      "last_tx_utc": "2026-11-24T22:30:17+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "AbfKTtUa3gkpcVov3LtT64d1RcgFSXuJqDaL1Ptu9TVW",
+          "sol": 0.07107,
+          "blockTime": 1795552669,
+          "tx": "PBLv565Jq6pkQkGizhpj2hmiaYMzmyYqDAQC8XxQ5EdXSzmmf8x9sU13USWTwGAmQKd9cMzxciQiSryQaCRUa9u"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "nnnLxEzVBJNaC7ZFCDeQTjFv4gCVGq1sS9Q6u6oPSUA": {
+      "wallet": "nnnLxEzVBJNaC7ZFCDeQTjFv4gCVGq1sS9Q6u6oPSUA",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795589086,
+      "last_tx_blockTime": 1795590219,
+      "first_tx_utc": "2026-11-25T06:44:46+00:00",
+      "last_tx_utc": "2026-11-25T07:03:39+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "Em8zBT4iZZHMrPDyzUUec3jpzJSt4bNAoRNoifryavk7",
+          "sol": 0.46002,
+          "blockTime": 1795589086,
+          "tx": "538dBaQuwTwEKdpQaPDpiCy2FRJ7AHxwLD5nReDZY5ztQnh487bwPxcGZTZdj3u2CfA7NJgaCu2ePWJnwZgiednC"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "AgmyPNqAtuhGRbopLVPiN2VmZPfK2MjhhJ2RgMhJ6LFa": {
+      "wallet": "AgmyPNqAtuhGRbopLVPiN2VmZPfK2MjhhJ2RgMhJ6LFa",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795558054,
+      "last_tx_blockTime": 1795577019,
+      "first_tx_utc": "2026-11-24T22:07:34+00:00",
+      "last_tx_utc": "2026-11-25T03:23:39+00:00",
+      "funders": [
+        {
+          "funder": "3erJJbhmiow1CkkHTz77dL9CKrdRswGnkJbUce9d41GF",
+          "sol": 0.005,
+          "blockTime": 1795577019,
+          "tx": "5nxz9quak1uho3Wyn26uduNuZqNDNq5FicrkPfeaUsM413EQ1QqLWrATjmqJZZr3vL1PUuz47vtc3DHnWxPJQUxZ",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "2ekHdjtBYewk6DB8PrJhepW9ECXsbdg9z5upmJHEscsi",
+          "sol": 0.04919,
+          "blockTime": 1795558054,
+          "tx": "2bQkS5YRu3wcF7P19gV6WzebLj6N96pV7dHrpEYBNro69gDxU2hcbMgXhXDUR6xKEoParHp1xXLmQ379yrftKycv"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "6zY5c2Tv6pGXXkkyraZyyHnVkMpbZGnabHTMS577pump",
+          "blockTimeMs": 1795558054000,
+          "source_owner": "2ekHdjtBYewk6DB8PrJhepW9ECXsbdg9z5upmJHEscsi",
+          "dest_owner": "AgmyPNqAtuhGRbopLVPiN2VmZPfK2MjhhJ2RgMhJ6LFa",
+          "amount_tokens": 607584.2586,
+          "is_burn": 0,
+          "tx": "2bQkS5YRu3wcF7P19gV6WzebLj6N96pV7dHrpEYBNro69gDxU2hcbMgXhXDUR6xKEoParHp1xXLmQ379yrftKycv"
+        },
+        {
+          "mint": "6zY5c2Tv6pGXXkkyraZyyHnVkMpbZGnabHTMS577pump",
+          "blockTimeMs": 1795558058000,
+          "source_owner": "2ekHdjtBYewk6DB8PrJhepW9ECXsbdg9z5upmJHEscsi",
+          "dest_owner": "AgmyPNqAtuhGRbopLVPiN2VmZPfK2MjhhJ2RgMhJ6LFa",
+          "amount_tokens": 1361618.643,
+          "is_burn": 0,
+          "tx": "5Z8GJDrUcVwwH2zMTk9LZEMTf5JKc3WVqzzQvFbe3b1ywk3HN6K89QfNoNhqcsyQKvzrspqs8E1P2tyV2xoQWjPd"
+        }
+      ]
+    },
+    "677m4c7WWoNJ3KzLfc7dQFmPQfy1iSymSAS3cUeizmDH": {
+      "wallet": "677m4c7WWoNJ3KzLfc7dQFmPQfy1iSymSAS3cUeizmDH",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795558000,
+      "last_tx_blockTime": 1795587469,
+      "first_tx_utc": "2026-11-24T22:06:40+00:00",
+      "last_tx_utc": "2026-11-25T06:17:49+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "GKy6KNBQ8YjSrNH59QtzQJtUjkPzwLp3UtTVKGGBST3G",
+          "sol": 0.0142,
+          "blockTime": 1795558000,
+          "tx": "66QjnpCUBgBMUKgmCcsPg3xVzNUqTsBJf9216SDUhEeC8dTJAi8Fsn4evvcnakTXu4NJKKjctAp3hAf8js6yFKvn"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "9GHvr8PKWz7S3ZwAZiGcJ4Ru8skGdsqyXxMnkTnK9SpR",
+          "blockTimeMs": 1795558000000,
+          "source_owner": "GKy6KNBQ8YjSrNH59QtzQJtUjkPzwLp3UtTVKGGBST3G",
+          "dest_owner": "677m4c7WWoNJ3KzLfc7dQFmPQfy1iSymSAS3cUeizmDH",
+          "amount_tokens": 889464.8305,
+          "is_burn": 0,
+          "tx": "66QjnpCUBgBMUKgmCcsPg3xVzNUqTsBJf9216SDUhEeC8dTJAi8Fsn4evvcnakTXu4NJKKjctAp3hAf8js6yFKvn"
+        },
+        {
+          "mint": "9GHvr8PKWz7S3ZwAZiGcJ4Ru8skGdsqyXxMnkTnK9SpR",
+          "blockTimeMs": 1795558006000,
+          "source_owner": "677m4c7WWoNJ3KzLfc7dQFmPQfy1iSymSAS3cUeizmDH",
+          "dest_owner": "GKy6KNBQ8YjSrNH59QtzQJtUjkPzwLp3UtTVKGGBST3G",
+          "amount_tokens": 2753945.9716,
+          "is_burn": 0,
+          "tx": "38bUXauXw8Hk4kBdrsppRzTx3UPqPP7G8vNEmyWKAZ9oFmt9mjfgDTptoZdzpRUTkY4JQ6qes5u4PEXHDtdpNz7u"
+        }
+      ]
+    },
+    "FxPeUcKhAst5dTyELKk7aMHKLLP1BCxw6eynCKRQJfzx": {
+      "wallet": "FxPeUcKhAst5dTyELKk7aMHKLLP1BCxw6eynCKRQJfzx",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795585679,
+      "last_tx_blockTime": 1795590221,
+      "first_tx_utc": "2026-11-25T05:47:59+00:00",
+      "last_tx_utc": "2026-11-25T07:03:41+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "8mSjo1mTN3kLrdSB93qWVeHxx3kUvxdby9N8a46VLAmR",
+          "sol": 0.45,
+          "blockTime": 1795585679,
+          "tx": "342SpkXpYskNkgrhUvtwjCeNGDkQwqCiQNSeRn1fwCQBy3mZYRfiBNj1PQG3EfjFXscHh1SKZNiLrdnDyLe7vfhJ"
+        },
+        {
+          "target": "5DLCRAXDDhMuzcec1gTuP33bq1ivz9kvo8cfEXstQc8N",
+          "sol": 0.45,
+          "blockTime": 1795585691,
+          "tx": "xwm496XsC2dY5n7TDSj59rAH1M9rrgzG9mbThTVYLK3Ua3NqwoHaks3EXjJgMYWTEeH5m8W7ptV691JdjVhCdD7"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "A3LoBMohwTUxsnpZtAYWzPcZVR5oPAoxj3WWmkdjDzXC": {
+      "wallet": "A3LoBMohwTUxsnpZtAYWzPcZVR5oPAoxj3WWmkdjDzXC",
+      "signatures_analyzed": 182,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795555335,
+      "last_tx_blockTime": 1795558140,
+      "first_tx_utc": "2026-11-24T21:22:15+00:00",
+      "last_tx_utc": "2026-11-24T22:09:00+00:00",
+      "funders": [
+        {
+          "funder": "iGdFcQoyR2MwbXMHQskhmNsqddZ6rinsipHc4TNSdwu",
+          "sol": 0.19806,
+          "blockTime": 1795555335,
+          "tx": "Wn9JF76f9cxej54Sya2dTjiNxr6r5EwkgpJhvKR7PTJ9VQxiAckqvJeHyKFSsQkxm5fZnNuR59rL5wvMcEMgs8o"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "A8epoidjEXhYTQ9bzDbumc1vji2uBGFuugf1SmJh5Rsd",
+          "sol": 0.07085,
+          "blockTime": 1795555956,
+          "tx": "5mzTJmhy1qwA9sTqXxV5BCzcMDyGMqnYRLPPTWzN441ybMaJi1WqwYQefcbghFp4hfzLzueNyXQLNMn99Bz6C3tC"
+        },
+        {
+          "target": "2Hz9HxvZS2MzFiLxFr5X4xWUW7m2RZXJAzrUGEawxzu5",
+          "sol": 0.00949,
+          "blockTime": 1795558140,
+          "tx": "m3ZW23Qh8QUPAUpqjKaDtkrKWng8uf3xAMEojgH8tuvJiexbaLEkQhVcVEtsRwRiX2bpdCENK81P8dJSJJDqyxD"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "BcEJCzyWVGmrtogAaoB5shXYF5x8BbUwhuFEcKTUhL1k": {
+      "wallet": "BcEJCzyWVGmrtogAaoB5shXYF5x8BbUwhuFEcKTUhL1k",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795586355,
+      "last_tx_blockTime": 1795590226,
+      "first_tx_utc": "2026-11-25T05:59:15+00:00",
+      "last_tx_utc": "2026-11-25T07:03:46+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "88HN1XioxtFx6DoZ3gxTSQy9djcyVygtNCVRrYowCZLQ",
+          "sol": 0.08,
+          "blockTime": 1795590226,
+          "tx": "4h4nUEbpptjd6VPb8TxuHkHzHpZt8DHiywzLX7sZUMMMrNi8DeT66JCth6kXxWhf6NFzDhw6ar2ZwPoszDGLMXot"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "Anubis512ho5t7S6LNSwoxUWdeQmX2kf3RvZ8ApHHF5w": {
+      "wallet": "Anubis512ho5t7S6LNSwoxUWdeQmX2kf3RvZ8ApHHF5w",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795555543,
+      "last_tx_blockTime": 1795586816,
+      "first_tx_utc": "2026-11-24T21:25:43+00:00",
+      "last_tx_utc": "2026-11-25T06:06:56+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "AveLLWpkPqWWArqrk9vunAJVMHTqYkJ9KiQ8pywcgwES",
+          "sol": 0.94288,
+          "blockTime": 1795555543,
+          "tx": "zVucSaXdXCCJxAjQ5bLn4w6rNK8DXkWaua9rz9FQnnrwsjeeToSgcFmWbDPUwDDZurkdGmRrbc2cspr98eSET9L"
+        },
+        {
+          "target": "EETpgkjHkXpzg6CSSAWa8zzAMswukpSEPCvWw1b1stsT",
+          "sol": 0.90681,
+          "blockTime": 1795586816,
+          "tx": "4sk5Y3r8aLbCzzzLHDAYNLVYXxcsVzi6tAZXfTN2edhvGSUqEGb8Rh249WKuocZ4bNhwQJ8W3eg6B2p9QSMbHiiM"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "7FXQnzFyFwAfKPxx6AKATEBE8cuFN6qXmgSRuUFFtXiL": {
+      "wallet": "7FXQnzFyFwAfKPxx6AKATEBE8cuFN6qXmgSRuUFFtXiL",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795523741,
+      "last_tx_blockTime": 1795564232,
+      "first_tx_utc": "2026-11-24T12:35:41+00:00",
+      "last_tx_utc": "2026-11-24T23:50:32+00:00",
+      "funders": [
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.01965,
+          "blockTime": 1795523741,
+          "tx": "3KfegtVKoPopPsuZVhKKdNrYrjB72u72WSEumHjpwpTus67qZ16z9sN9qqZH3bbnCtKqZGGwvumUdXJR7iuToWiU"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "GCYT9TXKcKtwgAQc7qiTtGea5BPLEHCGrrPhmkMsVfmq",
+          "sol": 0.14078,
+          "blockTime": 1795523741,
+          "tx": "2ihcJLwAiAK2eomoxHzAwDoXHCFd4aKYyDNU5bc8DWCzDbMjYA2u5b9LFAWJZZQLcfkVc4aTeT3pS22AT6EbxczY"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "GEXh5zqvGrydevffihQ37KKz2s2mQxfDP6tDkQcaCVCM": {
+      "wallet": "GEXh5zqvGrydevffihQ37KKz2s2mQxfDP6tDkQcaCVCM",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795581685,
+      "last_tx_blockTime": 1795583770,
+      "first_tx_utc": "2026-11-25T04:41:25+00:00",
+      "last_tx_utc": "2026-11-25T05:16:10+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "BwWK17z43AmDukau6m4NjjmhxcpyRnQHbToGfjmvamiB": {
+      "wallet": "BwWK17z43AmDukau6m4NjjmhxcpyRnQHbToGfjmvamiB",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795585147,
+      "last_tx_blockTime": 1795586949,
+      "first_tx_utc": "2026-11-25T05:39:07+00:00",
+      "last_tx_utc": "2026-11-25T06:09:09+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "G9QJvWaJDW12nSuyAsZsSjudcNCuoMKv98Kqq7dsXpQK",
+          "sol": 0.055,
+          "blockTime": 1795585147,
+          "tx": "4kH33fhfbaSsCgHw2VVcvC2Z9Gv8fBpUc4rPuMJ4mK4BPQWw3ja3w5QP8E7JnqvhdfadpbeyDJJbgKJh7Gv1drtF"
+        },
+        {
+          "target": "CqQYCthajLguQmHX26e3sFN3gg3FSVsWmP93qM1v79xH",
+          "sol": 0.055,
+          "blockTime": 1795585154,
+          "tx": "2SskdyCJduNKeynLDcupsKf2rSQZGAWQWNEzPHgVZR6kdSPat8gc85Pqm2XdZwENzH3US18TrYM5H3kDBAsk1yTE"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "GGMASpvH3yiBPNooLd5LTnt7YFRTBpQKV3aggyxKKAjy": {
+      "wallet": "GGMASpvH3yiBPNooLd5LTnt7YFRTBpQKV3aggyxKKAjy",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795558353,
+      "last_tx_blockTime": 1795590222,
+      "first_tx_utc": "2026-11-24T22:12:33+00:00",
+      "last_tx_utc": "2026-11-25T07:03:42+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "51bfGhaHpATmf5VNUvMxgiRAuvG9puzP5ztrBRwM34wk": {
+      "wallet": "51bfGhaHpATmf5VNUvMxgiRAuvG9puzP5ztrBRwM34wk",
+      "signatures_analyzed": 292,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795471901,
+      "last_tx_blockTime": 1795562397,
+      "first_tx_utc": "2026-11-23T22:11:41+00:00",
+      "last_tx_utc": "2026-11-24T23:19:57+00:00",
+      "funders": [
+        {
+          "funder": "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy",
+          "sol": 0.005,
+          "blockTime": 1795471901,
+          "tx": "AYLqdGQGEYy1Ct9Qr7sCdmDTdC5XzSQPkd8ZLU9KW3ViGt2FBQybQCBhPYpQYE3A3oyKBeADEnSSLgrZiuNHpyj",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "C3fd5tE1a42TC24ZyCY3HADV4jpAFaULg82o2c8TwTmE": {
+      "wallet": "C3fd5tE1a42TC24ZyCY3HADV4jpAFaULg82o2c8TwTmE",
+      "signatures_analyzed": 547,
+      "pages_fetched": 3,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795488802,
+      "last_tx_blockTime": 1795572360,
+      "first_tx_utc": "2026-11-24T02:53:22+00:00",
+      "last_tx_utc": "2026-11-25T02:06:00+00:00",
+      "funders": [
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.005,
+          "blockTime": 1795488802,
+          "tx": "CurhLpyDfD7eznaAycP2heFzwoW2m6z5RcJ7jGL1etWV8ERZV6kp88AjVvX5m5VzFxMKQfDSxJTry7CeBkGWCvc",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "61mzXSSzh8io33Jzfdk6M35vwQ23tYrkFHicMpzPhMoS": {
+      "wallet": "61mzXSSzh8io33Jzfdk6M35vwQ23tYrkFHicMpzPhMoS",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795558067,
+      "last_tx_blockTime": 1795590222,
+      "first_tx_utc": "2026-11-24T22:07:47+00:00",
+      "last_tx_utc": "2026-11-25T07:03:42+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": [
+        {
+          "mint": "8s7qxaLwds3V3GTCu5QuxQjbPwtppFbX2YNKd1eUpump",
+          "blockTimeMs": 1795558067000,
+          "source_owner": "2dZtaJ9WsEWxKBZQuimb3Hdn2BapkiqCNrZPF9n3uH4m",
+          "dest_owner": "61mzXSSzh8io33Jzfdk6M35vwQ23tYrkFHicMpzPhMoS",
+          "amount_tokens": 19748.4176,
+          "is_burn": 0,
+          "tx": "3MzgXsUxf8HBavaYpSBrTjC14dwD5brPNLrCYni5mNhjgCs5Jkq59mHusovec86VCc61w3CW4dAJRBcCrredk7Fm"
+        },
+        {
+          "mint": "8s7qxaLwds3V3GTCu5QuxQjbPwtppFbX2YNKd1eUpump",
+          "blockTimeMs": 1795558089000,
+          "source_owner": "61mzXSSzh8io33Jzfdk6M35vwQ23tYrkFHicMpzPhMoS",
+          "dest_owner": "2dZtaJ9WsEWxKBZQuimb3Hdn2BapkiqCNrZPF9n3uH4m",
+          "amount_tokens": 19748.4176,
+          "is_burn": 0,
+          "tx": "5N2nE6QeFKFAfgaRhPEZgPo7sDiZ9RWUcnSS1dqg3b5t39sGDsFtAmX1Kt2188TfhKGwca5b6aiqH3aLgp7XLiZr"
+        }
+      ]
+    },
+    "EMKY7r6UekmmR1hREwCaPy835tCDGXGCw8fqibybgqzc": {
+      "wallet": "EMKY7r6UekmmR1hREwCaPy835tCDGXGCw8fqibybgqzc",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795588909,
+      "last_tx_blockTime": 1795590222,
+      "first_tx_utc": "2026-11-25T06:41:49+00:00",
+      "last_tx_utc": "2026-11-25T07:03:42+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "8CagQQMoCRGkTDD9XBxoYXevXLDnLQdzvWfPZbZaphGJ",
+          "sol": 0.18151,
+          "blockTime": 1795588909,
+          "tx": "4SZMxLyv4vCHxqPobi8tFG1KUrZTgBdfVAiuxrbP2g3FwmVVvYh11SoBsKHbw9Dkzcgc3BW9zs4bnn4v5RSRgY2t"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "A3bkp8Y6nwNH3LkM9UASXGQ2ZWruuVRAK7yrbigi98jD": {
+      "wallet": "A3bkp8Y6nwNH3LkM9UASXGQ2ZWruuVRAK7yrbigi98jD",
+      "signatures_analyzed": 193,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795469973,
+      "last_tx_blockTime": 1795570909,
+      "first_tx_utc": "2026-11-23T21:39:33+00:00",
+      "last_tx_utc": "2026-11-25T01:41:49+00:00",
+      "funders": [
+        {
+          "funder": "DLkrZUQuMTLQSoio71u3WNRAbfBJMnLZpp7EkyYnW5Ei",
+          "sol": 1.34,
+          "blockTime": 1795469973,
+          "tx": "4XEdg1iiMsvPT2o5Q8fBJCjA1EAzuGJFkgj2vejXs6HQ5FP6Y3tryGtDSEaNtar95EnYNxm5TXkBzV2TLAcw8ZeA"
+        },
+        {
+          "funder": "xr8bSrMEt1d75pbNA3V3cDHD6fk5Q8PnBpGeGokgD1i",
+          "sol": 1.33,
+          "blockTime": 1795469973,
+          "tx": "4XEdg1iiMsvPT2o5Q8fBJCjA1EAzuGJFkgj2vejXs6HQ5FP6Y3tryGtDSEaNtar95EnYNxm5TXkBzV2TLAcw8ZeA"
+        },
+        {
+          "funder": "D9RMefD8Gqrwy5zofZpDpSLUYDMGbSvFG2Bpzhvyq13L",
+          "sol": 1.33,
+          "blockTime": 1795469973,
+          "tx": "4XEdg1iiMsvPT2o5Q8fBJCjA1EAzuGJFkgj2vejXs6HQ5FP6Y3tryGtDSEaNtar95EnYNxm5TXkBzV2TLAcw8ZeA"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "moon26Sek222Md7ZydcAGxoKG832DK36CkLrS3PQY4c",
+          "sol": 0.0025,
+          "blockTime": 1795469973,
+          "tx": "4XEdg1iiMsvPT2o5Q8fBJCjA1EAzuGJFkgj2vejXs6HQ5FP6Y3tryGtDSEaNtar95EnYNxm5TXkBzV2TLAcw8ZeA"
+        },
+        {
+          "target": "Hb3opukHAGNgDpNi9uktCiw7jopSwoJkfzvSNRpzrSAy",
+          "sol": 6.0,
+          "blockTime": 1795469973,
+          "tx": "4XEdg1iiMsvPT2o5Q8fBJCjA1EAzuGJFkgj2vejXs6HQ5FP6Y3tryGtDSEaNtar95EnYNxm5TXkBzV2TLAcw8ZeA"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "4LjhpQG5WXj7xZEKmoNRQtsnwKA1PgbcDyGDYH4QxdM7": {
+      "wallet": "4LjhpQG5WXj7xZEKmoNRQtsnwKA1PgbcDyGDYH4QxdM7",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795550171,
+      "last_tx_blockTime": 1795590221,
+      "first_tx_utc": "2026-11-24T19:56:11+00:00",
+      "last_tx_utc": "2026-11-25T07:03:41+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "5xiY6RHgVqJ6Frm7xrkvTJoBTQw7Z5ZK7PZPYdeGdcCS",
+          "sol": 0.08528,
+          "blockTime": 1795550174,
+          "tx": "3Z8CPW9BSUQa2wh7M3Hd7eVDWa1esXsPuMH5bA1AiRTXxwXQ2iWt3EN21fMHERES5PHCi6jiAogKpK8MdNvMuW1y"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "Fhbh1DTUDKt6qu9zVg8Q5VgnZa1WWWbxBxG6pCoJoggA": {
+      "wallet": "Fhbh1DTUDKt6qu9zVg8Q5VgnZa1WWWbxBxG6pCoJoggA",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795582403,
+      "last_tx_blockTime": 1795590229,
+      "first_tx_utc": "2026-11-25T04:53:23+00:00",
+      "last_tx_utc": "2026-11-25T07:03:49+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "GeovAEMBdxsV4WFZtrEKfSzEaeEUbUsHJV4S9HMqUpfu",
+          "sol": 0.98804,
+          "blockTime": 1795582403,
+          "tx": "44FxDS6MwVaxSvsUUT8H78PKdbVrWCLKZW7Bok5zjdK3jBdCA4Gi4ZDEDehqpt9xmvdDyjsMqfKmwwdvk5iLbZkf"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "5byH6qhdRaV7kCvPUnHexuVf8u3wDZaY6g7pNopm7mww": {
+      "wallet": "5byH6qhdRaV7kCvPUnHexuVf8u3wDZaY6g7pNopm7mww",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795529486,
+      "last_tx_blockTime": 1795586478,
+      "first_tx_utc": "2026-11-24T14:11:26+00:00",
+      "last_tx_utc": "2026-11-25T06:01:18+00:00",
+      "funders": [
+        {
+          "funder": "TKzgvhsrt2U2e3Qs15TLwDGQW79peoUmJyUCaDC9S8o",
+          "sol": 0.005,
+          "blockTime": 1795529486,
+          "tx": "buv4Wg3odEonyWTqd9sB3vaoF3FoDQfLdqDVYL4dVbvjXxrrWapwn7ZYkHnVA4TXiKThvYeWueoPnfjaK4mSPsJ",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy",
+          "sol": 0.005,
+          "blockTime": 1795529510,
+          "tx": "GvMV1tuoia7VSK24wzsPmNz8R6aQRMsLABZo1spX5y1FNJ2jpgnKFBjHPJmD8sQF4PrNhNws4NV3DYFCymoXsLU",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "FmzLiKM9bg2oZ4HseMabc1b2xTeLoJ8uEUBjBCGms4Yn",
+          "sol": 0.005,
+          "blockTime": 1795586478,
+          "tx": "239KJ2uLvn1i9mYysVZZurs9BW9LvssW8L2auJSiUzXvNQVC4Utqpwq3PZuP7uW4R2DJrwB49sp3am2oexDDSh5T",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "2UqSU2cGhsbb5ssrhZZX8SqyWSUTEaSMMDSxuEF9gdmG": {
+      "wallet": "2UqSU2cGhsbb5ssrhZZX8SqyWSUTEaSMMDSxuEF9gdmG",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795589039,
+      "last_tx_blockTime": 1795590229,
+      "first_tx_utc": "2026-11-25T06:43:59+00:00",
+      "last_tx_utc": "2026-11-25T07:03:49+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "HBv2XBhdgEMsaUbXeGpz2JgUZ7nHxQpYrojqTTVtBhcF": {
+      "wallet": "HBv2XBhdgEMsaUbXeGpz2JgUZ7nHxQpYrojqTTVtBhcF",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795552756,
+      "last_tx_blockTime": 1795580900,
+      "first_tx_utc": "2026-11-24T20:39:16+00:00",
+      "last_tx_utc": "2026-11-25T04:28:20+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "4kmdaf7dpgPR1qegScCbKKBkjdo3XqusB213MhVbqdk7": {
+      "wallet": "4kmdaf7dpgPR1qegScCbKKBkjdo3XqusB213MhVbqdk7",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795582376,
+      "last_tx_blockTime": 1795590223,
+      "first_tx_utc": "2026-11-25T04:52:56+00:00",
+      "last_tx_utc": "2026-11-25T07:03:43+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "GSBFTRxJ8hqpSYCm3cGbevachrf4xHu2YWTM9RwzVQeF",
+          "sol": 0.07168,
+          "blockTime": 1795582376,
+          "tx": "2xCy3vx9SkffHevg5EtWtweL7zcvyPDyMEnv2nMnat7XpgKCkvucCv4BBEJatRZPwQY4AcEHWEQGzzz9fPzmqzou"
+        },
+        {
+          "target": "FfVwPDCYCqMfJYUukQyW4cpuf6FCAUXXKhbFkV4Fu8f7",
+          "sol": 0.09738,
+          "blockTime": 1795590223,
+          "tx": "5PkKv3AmvGrvmwEfo2T5JQQhdky6rehhxbazT7QtQa6svtHkbt4k1rvr7j98ymLviM3hKHh7wFpd79wF8hMHWNVr"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "C6TWvLX4ZhykjCPGiD1X2cofeZKCNBUCvmKrLnKg3vFQ": {
+      "wallet": "C6TWvLX4ZhykjCPGiD1X2cofeZKCNBUCvmKrLnKg3vFQ",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795536733,
+      "last_tx_blockTime": 1795565046,
+      "first_tx_utc": "2026-11-24T16:12:13+00:00",
+      "last_tx_utc": "2026-11-25T00:04:06+00:00",
+      "funders": [
+        {
+          "funder": "5HoqkN6H1XN2v95N2QWDRXWZBZBtvRxYvC2oZD9B2Rt1",
+          "sol": 0.005,
+          "blockTime": 1795565046,
+          "tx": "5WSa4TbLTinTtxTMRG2pVCqswSC4DaDG3Z3EYNnUhHfsMraknd4LoXv68d1FSK4hQNqsd7aDV1adjJ4hRx96Lrma",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "GbTnV7nV3utPEFvkq4icrmmnxmQJ598cdHenPRVZSeWM",
+          "sol": 0.04919,
+          "blockTime": 1795536733,
+          "tx": "5RiTfTFbXr8CgSqUCpf6UgPA6n9P6jx8X1cL86GKR3g1J3k49uQ2BeVDhci2CyHikvUqoFC9W6enYr4r276r6q4"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "AmN88ff21osxR5CWnawN3GWDbpKtReCzDABdGWQvdLyB": {
+      "wallet": "AmN88ff21osxR5CWnawN3GWDbpKtReCzDABdGWQvdLyB",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795556663,
+      "last_tx_blockTime": 1795590167,
+      "first_tx_utc": "2026-11-24T21:44:23+00:00",
+      "last_tx_utc": "2026-11-25T07:02:47+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "7PtVk5TZ8J9ohTVS6r2kLzrY33JzShaS3RC6ycC1NNEG": {
+      "wallet": "7PtVk5TZ8J9ohTVS6r2kLzrY33JzShaS3RC6ycC1NNEG",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795557702,
+      "last_tx_blockTime": 1795590167,
+      "first_tx_utc": "2026-11-24T22:01:42+00:00",
+      "last_tx_utc": "2026-11-25T07:02:47+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "BwTeAx5vvGPmasVGzesKaD7aTiZ8AQxyrxvtpETYhaae",
+          "sol": 0.1,
+          "blockTime": 1795557739,
+          "tx": "3gzF5tNNVp4ciPMzzPb3Fcg2oCQs5KJW4E8kr16b6UdxeUwicy3wpXXd8FdQbsbhocBgfj7n2ey6V7z7fF1yH3Kk"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "zMmEwQA5S182P52NsM8WfUbqaY6PaFarEw611zWpump",
+          "blockTimeMs": 1795557739000,
+          "source_owner": "BwTeAx5vvGPmasVGzesKaD7aTiZ8AQxyrxvtpETYhaae",
+          "dest_owner": "7PtVk5TZ8J9ohTVS6r2kLzrY33JzShaS3RC6ycC1NNEG",
+          "amount_tokens": 1048226.324,
+          "is_burn": 0,
+          "tx": "3gzF5tNNVp4ciPMzzPb3Fcg2oCQs5KJW4E8kr16b6UdxeUwicy3wpXXd8FdQbsbhocBgfj7n2ey6V7z7fF1yH3Kk"
+        }
+      ]
+    },
+    "9B76iZ6GT9hXGC3vazaQUJY6disjMtkWP8P8twv9gENR": {
+      "wallet": "9B76iZ6GT9hXGC3vazaQUJY6disjMtkWP8P8twv9gENR",
+      "signatures_analyzed": 286,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795481421,
+      "last_tx_blockTime": 1795562888,
+      "first_tx_utc": "2026-11-24T00:50:21+00:00",
+      "last_tx_utc": "2026-11-24T23:28:08+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "HqDYCEvhMMENJ8kjWAMJTJy8om2sg9fSxRsjMsnkCVMk",
+          "sol": 0.09319,
+          "blockTime": 1795562888,
+          "tx": "3iUfYjFVbX5Uig1ytPu3exLSHqxp5REgAnHNrwjjAHEdkQukqvhxA4bMPxnJRsEQ4t1Dqo1GousHQCzzSzRqPVbn"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "G1UqCSRpF9LNxMBxgir5uimEbrFU3WmDFsDWx8LWpump",
+          "blockTimeMs": 1795562888000,
+          "source_owner": "6ETPTXudEnJFYK7mZ2phNsoJRXVLuLBPZKLD3Q8UBPgX",
+          "dest_owner": "9B76iZ6GT9hXGC3vazaQUJY6disjMtkWP8P8twv9gENR",
+          "amount_tokens": 3044987.6729,
+          "is_burn": 0,
+          "tx": "3iUfYjFVbX5Uig1ytPu3exLSHqxp5REgAnHNrwjjAHEdkQukqvhxA4bMPxnJRsEQ4t1Dqo1GousHQCzzSzRqPVbn"
+        },
+        {
+          "mint": "G1UqCSRpF9LNxMBxgir5uimEbrFU3WmDFsDWx8LWpump",
+          "blockTimeMs": 1795562888000,
+          "source_owner": "6ETPTXudEnJFYK7mZ2phNsoJRXVLuLBPZKLD3Q8UBPgX",
+          "dest_owner": "5YxQFdt3Tr9zJLvkFccqXVUwhdTWJQc1fFg2YPbxvxeD",
+          "amount_tokens": 14751.3426,
+          "is_burn": 0,
+          "tx": "3iUfYjFVbX5Uig1ytPu3exLSHqxp5REgAnHNrwjjAHEdkQukqvhxA4bMPxnJRsEQ4t1Dqo1GousHQCzzSzRqPVbn"
+        },
+        {
+          "mint": "G1UqCSRpF9LNxMBxgir5uimEbrFU3WmDFsDWx8LWpump",
+          "blockTimeMs": 1795562888000,
+          "source_owner": "9B76iZ6GT9hXGC3vazaQUJY6disjMtkWP8P8twv9gENR",
+          "dest_owner": "DZ5e99zCmJfPS3MfGW1JXecP7D2xfLiSqB6SERWgTExB",
+          "amount_tokens": 3044987.6729,
+          "is_burn": 0,
+          "tx": "3iUfYjFVbX5Uig1ytPu3exLSHqxp5REgAnHNrwjjAHEdkQukqvhxA4bMPxnJRsEQ4t1Dqo1GousHQCzzSzRqPVbn"
+        }
+      ]
+    },
+    "DwYcmoDMxQcadzfMg9JQyiRSDj1FSQ7k5KX44Z9KAFpG": {
+      "wallet": "DwYcmoDMxQcadzfMg9JQyiRSDj1FSQ7k5KX44Z9KAFpG",
+      "signatures_analyzed": 49,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795540779,
+      "last_tx_blockTime": 1795562567,
+      "first_tx_utc": "2026-11-24T17:19:39+00:00",
+      "last_tx_utc": "2026-11-24T23:22:47+00:00",
+      "funders": [
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.005,
+          "blockTime": 1795540779,
+          "tx": "LH3GjL84EYnaXSXjdEDbtdSqvmtrV8tTMyLgNL8QRFonehR9NYYKeiCoa6a6qsoXUSNEftBMFfhZh99PCngm94J",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "D25zbUNeyCN7B7aQcVzVgMDkyKkjrXA1DkSrsi8Ryevs",
+          "sol": 0.00466,
+          "blockTime": 1795540779,
+          "tx": "LH3GjL84EYnaXSXjdEDbtdSqvmtrV8tTMyLgNL8QRFonehR9NYYKeiCoa6a6qsoXUSNEftBMFfhZh99PCngm94J"
+        },
+        {
+          "target": "2UJ8knWpL6PYxgorbcJLBPt8i3DVXTDXpZCWQ9U52Xxv",
+          "sol": 0.00444,
+          "blockTime": 1795562567,
+          "tx": "4v8YoLBquCxbiJMyqNSWSD6whVWu6sjGvmZDhG1Pb3ZsRqxas5G2PZaUAhmAb4duDFMqsgnfcNBnTFUwzxRoVUyJ"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "Hx44ecKZzK2UqZfVSxBp6B46jLBc2KGUwp4x9bLoR9GJ": {
+      "wallet": "Hx44ecKZzK2UqZfVSxBp6B46jLBc2KGUwp4x9bLoR9GJ",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795584465,
+      "last_tx_blockTime": 1795590228,
+      "first_tx_utc": "2026-11-25T05:27:45+00:00",
+      "last_tx_utc": "2026-11-25T07:03:48+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "FBiYmFh8xvS7wmUeHKKdEETXZCZVoKj6M2XESvUAM77F",
+          "sol": 0.015,
+          "blockTime": 1795584465,
+          "tx": "33AiyweKvubHsC2rgjcPqDNpGxKu88qvPFZFAtKapk58vBQUd8hHrVSimAFUQUvxEpbyqgjR7rziJkTYUmnRGVRi"
+        },
+        {
+          "target": "88HN1XioxtFx6DoZ3gxTSQy9djcyVygtNCVRrYowCZLQ",
+          "sol": 0.015,
+          "blockTime": 1795590228,
+          "tx": "15cwwWqBs5vnAsABo2R8kvdVTydrZNg6sBEHFTg6Tn1ZSEra1HJtaYQMP7xUM2mZkBFZXmTCxReK2n3eUK1mxDt"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "5w8xtjc649Z628jVvJkwQE5p9aMhV2cUSWr8RVV9BieU": {
+      "wallet": "5w8xtjc649Z628jVvJkwQE5p9aMhV2cUSWr8RVV9BieU",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795582693,
+      "last_tx_blockTime": 1795590230,
+      "first_tx_utc": "2026-11-25T04:58:13+00:00",
+      "last_tx_utc": "2026-11-25T07:03:50+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "3NUtW2LNBVu69fRJtSg95Eu1hj9HEn98nQmep3wWTkcm",
+          "sol": 0.00415,
+          "blockTime": 1795590230,
+          "tx": "5gzweaj3RkkxKbDa5ppsMXw7wGE81xoCosUPgickjbhH75e6y2bmYRD4GpTeiNqX61AuFDDk167d2WpBpq3emNvb"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "5jZA3DFfQdMzLWjWsH1eV74VuXtTBeDTVEPpFqoT2szZ": {
+      "wallet": "5jZA3DFfQdMzLWjWsH1eV74VuXtTBeDTVEPpFqoT2szZ",
+      "signatures_analyzed": 577,
+      "pages_fetched": 3,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795538242,
+      "last_tx_blockTime": 1795581911,
+      "first_tx_utc": "2026-11-24T16:37:22+00:00",
+      "last_tx_utc": "2026-11-25T04:45:11+00:00",
+      "funders": [
+        {
+          "funder": "8DfHuYFv7VQ6wgcGtVDN2vtFn5ezF52hHNtPWYcqm8hU",
+          "sol": 0.27799,
+          "blockTime": 1795538242,
+          "tx": "1Mdo4KL3r3BQ3XBop9K3e1GPdyADs4YBmWz5yGf3zPUouT5GvAaNfYSUegfuFccSHFuMS4bPcfUU4ENaTKZ9Tg5"
+        },
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.005,
+          "blockTime": 1795581911,
+          "tx": "2fP5pHzCmhhbB6kb1aN9djsbZds2iNqNtf8Hr2PSpx1jBbQZsCxjQp96DDJjatgqecfZu2RcJEKV116xAqH4bp7E",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "HrdE86emRzLTm122TAdP39ECtb9xkgps6PsKV7o83fWc",
+          "sol": 0.0726,
+          "blockTime": 1795538342,
+          "tx": "44uV2qC9GSAsphySWSC2ueo7AfLu8bcwSVLHroByGrLwm8bWszAmzoEwDXvC1RkFEFjPiT4rDXfEvS14MEMiGQU5"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "9DVKv3EzCvNr2Pfgtkmth5XGUf2eEp4PKrstBr5t58ek": {
+      "wallet": "9DVKv3EzCvNr2Pfgtkmth5XGUf2eEp4PKrstBr5t58ek",
+      "signatures_analyzed": 352,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795550170,
+      "last_tx_blockTime": 1795559772,
+      "first_tx_utc": "2026-11-24T19:56:10+00:00",
+      "last_tx_utc": "2026-11-24T22:36:12+00:00",
+      "funders": [
+        {
+          "funder": "J2JUV5fTBPAJmnn7BFhLPhPzrqXpQXELTwferzwyakKV",
+          "sol": 0.6846,
+          "blockTime": 1795550170,
+          "tx": "5zKGC4UrLfDh2zsRbUhNvbs9yDToK44yYPi7mBQLqdnEMznRjfT2ttV8ZT71gNt4SmftTeEMxRqvnHG5ZnuAzwUU"
+        },
+        {
+          "funder": "595MHssTxbULThutJnRSrwkTZYWg6r1d1QkLe9DP6TR",
+          "sol": 0.005,
+          "blockTime": 1795559772,
+          "tx": "3y6Ancot5WjLmCQLxaKgQh9tXS89GwZtJcubHuJemURuUqyhZguNDGdzZEUXGPWMxbx35GK8PQBHszSqzmzN4U2K",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "7FMGtSXy4AvkLwQsaobg7FcVcaC6wcYTRqQUHxS54Ewh",
+          "sol": 0.07206,
+          "blockTime": 1795550285,
+          "tx": "4xsBtNkNEJroLhKx6BXmxavrAsnmQR1UzjZc6fmo6BoKAox2ojdYCvconZBSSQdsqwc87sHT7dZLSphLbt1uVEXG"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "4kvcV78SnUXcb7gCW6gQ5qQ6n4dzVHYUvPMFXx1XQKLB": {
+      "wallet": "4kvcV78SnUXcb7gCW6gQ5qQ6n4dzVHYUvPMFXx1XQKLB",
+      "signatures_analyzed": 566,
+      "pages_fetched": 3,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795481267,
+      "last_tx_blockTime": 1795581634,
+      "first_tx_utc": "2026-11-24T00:47:47+00:00",
+      "last_tx_utc": "2026-11-25T04:40:34+00:00",
+      "funders": [
+        {
+          "funder": "8JUEoHNMbWM4eegcMvx6ZQJt3V3fbo8JNjpWiCtJgxfF",
+          "sol": 0.25149,
+          "blockTime": 1795481267,
+          "tx": "2b9XXoDmi999dWFKW7oZWzh7pN5gy5PQ8beMeTPd6VjZ1kDo9j76QTG5zT8GzyA8d9LLRF1uFyENw2tJS7W7QJGn"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "4ZZJk2zA97fAmToidyWDpGPfmmiTYXhgQPQuCAV2CXs3",
+          "sol": 0.0637,
+          "blockTime": 1795481566,
+          "tx": "4YZwVgpjJJVVz8dA1AhNM9zDcpx5bqZTc5gruvUaix8QeVbQcJnVFhuN16hh8A9rKC8cTtPAZB9Ev5xv7zHEQxtJ"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "HrJZchvCmTgq22SYoDsNv82H3MpRLT4oKggHYQ7CFEqA": {
+      "wallet": "HrJZchvCmTgq22SYoDsNv82H3MpRLT4oKggHYQ7CFEqA",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795563954,
+      "last_tx_blockTime": 1795589016,
+      "first_tx_utc": "2026-11-24T23:45:54+00:00",
+      "last_tx_utc": "2026-11-25T06:43:36+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "JBThynzMzCsrzH8LuqcyGWenEUug5SaPpLVCTAcDSrzC",
+          "sol": 0.051,
+          "blockTime": 1795563954,
+          "tx": "2VbbRmeT51tGEdpjH49YxndkVnYZQigRrsyB1nXL9x7WSLpcrq1z3mjyU7Entk4PHVXpYrTmrZ7TFqKsMNSYZ6a6"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "HjsrtrXdWKfwVMweYJ2GfEKH3qwne9BrfbbGkA7CLGTW": {
+      "wallet": "HjsrtrXdWKfwVMweYJ2GfEKH3qwne9BrfbbGkA7CLGTW",
+      "signatures_analyzed": 73,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795473323,
+      "last_tx_blockTime": 1795558372,
+      "first_tx_utc": "2026-11-23T22:35:23+00:00",
+      "last_tx_utc": "2026-11-24T22:12:52+00:00",
+      "funders": [
+        {
+          "funder": "EGZA7aU16g4Fgmgsgyuk4jRDRXaWu9krgnrxVH7NnJfS",
+          "sol": 0.005,
+          "blockTime": 1795473323,
+          "tx": "n4t9LP8JVphPRVVV5Y4MVqUrVxmLBxKEDX5gTu2Zq3r9fHBiALvDPFaBYJr9k96YzJSLVKftEVGaun55dGWPYPE",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "9Ltm7xhShrSN1JwTPyVXJaDJJJDGRX7dt7u4tA6pnNW9",
+          "sol": 0.005,
+          "blockTime": 1795558372,
+          "tx": "4wTmnAJR6gy8xhh9S5hgaZY4MjxeFz3Jw2XM4R7egSdm4Gfc3LrKyJR84LJCAhJpgrLnbn8RsZmFAMPVMUv9wkrE",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "2zoBVS6Aeih7KMLoAtRuqHBTFZK7GqhVJgtaABkouU6g": {
+      "wallet": "2zoBVS6Aeih7KMLoAtRuqHBTFZK7GqhVJgtaABkouU6g",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795566876,
+      "last_tx_blockTime": 1795590049,
+      "first_tx_utc": "2026-11-25T00:34:36+00:00",
+      "last_tx_utc": "2026-11-25T07:00:49+00:00",
+      "funders": [
+        {
+          "funder": "FLU5ZLZLL2XXcxffHmyoiJskiihaGnZ3aGX76neRE9Yi",
+          "sol": 0.005,
+          "blockTime": 1795590049,
+          "tx": "3u3BHu2QmaMotzDQ8NRsmbLomVTEQHH9RXcRC3fryGMFPLNN4nRYxbzSkbYPCZQQWxQYdjmJ2JVr2MoVv1FZWFZ3",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "DdiftP1FntfyKfEaDEuLoUtsfjbQBFJpqqm7dKxRjeeg": {
+      "wallet": "DdiftP1FntfyKfEaDEuLoUtsfjbQBFJpqqm7dKxRjeeg",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795590179,
+      "last_tx_blockTime": 1795590232,
+      "first_tx_utc": "2026-11-25T07:02:59+00:00",
+      "last_tx_utc": "2026-11-25T07:03:52+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "8QxwGHPmM431fJZzaSo1uu8m1iAvipEVJnH2nrJKt28D": {
+      "wallet": "8QxwGHPmM431fJZzaSo1uu8m1iAvipEVJnH2nrJKt28D",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795551395,
+      "last_tx_blockTime": 1795590138,
+      "first_tx_utc": "2026-11-24T20:16:35+00:00",
+      "last_tx_utc": "2026-11-25T07:02:18+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "3n2zw7DonkUMbbtCgreXdT4Zii6ZxtRBrSerUs2zP7FX": {
+      "wallet": "3n2zw7DonkUMbbtCgreXdT4Zii6ZxtRBrSerUs2zP7FX",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795581804,
+      "last_tx_blockTime": 1795587385,
+      "first_tx_utc": "2026-11-25T04:43:24+00:00",
+      "last_tx_utc": "2026-11-25T06:16:25+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "BX7aSqq7m7q6nk7D3P8TFrR6oU3bEiJgdiqD5uWVgMoW": {
+      "wallet": "BX7aSqq7m7q6nk7D3P8TFrR6oU3bEiJgdiqD5uWVgMoW",
+      "signatures_analyzed": 278,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795542472,
+      "last_tx_blockTime": 1795557802,
+      "first_tx_utc": "2026-11-24T17:47:52+00:00",
+      "last_tx_utc": "2026-11-24T22:03:22+00:00",
+      "funders": [
+        {
+          "funder": "4BEKrBo7L7rTDncBhu3kfp5vu6jjXbK4UojNkm2A2bEa",
+          "sol": 0.15115,
+          "blockTime": 1795542472,
+          "tx": "3w21cgfhQ1E9g6CEMbqSSZBWeRy31wrBjF2wz1xGgafBJHQBmi6neaTdJyHVADYdMzgPx6g5fSLvDUj9CAbYcZcv"
+        },
+        {
+          "funder": "BJBTKoFBipptUuvz2XfjrSKddVowpEyc3SKJF1A7krq5",
+          "sol": 0.005,
+          "blockTime": 1795557802,
+          "tx": "4N2VkT7fqGQPeZAGLjEPCA4KzREghmHb1Kp7JevtQFZuH4QEc86qZvzhuBrkPpqRJPyktAFmKjL9Ri75nc5xmw2k",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "G7AFgCeHbGBLufrFxrZJacDxagYmsXHk7jpMagFMZNtS",
+          "sol": 0.07523,
+          "blockTime": 1795542501,
+          "tx": "4dkT6Y1Vu45jpFRMD8Rfje6p1DpKoeaev3GpFsPPdyJkVRiv282QWsNVLFDHkMD6XtEJmyBQT8XY5Mm772Vgdhos"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "DUXhetvYNGeSpS2XTQQRfp1NpzZCeNMUTB8Y2KnvNfzY": {
+      "wallet": "DUXhetvYNGeSpS2XTQQRfp1NpzZCeNMUTB8Y2KnvNfzY",
+      "signatures_analyzed": 373,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795479345,
+      "last_tx_blockTime": 1795577575,
+      "first_tx_utc": "2026-11-24T00:15:45+00:00",
+      "last_tx_utc": "2026-11-25T03:32:55+00:00",
+      "funders": [
+        {
+          "funder": "4ePQH6SgrvgQroLnw1c6AJVY2Y2xLi1AWMyZEAX8HG1q",
+          "sol": 0.005,
+          "blockTime": 1795486059,
+          "tx": "5s2aYVA9hKhkxkbGQkw6BqfKoYcrbtibbifYXVoYVXfBmjnN15mpsAe7ThmmbK6zKUacH5oiFMRZhmfquixnVR9G",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "H6s7DMmQA8gEC7JH7t3wGMX2R1KWYUf3keNX461pn9LC": {
+      "wallet": "H6s7DMmQA8gEC7JH7t3wGMX2R1KWYUf3keNX461pn9LC",
+      "signatures_analyzed": 253,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795557015,
+      "last_tx_blockTime": 1795588053,
+      "first_tx_utc": "2026-11-24T21:50:15+00:00",
+      "last_tx_utc": "2026-11-25T06:27:33+00:00",
+      "funders": [
+        {
+          "funder": "5F1seMKUqSNhv45f6FhB2cFmgJbk8U1avJw7M6TexUq1",
+          "sol": 0.32318,
+          "blockTime": 1795557015,
+          "tx": "3boed87hh1tSigqr2ZHWyZ2YVsg736dEdqcEVrfKqY5kBHAJS6hyrwaJ4ZRWX2Mni1yeDDFRCh2QM2YYaznguw14"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "4A6vw9yBWWSZx2YS5Dn9i9sFhznmVE49e7RWx6yi18ZC",
+          "sol": 0.07092,
+          "blockTime": 1795557122,
+          "tx": "2xCfY2WXbohAYKfET4H22vKyy6LvL6JDYcxwPNWsfnfyR9obLFCKjbMczohjS9c6e8j8AnAZxy1PpcBt8XbgZkQV"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "74WQLMAWRNRDF1R2byx7vToiYNXm2MiuRPGmnq1eCp93": {
+      "wallet": "74WQLMAWRNRDF1R2byx7vToiYNXm2MiuRPGmnq1eCp93",
+      "signatures_analyzed": 344,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795549358,
+      "last_tx_blockTime": 1795572168,
+      "first_tx_utc": "2026-11-24T19:42:38+00:00",
+      "last_tx_utc": "2026-11-25T02:02:48+00:00",
+      "funders": [
+        {
+          "funder": "5F1seMKUqSNhv45f6FhB2cFmgJbk8U1avJw7M6TexUq1",
+          "sol": 1.32804,
+          "blockTime": 1795549358,
+          "tx": "zj2ietnmFBDiuTabpPMmYhahRTMndkVUdwWqXCRcXX6ePs6bpjage2FqJJACNNnGwXh56grmSSfVdp6e5YSeMJc"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "KfHbT5Jrr5SV3CDkQVCLiSNWyVv5DmuVaCzbAHrzMFQ",
+          "sol": 0.00332,
+          "blockTime": 1795549399,
+          "tx": "5mc5LEthCCPffGA83TkSthFof6mowgTq8sLvZvQN54Q1WgWQbZGjwhPMmzRniRcy9dFAveoaKXiddrttc2uyNcEX"
+        },
+        {
+          "target": "92Q41PNaXDAdAUPFM1wETEq4mo54PgxfX3DMguZmeEZ2",
+          "sol": 1.32186,
+          "blockTime": 1795549399,
+          "tx": "5mc5LEthCCPffGA83TkSthFof6mowgTq8sLvZvQN54Q1WgWQbZGjwhPMmzRniRcy9dFAveoaKXiddrttc2uyNcEX"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "4E7b5fP6tzn1s68SqhceU4t15xzJEUzZBzTzxH3fcqhM": {
+      "wallet": "4E7b5fP6tzn1s68SqhceU4t15xzJEUzZBzTzxH3fcqhM",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795551216,
+      "last_tx_blockTime": 1795573614,
+      "first_tx_utc": "2026-11-24T20:13:36+00:00",
+      "last_tx_utc": "2026-11-25T02:26:54+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "KfHbT5Jrr5SV3CDkQVCLiSNWyVv5DmuVaCzbAHrzMFQ",
+          "sol": 0.00217,
+          "blockTime": 1795573614,
+          "tx": "1yot2UxVmMHZiRVffSkymEJnH3Jc18dDpPgeNfyFaAvRiAN6jRqpQ3yFsjqFx6kFFUCM5rXVAwDSsmG43DPfiBp"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "6Qa46jFT7NegJRKNGPMQudr9v1aNC73KqFzX7vuvwRcC": {
+      "wallet": "6Qa46jFT7NegJRKNGPMQudr9v1aNC73KqFzX7vuvwRcC",
+      "signatures_analyzed": 333,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795469407,
+      "last_tx_blockTime": 1795582647,
+      "first_tx_utc": "2026-11-23T21:30:07+00:00",
+      "last_tx_utc": "2026-11-25T04:57:27+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "EbMRFGBcHei4gzwu6jzXMUaBVJ9Ee3awx245gGYDEtmU",
+          "sol": 0.01,
+          "blockTime": 1795469407,
+          "tx": "29iaqudPRDU49bSBa2AMQqh1bAE55mbq5zmG3tDHCdF5VWXCREde5NbZhHjJGWhzvuzTqK3TLQqi5S3boYy88cSr"
+        },
+        {
+          "target": "HJTgKABBx8VU8b2yvdjZ4ETXT7bTdFpng7LPHLivgpPx",
+          "sol": 0.00474,
+          "blockTime": 1795469407,
+          "tx": "29iaqudPRDU49bSBa2AMQqh1bAE55mbq5zmG3tDHCdF5VWXCREde5NbZhHjJGWhzvuzTqK3TLQqi5S3boYy88cSr"
+        },
+        {
+          "target": "2BpcLrj61UEpJfi9rb9PrsabBum2UZfVZijFbU5y4nvd",
+          "sol": 1.58025,
+          "blockTime": 1795469407,
+          "tx": "29iaqudPRDU49bSBa2AMQqh1bAE55mbq5zmG3tDHCdF5VWXCREde5NbZhHjJGWhzvuzTqK3TLQqi5S3boYy88cSr"
+        },
+        {
+          "target": "GXPFM2caqTtQYC2cJ5yJRi9VDkpsYZXzYdwYpGnLmtDL",
+          "sol": 0.00751,
+          "blockTime": 1795469407,
+          "tx": "29iaqudPRDU49bSBa2AMQqh1bAE55mbq5zmG3tDHCdF5VWXCREde5NbZhHjJGWhzvuzTqK3TLQqi5S3boYy88cSr"
+        },
+        {
+          "target": "2aSWZ3QXsNLVVBr1UB1HxSw7sqMRR2pv2qa5ohsTi5Gp",
+          "sol": 0.00751,
+          "blockTime": 1795469407,
+          "tx": "29iaqudPRDU49bSBa2AMQqh1bAE55mbq5zmG3tDHCdF5VWXCREde5NbZhHjJGWhzvuzTqK3TLQqi5S3boYy88cSr"
+        },
+        {
+          "target": "BfFX9rUm8qTZiZjmeq9BktWVTNuG3YWMc5AvkrCKJike",
+          "sol": 0.01287,
+          "blockTime": 1795469413,
+          "tx": "4eG6QhL2PnVnnf8UeNhNPCDKv87LgYZYiX4iuGfnB5BV9SqVEyq4GGMHf3Q6Ab8rCJK4hvezdpvtYhWwqqNJsoRU"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "3tqpS1u2mXkfiGSCKhaEZUeFQa2yfqmpmp85ZTBMZCjk": {
+      "wallet": "3tqpS1u2mXkfiGSCKhaEZUeFQa2yfqmpmp85ZTBMZCjk",
+      "signatures_analyzed": 309,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795469407,
+      "last_tx_blockTime": 1795582647,
+      "first_tx_utc": "2026-11-23T21:30:07+00:00",
+      "last_tx_utc": "2026-11-25T04:57:27+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "EbMRFGBcHei4gzwu6jzXMUaBVJ9Ee3awx245gGYDEtmU",
+          "sol": 0.01,
+          "blockTime": 1795469407,
+          "tx": "3CzaQJVrXfwrn6a2gEn1JYHkcMMvGpJhE4D8VasMamqYUEjUCbHTJLvjffnoNhUcKxPUSgo2zCHb35M7sgHB4dmd"
+        },
+        {
+          "target": "HJTgKABBx8VU8b2yvdjZ4ETXT7bTdFpng7LPHLivgpPx",
+          "sol": 0.00504,
+          "blockTime": 1795469407,
+          "tx": "3CzaQJVrXfwrn6a2gEn1JYHkcMMvGpJhE4D8VasMamqYUEjUCbHTJLvjffnoNhUcKxPUSgo2zCHb35M7sgHB4dmd"
+        },
+        {
+          "target": "2BpcLrj61UEpJfi9rb9PrsabBum2UZfVZijFbU5y4nvd",
+          "sol": 1.67901,
+          "blockTime": 1795469407,
+          "tx": "3CzaQJVrXfwrn6a2gEn1JYHkcMMvGpJhE4D8VasMamqYUEjUCbHTJLvjffnoNhUcKxPUSgo2zCHb35M7sgHB4dmd"
+        },
+        {
+          "target": "GXPFM2caqTtQYC2cJ5yJRi9VDkpsYZXzYdwYpGnLmtDL",
+          "sol": 0.00798,
+          "blockTime": 1795469407,
+          "tx": "3CzaQJVrXfwrn6a2gEn1JYHkcMMvGpJhE4D8VasMamqYUEjUCbHTJLvjffnoNhUcKxPUSgo2zCHb35M7sgHB4dmd"
+        },
+        {
+          "target": "2aSWZ3QXsNLVVBr1UB1HxSw7sqMRR2pv2qa5ohsTi5Gp",
+          "sol": 0.00798,
+          "blockTime": 1795469407,
+          "tx": "3CzaQJVrXfwrn6a2gEn1JYHkcMMvGpJhE4D8VasMamqYUEjUCbHTJLvjffnoNhUcKxPUSgo2zCHb35M7sgHB4dmd"
+        },
+        {
+          "target": "2ApLdwLrGayEmxgpLX9BTR47Q2QprfMg5SpjrLeaK8s7",
+          "sol": 0.01052,
+          "blockTime": 1795469413,
+          "tx": "S9aD7i7mgxYS6apdvJX3R6E2HoJpGVux29XFFG5T5rcN1jbfiwSEJu2NwPn3PwhE7RBR9LTAhQ5UwVgiwMV1471"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "EnU1CPeCqFtVnqnYhd1JgfcPrhcDx4ffLZEnV9TnjJ4g": {
+      "wallet": "EnU1CPeCqFtVnqnYhd1JgfcPrhcDx4ffLZEnV9TnjJ4g",
+      "signatures_analyzed": 343,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795469407,
+      "last_tx_blockTime": 1795582647,
+      "first_tx_utc": "2026-11-23T21:30:07+00:00",
+      "last_tx_utc": "2026-11-25T04:57:27+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "EbMRFGBcHei4gzwu6jzXMUaBVJ9Ee3awx245gGYDEtmU",
+          "sol": 0.011,
+          "blockTime": 1795469407,
+          "tx": "45qgxfHVtQXTNDT7CzrLUHZAYUpdFSDSkG7Trmeuse25VABx59XNkRHNHjFgwp6Maevz75BWvZ9LAQa57xSpTU4m"
+        },
+        {
+          "target": "HJTgKABBx8VU8b2yvdjZ4ETXT7bTdFpng7LPHLivgpPx",
+          "sol": 0.00652,
+          "blockTime": 1795469407,
+          "tx": "45qgxfHVtQXTNDT7CzrLUHZAYUpdFSDSkG7Trmeuse25VABx59XNkRHNHjFgwp6Maevz75BWvZ9LAQa57xSpTU4m"
+        },
+        {
+          "target": "2BpcLrj61UEpJfi9rb9PrsabBum2UZfVZijFbU5y4nvd",
+          "sol": 2.17284,
+          "blockTime": 1795469407,
+          "tx": "45qgxfHVtQXTNDT7CzrLUHZAYUpdFSDSkG7Trmeuse25VABx59XNkRHNHjFgwp6Maevz75BWvZ9LAQa57xSpTU4m"
+        },
+        {
+          "target": "GXPFM2caqTtQYC2cJ5yJRi9VDkpsYZXzYdwYpGnLmtDL",
+          "sol": 0.01032,
+          "blockTime": 1795469407,
+          "tx": "45qgxfHVtQXTNDT7CzrLUHZAYUpdFSDSkG7Trmeuse25VABx59XNkRHNHjFgwp6Maevz75BWvZ9LAQa57xSpTU4m"
+        },
+        {
+          "target": "2aSWZ3QXsNLVVBr1UB1HxSw7sqMRR2pv2qa5ohsTi5Gp",
+          "sol": 0.01032,
+          "blockTime": 1795469407,
+          "tx": "45qgxfHVtQXTNDT7CzrLUHZAYUpdFSDSkG7Trmeuse25VABx59XNkRHNHjFgwp6Maevz75BWvZ9LAQa57xSpTU4m"
+        },
+        {
+          "target": "HkJYryz2BNeMQfuuSWDYktWt5fZLV26eK6nqu7EJycoG",
+          "sol": 0.01785,
+          "blockTime": 1795469413,
+          "tx": "5k49Actphd933WHY2bZe7NiwyNjM4rVFG57SUnCN7pPtdYvGWsnCkVDQ4dVCF5AZe5jV1STVzfqSTbeE1YnF2vfC"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "5KhMUK6yK6FtDkXVmS5Tdy3Jnkd8yuRuUKWQKmGua1WV": {
+      "wallet": "5KhMUK6yK6FtDkXVmS5Tdy3Jnkd8yuRuUKWQKmGua1WV",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795537590,
+      "last_tx_blockTime": 1795585590,
+      "first_tx_utc": "2026-11-24T16:26:30+00:00",
+      "last_tx_utc": "2026-11-25T05:46:30+00:00",
+      "funders": [
+        {
+          "funder": "AxiomRXZAq1Jgjj9pHmNqVP7Lhu67wLXZJZbaK87TTSk",
+          "sol": 8.08089,
+          "blockTime": 1795537590,
+          "tx": "45rJmqTZURbMngqQJyUhVbcXiiBEUuJJvziiydJVvqdvnkfjeQBHcW7cv5c22PojxzfcXAunSj49ZupqwoXUAj8k"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "agi99FAA923YCx1eR9fsM22itAu4vdRznbug242mfwo": {
+      "wallet": "agi99FAA923YCx1eR9fsM22itAu4vdRznbug242mfwo",
+      "signatures_analyzed": 31,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795486161,
+      "last_tx_blockTime": 1795587476,
+      "first_tx_utc": "2026-11-24T02:09:21+00:00",
+      "last_tx_utc": "2026-11-25T06:17:56+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "7PfEvFDie7xGMCzLGZXmqYK5Ny6DpDtdrD6EEoF8R8Af",
+          "sol": 0.6,
+          "blockTime": 1795486161,
+          "tx": "xBZSwv4mW6tydTyqgcCEHS2mfmVSmYyfqRwnTHW7imGVCCvsLKsQe5CRsvmLVACRSh4iVN5LxshbTfwn164Cq4M"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "9su3UPQW3txjtKDZAkf2Kdimp5tEb9TM6hnJrGC1U7pY": {
+      "wallet": "9su3UPQW3txjtKDZAkf2Kdimp5tEb9TM6hnJrGC1U7pY",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795523154,
+      "last_tx_blockTime": 1795586865,
+      "first_tx_utc": "2026-11-24T12:25:54+00:00",
+      "last_tx_utc": "2026-11-25T06:07:45+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "4cqPL8GRKwMog3WvptcvWLogrecXK2wCGyZPT4PHvKtC",
+          "sol": 1.22375,
+          "blockTime": 1795523154,
+          "tx": "aQgMLfbhFJrbLfmrvj9ZcWLdn1un3wf5KNCLGWi51QTDpmJmvXrKApUSoGyGBZafGM6Qv2u48GYv7dFmNvhjNCf"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "6fAV85kfyqXexp7uJVqByxDehU61WGVq8YD3CSWrYwQ8": {
+      "wallet": "6fAV85kfyqXexp7uJVqByxDehU61WGVq8YD3CSWrYwQ8",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795485812,
+      "last_tx_blockTime": 1795589195,
+      "first_tx_utc": "2026-11-24T02:03:32+00:00",
+      "last_tx_utc": "2026-11-25T06:46:35+00:00",
+      "funders": [
+        {
+          "funder": "YrGebMs9ZJYMD182E4W6ZU5RMJ5fjiMAEYXCcAKrdK7",
+          "sol": 0.005,
+          "blockTime": 1795485812,
+          "tx": "2GDyxMSGFdx2hLxFuMVNPJv1TZTCMjeQDP6RswpbvgLwz4Qm22jUE1ktuDbdzKE2z24D1tMMJTvszJt5jexapTLA",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "DVoUQonkcuHrXaFeq75H8S7WRyDpFBVEwPwTirFJHfKy",
+          "sol": 0.2,
+          "blockTime": 1795489189,
+          "tx": "5p6fR4v3J6WJJHqftHBTf854QpNouYDeLky5Qk8u55jpDVDv4wHGRzdsjVNuTDMsGc3BjhrThNwMKFkmEbAiyrQ3"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "Hfgr8mSEfsDmmeMdQrSopeY7Y4KZP57kiTqbKPQEUxDE": {
+      "wallet": "Hfgr8mSEfsDmmeMdQrSopeY7Y4KZP57kiTqbKPQEUxDE",
+      "signatures_analyzed": 236,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795471459,
+      "last_tx_blockTime": 1795583386,
+      "first_tx_utc": "2026-11-23T22:04:19+00:00",
+      "last_tx_utc": "2026-11-25T05:09:46+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "2kFANb1yJJbAW2LRc8Ghj2iCmZSX9uPun8wJpqba9zhL",
+          "sol": 1.1,
+          "blockTime": 1795471459,
+          "tx": "25WdaPrakGN2SpgeYYNmAhKn32WMrqyS56pJ7gze5o4jNFcySEVtaXiRTpC9kbex3y5fV6HvJKyRfqH1wW95DFWX"
+        },
+        {
+          "target": "DpL6aCnxw8ZQYsa22WzebSntWnh3m6MvvCgkoUhb9Hqy",
+          "sol": 0.00204,
+          "blockTime": 1795471465,
+          "tx": "2DzigZyX7ctRBTY3vWeMAcBfvLApjkQJAduWcYknpzC2zfDo2ZXsmty8XePc4LGoNqUCjfiHwxo4ifJeNxTrhTR"
+        },
+        {
+          "target": "3jZ39JuPhaoctTFUyYknWXAuRFZuCUHgKJiaovXYk2wr",
+          "sol": 0.00204,
+          "blockTime": 1795583386,
+          "tx": "3PaZE1twZU2FEH6S5yWviKgXGnzMPUstkMo4VUm3MbGrfsRTDTTyjKk8yeF1cFwzNNo7Yxb71mSPrHDHCTon5LAZ"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "9kojcBF2tw88BDmNx4R4h1FsPwq9uuDmu6yqzARJN8Jg": {
+      "wallet": "9kojcBF2tw88BDmNx4R4h1FsPwq9uuDmu6yqzARJN8Jg",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795589833,
+      "last_tx_blockTime": 1795589943,
+      "first_tx_utc": "2026-11-25T06:57:13+00:00",
+      "last_tx_utc": "2026-11-25T06:59:03+00:00",
+      "funders": [
+        {
+          "funder": "GG7dN8UrvNFHhJpxdFijDr8Na3jMQ4Kt8fFoNVXCD4hx",
+          "sol": 0.005,
+          "blockTime": 1795589833,
+          "tx": "4YRY2PNV8hxF6n1psZ1GTLBMc7cKgcdwh4D3VFgnXrxBshwrkHGWGzFcCYRVamRnvbM3NycRCEc6TjszsUxjG4oM",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "7NdvhhjH4wtiUXyqiTaZHQSB3D1h6VLaLWRX8PqPq5fH",
+          "sol": 0.04813,
+          "blockTime": 1795589943,
+          "tx": "2fpEu4kqakao3T6nURbTFXqRwQPKnH4fWNNHUXfpK2YcyT9QHJbS7qx8mXt4evMGXZKGXgs7FU4nQ9eKQW9Snt3B"
+        },
+        {
+          "funder": "HckQ93Xqjjo8mwt5pNPWvyCTZXQZ858rvzmm7ZRrZg9t",
+          "sol": 0.005,
+          "blockTime": 1795589943,
+          "tx": "2fpEu4kqakao3T6nURbTFXqRwQPKnH4fWNNHUXfpK2YcyT9QHJbS7qx8mXt4evMGXZKGXgs7FU4nQ9eKQW9Snt3B",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "GvE4iNZeiNPFDkBwM1VqfhwRhYjxTj2MubJSTKjpjr44": {
+      "wallet": "GvE4iNZeiNPFDkBwM1VqfhwRhYjxTj2MubJSTKjpjr44",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795543528,
+      "last_tx_blockTime": 1795590149,
+      "first_tx_utc": "2026-11-24T18:05:28+00:00",
+      "last_tx_utc": "2026-11-25T07:02:29+00:00",
+      "funders": [
+        {
+          "funder": "HckQ93Xqjjo8mwt5pNPWvyCTZXQZ858rvzmm7ZRrZg9t",
+          "sol": 0.005,
+          "blockTime": 1795543528,
+          "tx": "4RAQgMJveX9GxaVwvjZZEn9tJVqz7wVYKPc5HauNZiJZnnCtgSQQpZD7EWGXEhX8S5uYZ3bKhP2qfRm8G9UQr36c",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "KfHbT5Jrr5SV3CDkQVCLiSNWyVv5DmuVaCzbAHrzMFQ",
+          "sol": 0.00234,
+          "blockTime": 1795590149,
+          "tx": "31zuXCuGeWmck9WcmHKQS8GdkJVkemmXMhcZPsMEktGRVPYFkiRNBUpxVCLVqcPnQSZ9rtFiycoYXp76W9kHE657"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "2yuhb9kSquJBEm1seDqzk6Aab8x7YKRnAMcThBNienbn": {
+      "wallet": "2yuhb9kSquJBEm1seDqzk6Aab8x7YKRnAMcThBNienbn",
+      "signatures_analyzed": 43,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795549169,
+      "last_tx_blockTime": 1795558141,
+      "first_tx_utc": "2026-11-24T19:39:29+00:00",
+      "last_tx_utc": "2026-11-24T22:09:01+00:00",
+      "funders": [
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.005,
+          "blockTime": 1795549169,
+          "tx": "45E9JmybBc4tqaJXvG2Z2H6YzAHaHzdYanTWVbwsxb4D1f9BiQGjwHMhWRwTWcznAYqMYNiRwAtpWsER3JJjotUM",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "6SBFf14gxN1KYEBw2YSvjwEVm6GEYcJ2fpoZ9Ursh8bS",
+          "sol": 0.005,
+          "blockTime": 1795558141,
+          "tx": "xWLhiESApwMvFyXkH2jJ3W84C9hg4Jgy7vDLyUt2K2yXJJxsmKNyjTJikGg3PvggaH6ctZdQYvZigFuYKPEWiAY",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "DCN9DEru5RmV3SJYbJMofn9fesDF87TrLzh1XiXvvRaB",
+          "sol": 0.05763,
+          "blockTime": 1795549169,
+          "tx": "45E9JmybBc4tqaJXvG2Z2H6YzAHaHzdYanTWVbwsxb4D1f9BiQGjwHMhWRwTWcznAYqMYNiRwAtpWsER3JJjotUM"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "4HCLA2dFzJAEScszQC3qKQ7xZiFegU7DjH99BmxduzZw": {
+      "wallet": "4HCLA2dFzJAEScszQC3qKQ7xZiFegU7DjH99BmxduzZw",
+      "signatures_analyzed": 0,
+      "pages_fetched": 0,
+      "history_completeness": "RPC_RATE_LIMITED_OR_EMPTY",
+      "first_tx_blockTime": null,
+      "last_tx_blockTime": null,
+      "first_tx_utc": "",
+      "last_tx_utc": "",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "9yA9LC2Bc6nmeafyffSDxUTu89KbGmdZ5s6br5NZNUoc": {
+      "wallet": "9yA9LC2Bc6nmeafyffSDxUTu89KbGmdZ5s6br5NZNUoc",
+      "signatures_analyzed": 273,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795469203,
+      "last_tx_blockTime": 1795585419,
+      "first_tx_utc": "2026-11-23T21:26:43+00:00",
+      "last_tx_utc": "2026-11-25T05:43:39+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "6EGJV7xvNh8cNpCi7kfpNmjyNRb3NDBdm7JcJHvu1tW8": {
+      "wallet": "6EGJV7xvNh8cNpCi7kfpNmjyNRb3NDBdm7JcJHvu1tW8",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795568731,
+      "last_tx_blockTime": 1795589995,
+      "first_tx_utc": "2026-11-25T01:05:31+00:00",
+      "last_tx_utc": "2026-11-25T06:59:55+00:00",
+      "funders": [
+        {
+          "funder": "EXYWmhXhSRXbjaN8c39QvFsCo3g4GK5fVQhe6uh3rJAS",
+          "sol": 0.005,
+          "blockTime": 1795568731,
+          "tx": "43YjKJheBStPfXRpCWEG1dkjVeXHm5wsrCRfW9NefeFXfomNmSpKUQBcBEugYidAHkaXyBuc6GgHRgn52f93cVLw",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "4sNGm23QhkUWMGBdoAJCFrXXoNEXHrGWKtp19PBp2qPB": {
+      "wallet": "4sNGm23QhkUWMGBdoAJCFrXXoNEXHrGWKtp19PBp2qPB",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795486596,
+      "last_tx_blockTime": 1795575835,
+      "first_tx_utc": "2026-11-24T02:16:36+00:00",
+      "last_tx_utc": "2026-11-25T03:03:55+00:00",
+      "funders": [
+        {
+          "funder": "8hiMr15igzE9NeWg1NcBy3sYBXXTmmWTG25tekpVs1sg",
+          "sol": 0.005,
+          "blockTime": 1795486596,
+          "tx": "2gNYGs5c1H8jGQh86XEASDVSc51TARPxCvwk9TzigM8tnMaCSTKLC8ZUwTWqqHNNFh42kH6ZPxVhQUDNWbA3K832",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "Fjttvngj2aSAYvsCUa5kiZ8SXctR9QNAAmV2ytkHVqLk",
+          "sol": 0.005,
+          "blockTime": 1795575835,
+          "tx": "4Q8y7FMcveTLoWUKxwDDoG97fupc4ZQxFfzyexLFuN7kMkDNRvfLrE7F92CTWNVxBm5keThtF5rhAPC9DaY8eMFq",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "GckmaEv6QfNqJdqrnoSo8unT4XMnPeDVvnckB5THvAD3": {
+      "wallet": "GckmaEv6QfNqJdqrnoSo8unT4XMnPeDVvnckB5THvAD3",
+      "signatures_analyzed": 494,
+      "pages_fetched": 3,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795469443,
+      "last_tx_blockTime": 1795564554,
+      "first_tx_utc": "2026-11-23T21:30:43+00:00",
+      "last_tx_utc": "2026-11-24T23:55:54+00:00",
+      "funders": [
+        {
+          "funder": "6LYfrwR67XS8zJPxD2PTEHKocr3d2MBgkZX8umGTfw6E",
+          "sol": 0.005,
+          "blockTime": 1795469443,
+          "tx": "5jwgjF3MEykzHatHcir75s2A2MZQbSTMzAeAVx63dAmU58SudXtCKNWrpL71EqSWDyufcUaX6jSLDhTNT9TKEa9t",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "2phTYhFT1BtCGx3c6xpxQb4bxuP1aFRrDbpmxSM9weLE",
+          "sol": 0.02488,
+          "blockTime": 1795470761,
+          "tx": "5oc3FusLMRQU9vge9cMviUHLoweet8Fk8mrKG2Jd8Tb5fpm9pKxKcL3UU32RpsXuPeidtodKsDAd1fZK5ZWicGu4"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "E2x1ewwXUwxABtFcssgxQLY6PrcRQuhLJRWPCR3WyeJb": {
+      "wallet": "E2x1ewwXUwxABtFcssgxQLY6PrcRQuhLJRWPCR3WyeJb",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795583676,
+      "last_tx_blockTime": 1795590201,
+      "first_tx_utc": "2026-11-25T05:14:36+00:00",
+      "last_tx_utc": "2026-11-25T07:03:21+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "9t5xWhjqr7ZGTKukA21C33XBARaUVGNypKygF1aw9dUW",
+          "sol": 0.49383,
+          "blockTime": 1795583676,
+          "tx": "59BhfTst9FJSrtYhJD24FCaxg33YwQXGnMe1rffbNQTt53Df8acpatKHMa8qCk7mqu5nfx1sYp91i1Qq2imSTg3x"
+        },
+        {
+          "target": "3BpXnfJaUTiwXnJNe7Ej1rcbzqTTQUvLShZaWazebsVR",
+          "sol": 0.00235,
+          "blockTime": 1795583676,
+          "tx": "59BhfTst9FJSrtYhJD24FCaxg33YwQXGnMe1rffbNQTt53Df8acpatKHMa8qCk7mqu5nfx1sYp91i1Qq2imSTg3x"
+        },
+        {
+          "target": "AVmoTthdrX6tKt4nDjco2D775W2YK3sDhxPcMmzUAmTY",
+          "sol": 0.00235,
+          "blockTime": 1795583676,
+          "tx": "59BhfTst9FJSrtYhJD24FCaxg33YwQXGnMe1rffbNQTt53Df8acpatKHMa8qCk7mqu5nfx1sYp91i1Qq2imSTg3x"
+        },
+        {
+          "target": "72emnWCbMtjqUJb5YGa7ZPBn47BWjmw9onWRVDxixM3f",
+          "sol": 0.49383,
+          "blockTime": 1795590201,
+          "tx": "5ehY8V2eLNZ5UWRW9vY8ZB9SkGZu5nocPxppWFTFHKbbcGtB2emu8KK77TjHCcEahWVKAErDFWWUgnDHATR3TeH6"
+        },
+        {
+          "target": "5YxQFdt3Tr9zJLvkFccqXVUwhdTWJQc1fFg2YPbxvxeD",
+          "sol": 0.00235,
+          "blockTime": 1795590201,
+          "tx": "5ehY8V2eLNZ5UWRW9vY8ZB9SkGZu5nocPxppWFTFHKbbcGtB2emu8KK77TjHCcEahWVKAErDFWWUgnDHATR3TeH6"
+        },
+        {
+          "target": "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+          "sol": 0.00235,
+          "blockTime": 1795590201,
+          "tx": "5ehY8V2eLNZ5UWRW9vY8ZB9SkGZu5nocPxppWFTFHKbbcGtB2emu8KK77TjHCcEahWVKAErDFWWUgnDHATR3TeH6"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "Gy4nMSDG3zcVDckcSD5P6gsH2dySeupQU72SiWSG5EZn": {
+      "wallet": "Gy4nMSDG3zcVDckcSD5P6gsH2dySeupQU72SiWSG5EZn",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795540778,
+      "last_tx_blockTime": 1795585985,
+      "first_tx_utc": "2026-11-24T17:19:38+00:00",
+      "last_tx_utc": "2026-11-25T05:53:05+00:00",
+      "funders": [
+        {
+          "funder": "AXAiNkgxDccDY8d6Pkq22fkqV6TJK9nu37gbAh8rj6Xd",
+          "sol": 0.04156,
+          "blockTime": 1795540838,
+          "tx": "4MX4FZTZrRMAnYAQBXXTo3Tr5HkXWD8Fnxot8ppFTJCKsi2DNGxCzSseE2RpAUThQmSMvuEWnko6vpkJt6wxV3VR"
+        },
+        {
+          "funder": "6L7JuHvdVrgDcVV43DdjHAEdQaHwb4H3ittNL31WupyQ",
+          "sol": 0.005,
+          "blockTime": 1795585985,
+          "tx": "4G5X9u9wBMW8xRjMVgiSAxKtMxjkTiS8PifeaGRpA18dZ2Y4VEGbU7KcWdPmho2rUjgYenvYgKKxAbkXjd31u4Uc",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "GSjRwrDRShRZig3GQe6MreWnuPHm3Bh57KvsbAAR38d6": {
+      "wallet": "GSjRwrDRShRZig3GQe6MreWnuPHm3Bh57KvsbAAR38d6",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795589815,
+      "last_tx_blockTime": 1795590180,
+      "first_tx_utc": "2026-11-25T06:56:55+00:00",
+      "last_tx_utc": "2026-11-25T07:03:00+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "2yp7veyWjuQLShYYQxqyU6wuMHESSqNd84dxzL3RokxD": {
+      "wallet": "2yp7veyWjuQLShYYQxqyU6wuMHESSqNd84dxzL3RokxD",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795569681,
+      "last_tx_blockTime": 1795590180,
+      "first_tx_utc": "2026-11-25T01:21:21+00:00",
+      "last_tx_utc": "2026-11-25T07:03:00+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "DDmq3qwXN7x5nMSvXatP8fRYPUCMqFvipHr27Q1aZNZm",
+          "sol": 0.08695,
+          "blockTime": 1795569681,
+          "tx": "A8nVqk4Ug6dHjyJ1VqVB82zu6zPAJkXhcfUHagd3aQ7HKFum9YpRy5PNCktxebHopxFfNNvUzDhRnJjhQKrnzuZ"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "3qvuM3U5UZPVagL1spxmgVgUvzT3h49gyJZyagxRtqKr": {
+      "wallet": "3qvuM3U5UZPVagL1spxmgVgUvzT3h49gyJZyagxRtqKr",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795584203,
+      "last_tx_blockTime": 1795588694,
+      "first_tx_utc": "2026-11-25T05:23:23+00:00",
+      "last_tx_utc": "2026-11-25T06:38:14+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "8gQ1TAdoJhQrEgPrnrRM5EQvUJNQRPjFRqB6jU7uJRGo",
+          "sol": 0.33613,
+          "blockTime": 1795584205,
+          "tx": "62WWvd39V1uWqMUc5UBRy6gsr9RN214TsVESLeiKEXnec5SQpQJZ9enMzpb4xAnY8HTg8J5FERkMVgucLrpnrSgN"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "B9h6X9WQ5d9j2YzeJXt929sW5Lhq5vGHTSrrN9e6q6aS": {
+      "wallet": "B9h6X9WQ5d9j2YzeJXt929sW5Lhq5vGHTSrrN9e6q6aS",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795558339,
+      "last_tx_blockTime": 1795586992,
+      "first_tx_utc": "2026-11-24T22:12:19+00:00",
+      "last_tx_utc": "2026-11-25T06:09:52+00:00",
+      "funders": [
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.005,
+          "blockTime": 1795586992,
+          "tx": "ckmFAGUWDehZcJ2CLxcnjc9RCMz1SvVM7ec6Myvd4vWLssPnR4CEHkkEyukFSoEfh9goCSB44PZG34sU8jfgsmP",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "C9Lp4ZEXkXVLUCB8e6BzjSBWcDGh8oMK2vwnntG24ZQA",
+          "sol": 0.09832,
+          "blockTime": 1795558339,
+          "tx": "3it58EjbWp66Kyx7iPh7XsMEKzfursQZF1dQ6yZ2yF4r7LFR9fXyiTe7CwAg4sdCNQcaHZGhbGqkTDbXo7h71Zaj"
+        },
+        {
+          "target": "KfHbT5Jrr5SV3CDkQVCLiSNWyVv5DmuVaCzbAHrzMFQ",
+          "sol": 0.00526,
+          "blockTime": 1795558345,
+          "tx": "5QUaBg1t6xmay9NEdHirNiCUmCmAiQQaP12T9RGZFaCXhnusTDV7np9k2JqZsGpDu2HdqBxJYRcSnvM2wufL8oVw"
+        },
+        {
+          "target": "BkULgpSwxdqWtR6bGVCdgEkjGeyNXVazCLhUnNC75wLk",
+          "sol": 0.04399,
+          "blockTime": 1795586992,
+          "tx": "ckmFAGUWDehZcJ2CLxcnjc9RCMz1SvVM7ec6Myvd4vWLssPnR4CEHkkEyukFSoEfh9goCSB44PZG34sU8jfgsmP"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "HGSjmeDUnt4otDKCUsGV1U2i7DnVfGdgaSQPaJ8hqLNp": {
+      "wallet": "HGSjmeDUnt4otDKCUsGV1U2i7DnVfGdgaSQPaJ8hqLNp",
+      "signatures_analyzed": 195,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795543115,
+      "last_tx_blockTime": 1795558689,
+      "first_tx_utc": "2026-11-24T17:58:35+00:00",
+      "last_tx_utc": "2026-11-24T22:18:09+00:00",
+      "funders": [
+        {
+          "funder": "Biw4eeaiYYYq6xSqEd7GzdwsrrndxA8mqdxfAtG3PTUU",
+          "sol": 1.51607,
+          "blockTime": 1795543115,
+          "tx": "4MEA9KSVRB6ZkjdNwWhNvAfKfYEzXAyTWQEWV2eUUPFG3brK4V6PnLGS99EMA8hTua5fpcu7Vq5vyWmh1msKfBwL"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "CMQpkb4eE6wq74XZWuL2v1rmFHJZujKSYLcGU5m7qvs9",
+          "sol": 0.0715,
+          "blockTime": 1795543428,
+          "tx": "2WfSKy8ttCNhX4eU8aGnUXKojS49w3dSUJVsV8HRkE15F7xdJv4UaP4kHAPwdmPdC4tteJcchFiQTGSTRDieNBwq"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "8KvbQp8vLv6WQyaqHyF1STJuP1ixhgXMg8AGscGAgmqq": {
+      "wallet": "8KvbQp8vLv6WQyaqHyF1STJuP1ixhgXMg8AGscGAgmqq",
+      "signatures_analyzed": 199,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795554074,
+      "last_tx_blockTime": 1795559591,
+      "first_tx_utc": "2026-11-24T21:01:14+00:00",
+      "last_tx_utc": "2026-11-24T22:33:11+00:00",
+      "funders": [
+        {
+          "funder": "2ESTLFb4S17AuGvDAhqLqCLqy7VrFYQ8NEuNew6ZeSuH",
+          "sol": 0.4,
+          "blockTime": 1795554074,
+          "tx": "3Gpq2bK5QzTuBmDw5Ga8xYKX53hjd15CEXY5vojANZpcCYMBbXkL4fuF52jeeBvaDjQJG6WzcevHiydNyJh9K9wS"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "B9zCdmzJvnUkL2UGtCpEH2hFMnpb3vN39cYEjEo4EsZh",
+          "sol": 0.05924,
+          "blockTime": 1795554157,
+          "tx": "2axMYeUfkpZuqNxpAxPVGUdhMmtNjaMG55qsuGDd1UjDmKpCfsR8Ez6ZWjKw5P9MivE7T778FBKmhYEtfBirXEFj"
+        },
+        {
+          "target": "2ESTLFb4S17AuGvDAhqLqCLqy7VrFYQ8NEuNew6ZeSuH",
+          "sol": 0.00394,
+          "blockTime": 1795559591,
+          "tx": "2qyYVFYKG9DifjdmKbez2bRY2pAu4QjA5ixEd1ZytS1BJRLaC8YsrcMbZHGxXUGUm15GCG9yjNr845rcDcP9RQER"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "ERpqrZVbfxLhFZSC22KMLwo1GpacDqgM9eK7cFEx7BYZ": {
+      "wallet": "ERpqrZVbfxLhFZSC22KMLwo1GpacDqgM9eK7cFEx7BYZ",
+      "signatures_analyzed": 483,
+      "pages_fetched": 3,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795542675,
+      "last_tx_blockTime": 1795567276,
+      "first_tx_utc": "2026-11-24T17:51:15+00:00",
+      "last_tx_utc": "2026-11-25T00:41:16+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "2Zpf1sDatdQJeYdyRnzW2yiaL2d6XP18mWynQeQZ6jgT",
+          "sol": 0.04766,
+          "blockTime": 1795542675,
+          "tx": "36NXWKNrV4Gf1qzTWZHamF4fJrk73r87NSE4oxwGi9s6vUbspfTaRpQgnoP2q1s9KyCMGDy7RG4U8p8DLpEPZtPe"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "Cw4mgaoaFQdb5ndA25pWZFkBjs4aRW5L8FFFwKbctDUN": {
+      "wallet": "Cw4mgaoaFQdb5ndA25pWZFkBjs4aRW5L8FFFwKbctDUN",
+      "signatures_analyzed": 45,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795557486,
+      "last_tx_blockTime": 1795568877,
+      "first_tx_utc": "2026-11-24T21:58:06+00:00",
+      "last_tx_utc": "2026-11-25T01:07:57+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "FYqbfNai5rrbXQiiPMPC8W77P4KNhFMz4hWriydsQJdX",
+          "sol": 0.0584,
+          "blockTime": 1795557486,
+          "tx": "3HJopMCvj19Q6ALgg8dxtpmzvbdU7ZxJPnWSYJNz7xeshiGBjDxR8RrF8CAjMf78h6srgNrzp1GNiBQUKoLVvd3P"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "BUKyaW4Wj8vcpa9wU7MCunYY79JSaqNbvjy49zKzpump",
+          "blockTimeMs": 1795557486000,
+          "source_owner": "FYqbfNai5rrbXQiiPMPC8W77P4KNhFMz4hWriydsQJdX",
+          "dest_owner": "Cw4mgaoaFQdb5ndA25pWZFkBjs4aRW5L8FFFwKbctDUN",
+          "amount_tokens": 2084769.1236,
+          "is_burn": 0,
+          "tx": "3HJopMCvj19Q6ALgg8dxtpmzvbdU7ZxJPnWSYJNz7xeshiGBjDxR8RrF8CAjMf78h6srgNrzp1GNiBQUKoLVvd3P"
+        },
+        {
+          "mint": "BUKyaW4Wj8vcpa9wU7MCunYY79JSaqNbvjy49zKzpump",
+          "blockTimeMs": 1795557515000,
+          "source_owner": "Cw4mgaoaFQdb5ndA25pWZFkBjs4aRW5L8FFFwKbctDUN",
+          "dest_owner": "FYqbfNai5rrbXQiiPMPC8W77P4KNhFMz4hWriydsQJdX",
+          "amount_tokens": 2084769.1236,
+          "is_burn": 0,
+          "tx": "4QsugEgMeobM4NjgBD4Bz2XZK6L43Q2wxfF4LF5YnGmVFmdv4dh8JZsBQPwhFHZrNonDC6MWfVQTQdX3NwQkJA9y"
+        }
+      ]
+    },
+    "sF2RowiDWs1Yk3uKfuhjDtZiT1HncRYJiNwbFeWXKzX": {
+      "wallet": "sF2RowiDWs1Yk3uKfuhjDtZiT1HncRYJiNwbFeWXKzX",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795583210,
+      "last_tx_blockTime": 1795587753,
+      "first_tx_utc": "2026-11-25T05:06:50+00:00",
+      "last_tx_utc": "2026-11-25T06:22:33+00:00",
+      "funders": [
+        {
+          "funder": "2FdQHteKUBkpVfEA8vfQQ7eaZHTLNCtUj7PMhZ92WaAQ",
+          "sol": 0.005,
+          "blockTime": 1795587753,
+          "tx": "WqjGdxzzo2jssZNNYn3EjMq8KvBtFVNxmqRNzbHbKQL5PHuV6xKoWrTZaeCLesjE4xJy7F4PVQLnU2Ew9gpvUWE",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "KfHbT5Jrr5SV3CDkQVCLiSNWyVv5DmuVaCzbAHrzMFQ",
+          "sol": 0.00225,
+          "blockTime": 1795583210,
+          "tx": "3PM948GqxbKaxH19xYnbrwDdHem156mjDKnEbRLH5T5NA71NbTX7V6sW8kvZtqBjVyL4Yo6bDPHhaaxbu6w5DKV2"
+        },
+        {
+          "target": "626eFxwMjtcchMyiDu9uK9PCwYwp6DZf92Apqz7CQPCw",
+          "sol": 0.4916,
+          "blockTime": 1795583210,
+          "tx": "3PM948GqxbKaxH19xYnbrwDdHem156mjDKnEbRLH5T5NA71NbTX7V6sW8kvZtqBjVyL4Yo6bDPHhaaxbu6w5DKV2"
+        },
+        {
+          "target": "Fh9HmeLNUMVCvejxCtCL2DbYaRyBFVJ5xrWkLnMH6fdk",
+          "sol": 0.00467,
+          "blockTime": 1795583210,
+          "tx": "3PM948GqxbKaxH19xYnbrwDdHem156mjDKnEbRLH5T5NA71NbTX7V6sW8kvZtqBjVyL4Yo6bDPHhaaxbu6w5DKV2"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "2T5bTmfwtEzbH9Szqy3eL5NaTpnh4gAtCPqWhsLC7LCs": {
+      "wallet": "2T5bTmfwtEzbH9Szqy3eL5NaTpnh4gAtCPqWhsLC7LCs",
+      "signatures_analyzed": 524,
+      "pages_fetched": 3,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795478254,
+      "last_tx_blockTime": 1795587315,
+      "first_tx_utc": "2026-11-23T23:57:34+00:00",
+      "last_tx_utc": "2026-11-25T06:15:15+00:00",
+      "funders": [
+        {
+          "funder": "AQ4ToCUUohHDg5Y2vnDgQDHeF2r4Wm7rZuKWDxEwMQBo",
+          "sol": 0.005,
+          "blockTime": 1795478254,
+          "tx": "5Jcridfpo8REAzJ7mdDc2KTxE68xir5Fbca7rdNzyKXTh6UVqdQpQnDLJDjVNrQ5crkkRvdxdf4u4CDGLvCT7ZFo",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.02013,
+          "blockTime": 1795478510,
+          "tx": "42uGwCfFXofW5zXC9gWRvV3hHqprjxgK8taUUtkakExfJzDrmdELexS6daCpBSnNEFHDA7uZJAH2hyBcQEQWWNjL"
+        },
+        {
+          "funder": "2vYSpKPGs1ZUxfceg9Pnea2QeXQzUh4KPo3FadDdKfJK",
+          "sol": 0.005,
+          "blockTime": 1795587315,
+          "tx": "2mqjinvd5oC5igt6gsiq9dsK76Rrs8FHUUx1w3yUUHP526GfNTo5VTUKinJjmvfDJHoCJenpgx2aCRmhwPFiDvuS",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "EqrZSKazsDDboboNyQqgP21ew1tsQhj65VPfmU5osj2W": {
+      "wallet": "EqrZSKazsDDboboNyQqgP21ew1tsQhj65VPfmU5osj2W",
+      "signatures_analyzed": 415,
+      "pages_fetched": 3,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795555806,
+      "last_tx_blockTime": 1795576555,
+      "first_tx_utc": "2026-11-24T21:30:06+00:00",
+      "last_tx_utc": "2026-11-25T03:15:55+00:00",
+      "funders": [
+        {
+          "funder": "D5swUVdXrazdFqqUaLEEJc7ww84QNLEPytkArGn6hfgF",
+          "sol": 1.06991,
+          "blockTime": 1795555806,
+          "tx": "Ae321e2TsR4JM3JDbGLXLsjRYf3babbH3ygJ46vZZ4ojcsJnK7WsLp3jTt3Z3B1DCRJXCHHWtS5dFHU8Lj6ZZ46"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "8gL4n6Am5uWMDLC64EUv4sZR9VwJeMwgt9W2fpPndqRS",
+          "sol": 0.01,
+          "blockTime": 1795555896,
+          "tx": "4iNGcz5pZqhQJnWWTmWXvqSsUABbkG7Uvg75p7tgPq2En8KBKrwgngxPRdEqoifhcozXRoo2coKJeyyDvRzEHTgL"
+        },
+        {
+          "target": "EcKwK9r1PCVm5R1iTstNjpGBQCqUqT66AGZ1snMQskvv",
+          "sol": 0.047,
+          "blockTime": 1795576555,
+          "tx": "5oHHD3HBBUrURiDKEA6umtthmJhNzsTsqABZPvsmYLSyNy9HupDU3qSTZKAcHZprNtFEdeFqVsGPEBQxiqJvKgUt"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "FnYJSYCe6dTasVTFBEzAnPrw1iahmybArV6JVZUvtYcY": {
+      "wallet": "FnYJSYCe6dTasVTFBEzAnPrw1iahmybArV6JVZUvtYcY",
+      "signatures_analyzed": 39,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795471809,
+      "last_tx_blockTime": 1795558388,
+      "first_tx_utc": "2026-11-23T22:10:09+00:00",
+      "last_tx_utc": "2026-11-24T22:13:08+00:00",
+      "funders": [
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.01699,
+          "blockTime": 1795471809,
+          "tx": "4vd7ACt9na516ZSh6yg1Ray31e8KnqmhEfGLQ8ANxvifRPL4AdJPW5tsEz2V76vmLwuiYPYi7F4gV9nbGJ7JvSWZ"
+        },
+        {
+          "funder": "8BVGj4zyKFggkwBSDMhfojqfXivBYWHjih3unUuMADr4",
+          "sol": 0.005,
+          "blockTime": 1795558388,
+          "tx": "TAvuvg4TmgHwjdMxjDrJMxrpc9Rp2hCosuakLaGB8aPeNx8uSBzxvtp5h9UtVJuGeqptqWm2CggKZsFxaWW1bsu",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "4efcrY7DKhW5ogpXqFpUPdpVmvNuMMUMfutwDLSzZTuS",
+          "sol": 0.00413,
+          "blockTime": 1795471809,
+          "tx": "QMbyKCgdjWNLbdtsePLq9Bd1mntikjscFST4ycC9gHGFVthNfdnyHN5qtwdnJtNc185Q8A4zRiyYZu77rHmjgTV"
+        },
+        {
+          "target": "Gx5YqWEihwGmQqSAuxT8SAdqhrB4qBCV5SvrzmGLXUfL",
+          "sol": 1.37559,
+          "blockTime": 1795471809,
+          "tx": "QMbyKCgdjWNLbdtsePLq9Bd1mntikjscFST4ycC9gHGFVthNfdnyHN5qtwdnJtNc185Q8A4zRiyYZu77rHmjgTV"
+        },
+        {
+          "target": "A7hAgCzFw14fejgCp387JUJRMNyz4j89JKnhtKU8piqW",
+          "sol": 0.00653,
+          "blockTime": 1795471809,
+          "tx": "QMbyKCgdjWNLbdtsePLq9Bd1mntikjscFST4ycC9gHGFVthNfdnyHN5qtwdnJtNc185Q8A4zRiyYZu77rHmjgTV"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "2Syv3Nb6G4X5quprQxSq34KjKRcrKvDS9PSnqJjxQe9N": {
+      "wallet": "2Syv3Nb6G4X5quprQxSq34KjKRcrKvDS9PSnqJjxQe9N",
+      "signatures_analyzed": 92,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795482253,
+      "last_tx_blockTime": 1795558783,
+      "first_tx_utc": "2026-11-24T01:04:13+00:00",
+      "last_tx_utc": "2026-11-24T22:19:43+00:00",
+      "funders": [
+        {
+          "funder": "94mo7B5LgMLrGVYfhLftHjTyLcMDSyJF3frpF4GgGL3",
+          "sol": 1.0,
+          "blockTime": 1795482253,
+          "tx": "5wkvCwY2YhRd6YbqpZyUaygeSQiBQdiDhFExp7Y56iBeNDKuKMiqaJWvttphLUctRqK4GFD6nBgEMahV8VNoiZCi"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "jxtek34rjoHj8wAYyBKXJTYBMnC9FZLscSkqYUHZHM7",
+          "sol": 0.01105,
+          "blockTime": 1795482259,
+          "tx": "4VkDoyyGuWJ4FCDCTquqZVwJZNdrY5xYdDxnEUC8tuj6SugbprQqRkFF9t88UBFXi3VTGpaPSC9wqszuaktkPZdT"
+        },
+        {
+          "target": "EmMq1t3eiHXgsDtCG76KUgPmwbjdMBrsBV9u3zD6PwN8",
+          "sol": 1.0,
+          "blockTime": 1795482259,
+          "tx": "4VkDoyyGuWJ4FCDCTquqZVwJZNdrY5xYdDxnEUC8tuj6SugbprQqRkFF9t88UBFXi3VTGpaPSC9wqszuaktkPZdT"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "8uvpFCD1g7TLWFqie1nzYt6MiAuajGztWxdZxAvfoa68": {
+      "wallet": "8uvpFCD1g7TLWFqie1nzYt6MiAuajGztWxdZxAvfoa68",
+      "signatures_analyzed": 13,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795511858,
+      "last_tx_blockTime": 1795558314,
+      "first_tx_utc": "2026-11-24T09:17:38+00:00",
+      "last_tx_utc": "2026-11-24T22:11:54+00:00",
+      "funders": [
+        {
+          "funder": "78h91GHsF3onz7hh7Ra3tUJSCq8xPxx73JG9UiHHybnZ",
+          "sol": 0.005,
+          "blockTime": 1795558314,
+          "tx": "64QVRfWZMgCAFC9oDtCSCcyMGUA4fWGCRhSbYJhVDqTxtrnWjh6NQEYkM1RNoBPBexVuoDsmSqmtboS2nyFxJoFC",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "3EKdPxu39q8fu4qqXBtTBza3MwSC4CLs7oK11Gw5py1R",
+          "sol": 0.198,
+          "blockTime": 1795511858,
+          "tx": "qzuRUXM3opSfRRa7uaCMFeC3KxYq2VVwszSMpjPZYFCtYmQW3YUmVDpEKqjjufsDfPRYCZkS1Bs3sNwB5BGfQWW"
+        },
+        {
+          "target": "3Tu1Y9aNveLFN4WTAwnAwXL6tbUp5MMe3RxyybG4jTAS",
+          "sol": 0.002,
+          "blockTime": 1795511858,
+          "tx": "qzuRUXM3opSfRRa7uaCMFeC3KxYq2VVwszSMpjPZYFCtYmQW3YUmVDpEKqjjufsDfPRYCZkS1Bs3sNwB5BGfQWW"
+        },
+        {
+          "target": "2ApLdwLrGayEmxgpLX9BTR47Q2QprfMg5SpjrLeaK8s7",
+          "sol": 0.00243,
+          "blockTime": 1795511864,
+          "tx": "iSfBye3MGHbuh8rqrUeWDPUDxpfFSjV7mzi9zUtTWAt61JV8EsAvWTBHC1kBfVKKrsZGfZ39rs54PV7aJzoFM4Q"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "AYzpeszUb8FgfGkUM63eqN5dY4tw3KQjufjLnCrNdnXM": {
+      "wallet": "AYzpeszUb8FgfGkUM63eqN5dY4tw3KQjufjLnCrNdnXM",
+      "signatures_analyzed": 105,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795485891,
+      "last_tx_blockTime": 1795581962,
+      "first_tx_utc": "2026-11-24T02:04:51+00:00",
+      "last_tx_utc": "2026-11-25T04:46:02+00:00",
+      "funders": [
+        {
+          "funder": "8mmKfsJ8Fxhs2MiTcq8gTB4wwDRJ4JXzTvdq2Kx4HhSb",
+          "sol": 0.02219,
+          "blockTime": 1795485891,
+          "tx": "4caMvZuTWwnp4dBHsRsJUyBD2taPCuVTeU7xJBR7Lksg2PG5YRfxu6as3sT4vasjRkS1UbgQArGEApCpmkpE31kA"
+        },
+        {
+          "funder": "AoHHq8FSnXhumKK92zWM4QdyoaAzxQGaeoAsu8b5uRnu",
+          "sol": 0.005,
+          "blockTime": 1795581962,
+          "tx": "2vgTDTSsLg2j2sbTeLjH2dE1jriy9cDF1Kwbzbud4DouNyAo4NuvJsMJrswy8xoMsek17A5euzTc4vnV8rChqmF5",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "jomS3ud2rkFMQQT3edpDY34awzBLNjsmGTCCK2WrDq7",
+          "sol": 0.03315,
+          "blockTime": 1795486561,
+          "tx": "393erUURWmrQrghz74g1K8VbvhkqZY8ATc7CCuTqYa5W4yzhXr3a2HgnhwgbwEc1CH3AaRk8ieD69bygTkvVuaS1"
+        },
+        {
+          "target": "moonXwpKwoVkMegt5Bc776cSW793X1irL5hHV1vJ3JA",
+          "sol": 0.0025,
+          "blockTime": 1795486561,
+          "tx": "393erUURWmrQrghz74g1K8VbvhkqZY8ATc7CCuTqYa5W4yzhXr3a2HgnhwgbwEc1CH3AaRk8ieD69bygTkvVuaS1"
+        },
+        {
+          "target": "FcN4bKHpeC7GsyAmhnABXgvTd46aY4YZuaBsxkiZmic1",
+          "sol": 3.0,
+          "blockTime": 1795486561,
+          "tx": "393erUURWmrQrghz74g1K8VbvhkqZY8ATc7CCuTqYa5W4yzhXr3a2HgnhwgbwEc1CH3AaRk8ieD69bygTkvVuaS1"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "FoGFn8C4E7HopaxQq2yeDDK5j5Gws1h2x64QFDcGeBNk": {
+      "wallet": "FoGFn8C4E7HopaxQq2yeDDK5j5Gws1h2x64QFDcGeBNk",
+      "signatures_analyzed": 0,
+      "pages_fetched": 0,
+      "history_completeness": "RPC_RATE_LIMITED_OR_EMPTY",
+      "first_tx_blockTime": null,
+      "last_tx_blockTime": null,
+      "first_tx_utc": "",
+      "last_tx_utc": "",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "PXhnoRA3u5bcD4EKpJqo1JTqwB3kHUMk1Qyhj2YMCWR": {
+      "wallet": "PXhnoRA3u5bcD4EKpJqo1JTqwB3kHUMk1Qyhj2YMCWR",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795515737,
+      "last_tx_blockTime": 1795558340,
+      "first_tx_utc": "2026-11-24T10:22:17+00:00",
+      "last_tx_utc": "2026-11-24T22:12:20+00:00",
+      "funders": [
+        {
+          "funder": "8hiMr15igzE9NeWg1NcBy3sYBXXTmmWTG25tekpVs1sg",
+          "sol": 0.005,
+          "blockTime": 1795515737,
+          "tx": "41uPsLCip5x3kCysZHi3y8ZeByi18tP4DEpHeo8XsLVnJ85KW6YjC7Z2eGCjzhtrea4D1D4k8KrsRvvys3VNqjKx",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "79ANFkrKchNBzZ77geKjK5JYhvL9CuYYmYLLPu5chS99",
+          "sol": 0.005,
+          "blockTime": 1795558340,
+          "tx": "49wtjG2mzk653yvzNhBynFajYUnMHjV19KhtfpdyYkRMVeUBMjHbN5oTLkb2n2UnCwGQDPYS3pBkNTDLUz4jDNDx",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "7naFFwuEJWeWwWYQUkgAWHsxYKg3KctEuUj42JdAMidP": {
+      "wallet": "7naFFwuEJWeWwWYQUkgAWHsxYKg3KctEuUj42JdAMidP",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795528760,
+      "last_tx_blockTime": 1795589526,
+      "first_tx_utc": "2026-11-24T13:59:20+00:00",
+      "last_tx_utc": "2026-11-25T06:52:06+00:00",
+      "funders": [
+        {
+          "funder": "6L7JuHvdVrgDcVV43DdjHAEdQaHwb4H3ittNL31WupyQ",
+          "sol": 0.005,
+          "blockTime": 1795528760,
+          "tx": "3LiBfwdPBxn5uVkr1MafrUPhZNT2YNd7nsuJXKxG9qbtbFefEqhEHFmD6BA1guEHmJwzjyt8QY5667fWRN7uMfUp",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "AE9waz4LEDPFSuwfyyLmXViXt1zewrfKxJ7odFsjRf7t",
+          "sol": 0.005,
+          "blockTime": 1795529318,
+          "tx": "k291emFKMez1HRnGqCkPTJEKcFv4U1ABBcthkbEtu6KfVK6VLcPTnwYk9ZgDiaNnPgD5CEUp65Nox1nACN3GR4g",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "9XNqUUd6MhGki2FotZJrVtob96MBEeSHgaT5Z7kciLUY",
+          "sol": 0.005,
+          "blockTime": 1795589526,
+          "tx": "4f1sUgm7hjrnGGvzQ2TAyPEDe85FhQ5pbrwjbX72axmXXL3A5Gd91xkjcTvhbJFg7GJGsVNViMVifP7nDpkjiGdU",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "TwqZTgX5vS2rAbiaJfM66ivporhNwDxQGLSvvAN2hKV": {
+      "wallet": "TwqZTgX5vS2rAbiaJfM66ivporhNwDxQGLSvvAN2hKV",
+      "signatures_analyzed": 54,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795469619,
+      "last_tx_blockTime": 1795558281,
+      "first_tx_utc": "2026-11-23T21:33:39+00:00",
+      "last_tx_utc": "2026-11-24T22:11:21+00:00",
+      "funders": [
+        {
+          "funder": "7YYbmNUqBRgenwnVfcjsqmVUWwAFonDea4TPwrLpah9i",
+          "sol": 0.005,
+          "blockTime": 1795469678,
+          "tx": "3iBv15kBuuiTwBrYZk7k6GMTzUdZiew4uisgKFFYCVTSZtuX5oE4dM97NLWtNhQAKnkHkegRaJnSQpFtZGLQMACM",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "BcjF5pt77PPEwexiTLtqdXVNXmoxLmtNDFMtGN3eS93c",
+          "sol": 0.99,
+          "blockTime": 1795469619,
+          "tx": "33kGr5xz5oNvpnExNxQVenhPCL11rCLPb7ZT8Eam8Mp3j4FyLgEfjoQxvA3oJzXrT9hdrCitZvzZtDh87vvYjhVq"
+        },
+        {
+          "target": "ECDrSz47nXihe5kyK4oWEePPsPi9qz6u5d6Fa2sDj3uM",
+          "sol": 0.01,
+          "blockTime": 1795469619,
+          "tx": "33kGr5xz5oNvpnExNxQVenhPCL11rCLPb7ZT8Eam8Mp3j4FyLgEfjoQxvA3oJzXrT9hdrCitZvzZtDh87vvYjhVq"
+        },
+        {
+          "target": "GvY2ErTcRv6jw2mhmp54Ta2dahHsRKTw6r4dUt9rPqae",
+          "sol": 1.25159,
+          "blockTime": 1795558281,
+          "tx": "4fXK4uDmECkHcGBJoCopVfmKEKUxktgZbZzcnq2N24jk83n51kHbeHD8d2DWnzrNG6vgcrTiKYPENnDUZJzJKZ4L"
+        },
+        {
+          "target": "5vPNE6VFyXmCmzmWotdxmRk57LEWiXxuAfZL3hKbi2LH",
+          "sol": 0.01252,
+          "blockTime": 1795558281,
+          "tx": "4fXK4uDmECkHcGBJoCopVfmKEKUxktgZbZzcnq2N24jk83n51kHbeHD8d2DWnzrNG6vgcrTiKYPENnDUZJzJKZ4L"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "undwZZbXFTXAizTeeNpmygJDa4pWopEr1UCDSWpyo4y": {
+      "wallet": "undwZZbXFTXAizTeeNpmygJDa4pWopEr1UCDSWpyo4y",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795567273,
+      "last_tx_blockTime": 1795567304,
+      "first_tx_utc": "2026-11-25T00:41:13+00:00",
+      "last_tx_utc": "2026-11-25T00:41:44+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "CKadKn6eQka9NaUQXbBNy37PfvELFa5jKzuPC351HEs7": {
+      "wallet": "CKadKn6eQka9NaUQXbBNy37PfvELFa5jKzuPC351HEs7",
+      "signatures_analyzed": 78,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795518806,
+      "last_tx_blockTime": 1795558803,
+      "first_tx_utc": "2026-11-24T11:13:26+00:00",
+      "last_tx_utc": "2026-11-24T22:20:03+00:00",
+      "funders": [
+        {
+          "funder": "AxiomRYAid8ZDhS1bJUAzEaNSr69aTWB9ATfdDLfUbnc",
+          "sol": 0.005,
+          "blockTime": 1795558803,
+          "tx": "4oVkNN9ty8nCww3PwXNSv9GKeU8qmXpzHukQUNRP8c4wBSe26VR5DehYRy8a1eqZWyAxoNhykgnrHt991tpK9QB6",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "nozSSiMdSUx7gRUyJXH1dYainEwpfjD1tjh8PPxCWsW",
+          "sol": 0.0312,
+          "blockTime": 1795518806,
+          "tx": "3ZqYLgWr41CY16HvE2ytDPEGGCFDQvyBCbWvWF9nBip1LasuKfttoEnw1otsQjppntHM2GSLPzBq7tHoWB3mPYKe"
+        },
+        {
+          "target": "moonXwpKwoVkMegt5Bc776cSW793X1irL5hHV1vJ3JA",
+          "sol": 0.0025,
+          "blockTime": 1795518806,
+          "tx": "3ZqYLgWr41CY16HvE2ytDPEGGCFDQvyBCbWvWF9nBip1LasuKfttoEnw1otsQjppntHM2GSLPzBq7tHoWB3mPYKe"
+        },
+        {
+          "target": "HWsHJjG4DgACa1SvVSgcEGoYpRJpBAHGJJ1dVKs8kViJ",
+          "sol": 3.0375,
+          "blockTime": 1795518806,
+          "tx": "3ZqYLgWr41CY16HvE2ytDPEGGCFDQvyBCbWvWF9nBip1LasuKfttoEnw1otsQjppntHM2GSLPzBq7tHoWB3mPYKe"
+        },
+        {
+          "target": "GcWPJFeE5gw9bJ4mCZhq6YCKqhXHHWSqBY13FHyCWSK8",
+          "sol": 0.00585,
+          "blockTime": 1795518806,
+          "tx": "2oxJSTAiv3APikjU4wTCsyhqwFHgvSRfAeo5cwY4E9xiyBvMzUswaVWLJpYvwQE5poUUS6RZ95EfiRp88x7xhdnT"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "CFrBYeQS2aF5XouLFfE9trX6rVeb1BTwmFPckY2ySWUH": {
+      "wallet": "CFrBYeQS2aF5XouLFfE9trX6rVeb1BTwmFPckY2ySWUH",
+      "signatures_analyzed": 19,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795553907,
+      "last_tx_blockTime": 1795559532,
+      "first_tx_utc": "2026-11-24T20:58:27+00:00",
+      "last_tx_utc": "2026-11-24T22:32:12+00:00",
+      "funders": [
+        {
+          "funder": "9obNtb5GyUegcs3a1CbBkLuc5hEWynWfJC6gjz5uWQkE",
+          "sol": 2.73733,
+          "blockTime": 1795553907,
+          "tx": "4NVEpb4GqwAe2V9kAn9fnFbvAjsfzK9h8vT9buue5R8VnXePCCwjYoyoe9qbbrrQbHVegMJx1aRsVL8AUKinVXzT"
+        },
+        {
+          "funder": "ACegfPdbCe7bdoz6FW3BaHXUKZFDvWw4uNGgidcnHk62",
+          "sol": 0.005,
+          "blockTime": 1795559532,
+          "tx": "FmVokMrpLZfqNSZbJ8fvYM2uRQWQiUrszzeEVxihVqNXRFQcFEs6y44i8mRGiNZeobzapdoPjCSweTcQ1vzTsSR",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "2j4xv9WWvLGyEHPn7cQbxxDXT6L88QU4ubJ5DnHirmFf",
+          "sol": 1.4,
+          "blockTime": 1795553970,
+          "tx": "wm5NBoabaQoKjXsnA3Qe2tmYgGBCTFhjCaaRZYeQqREaKVBPU18KCcQ73efC1amTJq2857KnwzzuW43shLzGSy8"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "8PWdq8NGtp2vx3KKhW3PKpNB7r6a5M9e993hGxY8ybDs": {
+      "wallet": "8PWdq8NGtp2vx3KKhW3PKpNB7r6a5M9e993hGxY8ybDs",
+      "signatures_analyzed": 256,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795474843,
+      "last_tx_blockTime": 1795570018,
+      "first_tx_utc": "2026-11-23T23:00:43+00:00",
+      "last_tx_utc": "2026-11-25T01:26:58+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "7YGrmCKWQnr5kR6wY83CKCSSXiJuSV6eJBy1GjVgKYtU",
+          "sol": 0.05357,
+          "blockTime": 1795474843,
+          "tx": "5baWXHxqpbVaYSuu75LH6GiZ3dSLam8C4fjkr2AEa1By6ikxs18ifdhE4qiZGAy27Fd54qfhay4NVW19EK5FX6Kv"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "8gjhjFAteNBr5sAhShsUSQxfecwx8qMrtN1G8duWtPiB": {
+      "wallet": "8gjhjFAteNBr5sAhShsUSQxfecwx8qMrtN1G8duWtPiB",
+      "signatures_analyzed": 112,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795476777,
+      "last_tx_blockTime": 1795589080,
+      "first_tx_utc": "2026-11-23T23:32:57+00:00",
+      "last_tx_utc": "2026-11-25T06:44:40+00:00",
+      "funders": [
+        {
+          "funder": "Gmdf5VfrhhH6FM89w2hjR8GE71wyyXQ4rFwiDejppoVH",
+          "sol": 1.98425,
+          "blockTime": 1795476777,
+          "tx": "5PKdck6rLdacG3bMZKMjpxtFxHxFD2GNGj382JVxQVnZhJGkFRFMh8cLpNZowLU3vcXYGuuRWh8APfx8Fs7DZEV"
+        },
+        {
+          "funder": "HZGBSBSCAV2a9EuFmobjubTVLCFTH6p9kV64qjDmyvPL",
+          "sol": 1.98069,
+          "blockTime": 1795476778,
+          "tx": "4wRKBuGua5HdPFnhk8sfPyzFfgCob9QTWt493dKAXhBD3nwmRM8tPGLj9jJYd6vepAYFhrHZ2Cs8TP5SaqBMjiHF"
+        },
+        {
+          "funder": "AxiomRYAid8ZDhS1bJUAzEaNSr69aTWB9ATfdDLfUbnc",
+          "sol": 0.005,
+          "blockTime": 1795589080,
+          "tx": "4DD8McuEaDCgS1XndHCMiNtegRZwLuJGoSsa1a1jg3qxj6nsVp3L5peLRdso1zML6hGcCQc6xs94NFWd5XuWpcE5",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "28hyaaU9yZc1AhPfiriz334b5nZZ6HDkahpCoiMPhLWn": {
+      "wallet": "28hyaaU9yZc1AhPfiriz334b5nZZ6HDkahpCoiMPhLWn",
+      "signatures_analyzed": 134,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795556908,
+      "last_tx_blockTime": 1795564169,
+      "first_tx_utc": "2026-11-24T21:48:28+00:00",
+      "last_tx_utc": "2026-11-24T23:49:29+00:00",
+      "funders": [
+        {
+          "funder": "8DfHuYFv7VQ6wgcGtVDN2vtFn5ezF52hHNtPWYcqm8hU",
+          "sol": 1.08038,
+          "blockTime": 1795556908,
+          "tx": "J3nj2fTVDnKT1DS3dD6mBArrHFqstWUFFkM6ddKL8ieMS2g2U5UpK1ZRcKHVoUa6SmZ4Fibup9qvYw4q4sAw2XL"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "KfHbT5Jrr5SV3CDkQVCLiSNWyVv5DmuVaCzbAHrzMFQ",
+          "sol": 0.0041,
+          "blockTime": 1795557075,
+          "tx": "5Q4KC6m85AQyivPzdxoVJ6rZUAe8rs9RYSmMaDEkaE6JCVGw8fsM35oLPM2QiSCGiULLwFmfZs6LZx8iH1fDVotU"
+        },
+        {
+          "target": "HeoXrhTZ4oawGDeUsuN2TDACD7VkbHU4mh6M3NkqXfTd",
+          "sol": 0.00266,
+          "blockTime": 1795557075,
+          "tx": "5Q4KC6m85AQyivPzdxoVJ6rZUAe8rs9RYSmMaDEkaE6JCVGw8fsM35oLPM2QiSCGiULLwFmfZs6LZx8iH1fDVotU"
+        },
+        {
+          "target": "31ihKezDocJNpsUoKYSp3yKFtb6cmimKWN51bCzwtm3N",
+          "sol": 0.88686,
+          "blockTime": 1795557075,
+          "tx": "5Q4KC6m85AQyivPzdxoVJ6rZUAe8rs9RYSmMaDEkaE6JCVGw8fsM35oLPM2QiSCGiULLwFmfZs6LZx8iH1fDVotU"
+        },
+        {
+          "target": "7VtfL8fvgNfhz17qKRMjzQEXgbdpnHHHQRh54R9jP2RJ",
+          "sol": 0.00421,
+          "blockTime": 1795557075,
+          "tx": "5Q4KC6m85AQyivPzdxoVJ6rZUAe8rs9RYSmMaDEkaE6JCVGw8fsM35oLPM2QiSCGiULLwFmfZs6LZx8iH1fDVotU"
+        },
+        {
+          "target": "EHAAiTxcdDwQ3U4bU6YcMsQGaekdzLS3B5SmYo46kJtL",
+          "sol": 0.00421,
+          "blockTime": 1795557075,
+          "tx": "5Q4KC6m85AQyivPzdxoVJ6rZUAe8rs9RYSmMaDEkaE6JCVGw8fsM35oLPM2QiSCGiULLwFmfZs6LZx8iH1fDVotU"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "7jQwHdK771P286Vsn44v7dFVfCH8CzZcL3PZGidbShch": {
+      "wallet": "7jQwHdK771P286Vsn44v7dFVfCH8CzZcL3PZGidbShch",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795513405,
+      "last_tx_blockTime": 1795571570,
+      "first_tx_utc": "2026-11-24T09:43:25+00:00",
+      "last_tx_utc": "2026-11-25T01:52:50+00:00",
+      "funders": [
+        {
+          "funder": "9Y8mHspQssHzcWvP3w8imABANGvLRrKFoAxEJKVad6tL",
+          "sol": 0.005,
+          "blockTime": 1795571570,
+          "tx": "2EhaoWBa2LMaMXhDak5ECeKgpKNwMYSd2RzxhyUzJHjscsEZeWbwPVf1US4SQ3tkMCVVPG4g6S7dHUpt4gVV5czR",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "ECDrSz47nXihe5kyK4oWEePPsPi9qz6u5d6Fa2sDj3uM",
+          "sol": 0.00522,
+          "blockTime": 1795513405,
+          "tx": "3P9fbUZiowrYcc4JjmToJh1Af7H8zjyKrm2cBHswv3g8U4QAMYrAY3QiBLo3aK718JhrtF5BGi7ZM9q6YQr1hW4j"
+        },
+        {
+          "target": "3PvqoztjnRxaAiFmLuEfqZkU4GSbjUareks8S2xCZaTa",
+          "sol": 0.00382,
+          "blockTime": 1795513406,
+          "tx": "3hR9bvDTqtErhCACCCo4fXZ54y4Mj1i1oMc4nQ3cYg5Qr6chFz4fZoN83nvkpsFY59baZF59Zwcujr5fq8hMAkoh"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "29yFzeBZgxf5zqrAkKXwgZtQehRf4pL8WbV2nRJikbw8": {
+      "wallet": "29yFzeBZgxf5zqrAkKXwgZtQehRf4pL8WbV2nRJikbw8",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795587120,
+      "last_tx_blockTime": 1795589255,
+      "first_tx_utc": "2026-11-25T06:12:00+00:00",
+      "last_tx_utc": "2026-11-25T06:47:35+00:00",
+      "funders": [
+        {
+          "funder": "8hiMr15igzE9NeWg1NcBy3sYBXXTmmWTG25tekpVs1sg",
+          "sol": 0.005,
+          "blockTime": 1795587120,
+          "tx": "66fizuhyaHirtjkQpbGcdo5ZtLg7X54C9UzvKDVoZbWaCgLHR4Ppj8ZdC1ouueajZAwoYJN3MFkDuuoSA2fp2Pdk",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "GUpn3DzGdLwxNmH3TkJUm8Aqtn2N8ZfkEXsXUPsgDJJF",
+          "sol": 0.005,
+          "blockTime": 1795589255,
+          "tx": "5fh269NxJFhLB1WMixEg7fEhxDQyNhHAPXVB2npRCS4M46cTBzK1FwYAu8weTZBqXWCm8ZWXftnpYwdvAFrMeVQv",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "bwamJzztZsepfkteWRChggmXuiiCQvpLqPietdNfSXa": {
+      "wallet": "bwamJzztZsepfkteWRChggmXuiiCQvpLqPietdNfSXa",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795566698,
+      "last_tx_blockTime": 1795586736,
+      "first_tx_utc": "2026-11-25T00:31:38+00:00",
+      "last_tx_utc": "2026-11-25T06:05:36+00:00",
+      "funders": [
+        {
+          "funder": "3K4Hy1UjSXrAQMji34dYXm2FVgWSTxtqDcict8Kwke3z",
+          "sol": 0.005,
+          "blockTime": 1795566698,
+          "tx": "oU2SEwK6XSbs87cSJMftR8uQHq9B34KZHKg1oMe5rAAK7PZtbbGRKqbsZc23NwBuiLeus2hVYRzzYzjFrELWPyh",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "8oXxAHso8rs9fWWNazyzcsK4qWi3qjD9o3aNKVLQ9WZP",
+          "sol": 0.005,
+          "blockTime": 1795586736,
+          "tx": "7jZkLeM3rjMybkCsC7hcGEwhjCDkPvc2kQBmdn1itFWKyivqnGL8yCrsdDYCje13i5TP3gkreXY6dE79T4MdhKD",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "2n1sMuuvBwV4aUkmj8z1g645XeqRMTZFmVr6wpZyNQdk": {
+      "wallet": "2n1sMuuvBwV4aUkmj8z1g645XeqRMTZFmVr6wpZyNQdk",
+      "signatures_analyzed": 241,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795469178,
+      "last_tx_blockTime": 1795572394,
+      "first_tx_utc": "2026-11-23T21:26:18+00:00",
+      "last_tx_utc": "2026-11-25T02:06:34+00:00",
+      "funders": [
+        {
+          "funder": "AxiomRYAid8ZDhS1bJUAzEaNSr69aTWB9ATfdDLfUbnc",
+          "sol": 0.005,
+          "blockTime": 1795469178,
+          "tx": "5hmitzyWryfXfNqyntZJJExGWPwnmNXtDfJtsySSKPUg3cTccrDZ8NiUZSgcjc5EfqWqk33ajSeKchwRrTWkK9wB",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "GEmWxkhhHxdc7mTs1CsbTUk63h75TLyS1NPdcQ6fSSFR",
+          "sol": 0.005,
+          "blockTime": 1795572394,
+          "tx": "62GC1QqZjNr4Ecix9he1A1r1eu9pfkKcRfqA9yR8GggC8P6eYubxbNoeTqc3CoWeBrHKYEu2pp9n5oAzhurwACEa",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "8m5GkL7nVy95G4YVUbs79z873oVKqg2afgKRmqxsiiRm",
+          "sol": 0.03,
+          "blockTime": 1795469506,
+          "tx": "3p7Lw2VFyUvwh6neTfQNqViZrjrfVYjptgSZEEKN4MQmcDoqE1eeehTENHGAP58hNCXBhtw5eqDYzPGBCMCKwDFx"
+        },
+        {
+          "target": "2iSJcjfuthogxRP8E41dVREGkT1nm3Vcx7YdgVbFDKsK",
+          "sol": 2.97149,
+          "blockTime": 1795469506,
+          "tx": "3p7Lw2VFyUvwh6neTfQNqViZrjrfVYjptgSZEEKN4MQmcDoqE1eeehTENHGAP58hNCXBhtw5eqDYzPGBCMCKwDFx"
+        },
+        {
+          "target": "5vPNE6VFyXmCmzmWotdxmRk57LEWiXxuAfZL3hKbi2LH",
+          "sol": 0.03,
+          "blockTime": 1795469506,
+          "tx": "3p7Lw2VFyUvwh6neTfQNqViZrjrfVYjptgSZEEKN4MQmcDoqE1eeehTENHGAP58hNCXBhtw5eqDYzPGBCMCKwDFx"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "EfuRCyTfFQG575qVdp4swgqw3hBRTTs8m7HEy9WrJHJN": {
+      "wallet": "EfuRCyTfFQG575qVdp4swgqw3hBRTTs8m7HEy9WrJHJN",
+      "signatures_analyzed": 29,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795541768,
+      "last_tx_blockTime": 1795563343,
+      "first_tx_utc": "2026-11-24T17:36:08+00:00",
+      "last_tx_utc": "2026-11-24T23:35:43+00:00",
+      "funders": [
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.01699,
+          "blockTime": 1795541768,
+          "tx": "5ebQcKgyaGWBYogePs2wAL5QqmwJ1hL2HmnYY9mXTFQVMgKHBFzYEhwLM4jFWtbK2uwzoEUxsKYNLFn4bBYuQRuo"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "9hJtejHCA7L9awjTZVGNdD7mj9FRWjqXhDNnRrVxUDvV",
+          "sol": 0.07498,
+          "blockTime": 1795563343,
+          "tx": "3ywvgs46QgSvEwnd4bF1JxhBrrWcjA6ir4FK6jn9iPTtiqHhwgk1kkwv85Ej537a6qJt7BbycbYPm86EgXMauBz8"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "BogZZaRC137RuqSMsS1REyy58n1kK8ra5HDH3nY8zRpW": {
+      "wallet": "BogZZaRC137RuqSMsS1REyy58n1kK8ra5HDH3nY8zRpW",
+      "signatures_analyzed": 13,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795555445,
+      "last_tx_blockTime": 1795559525,
+      "first_tx_utc": "2026-11-24T21:24:05+00:00",
+      "last_tx_utc": "2026-11-24T22:32:05+00:00",
+      "funders": [
+        {
+          "funder": "6pAvWBqm2rSE3miobtHjzRcvRtSsXZpByyGU26Wmk7cF",
+          "sol": 0.00579,
+          "blockTime": 1795555445,
+          "tx": "5yA33infqxRoTsgEjUzDZhgzAHVvJ1ZmHpjaFs9jYNiEgXRXwyKGPGuh3Yo2KVDiaeFa7iUXWHq8YcCm4D4vhDVH"
+        },
+        {
+          "funder": "8oXxAHso8rs9fWWNazyzcsK4qWi3qjD9o3aNKVLQ9WZP",
+          "sol": 0.005,
+          "blockTime": 1795559525,
+          "tx": "258tL24onN5TxUjaUVjHdHVYmZfdoMVA2jZyja5VNHFSMuE1kYo2txaW4i27TCPBN2smiooUwBtwA7JTJ53HmB9s",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "5pUgxQGgX36GyV5BdsBNRAw9JxJ6Br4UVddJmJ3sumhc": {
+      "wallet": "5pUgxQGgX36GyV5BdsBNRAw9JxJ6Br4UVddJmJ3sumhc",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795558840,
+      "last_tx_blockTime": 1795589796,
+      "first_tx_utc": "2026-11-24T22:20:40+00:00",
+      "last_tx_utc": "2026-11-25T06:56:36+00:00",
+      "funders": [
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.005,
+          "blockTime": 1795558844,
+          "tx": "3wGBNaRA89zJ21JvU4GhKkhfR3r7XRhwe3jV5F9t1u8j6QBXiiqeLL3QLXYJ9bPGoxgFQfSNNKpR7JW7S2EULQdT",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "4hsKF72nSAkKAUPy8S2udAL46Mu1JHtAS4XrwQo9JrPn": {
+      "wallet": "4hsKF72nSAkKAUPy8S2udAL46Mu1JHtAS4XrwQo9JrPn",
+      "signatures_analyzed": 109,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795558022,
+      "last_tx_blockTime": 1795558346,
+      "first_tx_utc": "2026-11-24T22:07:02+00:00",
+      "last_tx_utc": "2026-11-24T22:12:26+00:00",
+      "funders": [
+        {
+          "funder": "899GKwvu4WveedzqV7dYost9SRNvY1bDqzUwxgWo8Pje",
+          "sol": 1.06094,
+          "blockTime": 1795558022,
+          "tx": "38xrK6TCuicfVWnRz6vCkQMcsJGbRQ6kKUaBMSE59dy6oetQqxvuVPiqihq7XVQegVLXHoXAAqXKExcpAhrs8vdR"
+        },
+        {
+          "funder": "GPcPUvocqUf9yYXdbAdZ8fSryJXGXMUBKQ13gfwvECkm",
+          "sol": 0.005,
+          "blockTime": 1795558022,
+          "tx": "38xrK6TCuicfVWnRz6vCkQMcsJGbRQ6kKUaBMSE59dy6oetQqxvuVPiqihq7XVQegVLXHoXAAqXKExcpAhrs8vdR",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "EuSpH5Zcs7KyVJJK3Zt5WfZfdQMVUfjWkK5ZoxyZ5Hps",
+          "sol": 0.005,
+          "blockTime": 1795558346,
+          "tx": "4gfSELwLAdnoDxN8CDRH3Pk1qD7apvNkefPpyB7UNrSDuYjjS8PWpVCGaee9UiFdkgURc51r2RhiSiYivmWvU2tf",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "7FLjBK1VrkAzcvRe3siWNgVujNt3SJnduzZtXgVXKkYZ",
+          "sol": 0.00296,
+          "blockTime": 1795558022,
+          "tx": "4HqrCE722CuuSbdeRusgNUK2Fn2487mvUiM5QWsadWmpt4GJKy3iA6ZpPnCXjxkWMuP2tR9jnjkN5vKMGULwKSKa"
+        },
+        {
+          "target": "FBrdyNL9t9pQDVC1qMAQXgeQFYA7uGh4aH3jF1FLh7Ni",
+          "sol": 0.98765,
+          "blockTime": 1795558022,
+          "tx": "4HqrCE722CuuSbdeRusgNUK2Fn2487mvUiM5QWsadWmpt4GJKy3iA6ZpPnCXjxkWMuP2tR9jnjkN5vKMGULwKSKa"
+        },
+        {
+          "target": "5eHhjP8JaYkz83CWwvGU2uMUXefd3AazWGx4gpcuEEYD",
+          "sol": 0.00469,
+          "blockTime": 1795558022,
+          "tx": "4HqrCE722CuuSbdeRusgNUK2Fn2487mvUiM5QWsadWmpt4GJKy3iA6ZpPnCXjxkWMuP2tR9jnjkN5vKMGULwKSKa"
+        },
+        {
+          "target": "7VtfL8fvgNfhz17qKRMjzQEXgbdpnHHHQRh54R9jP2RJ",
+          "sol": 0.00469,
+          "blockTime": 1795558022,
+          "tx": "4HqrCE722CuuSbdeRusgNUK2Fn2487mvUiM5QWsadWmpt4GJKy3iA6ZpPnCXjxkWMuP2tR9jnjkN5vKMGULwKSKa"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "4Fvj18AHBJYdMioCND987R7aXdx6MwXgy8bNbxY3pump",
+          "blockTimeMs": 1795558022000,
+          "source_owner": "FBrdyNL9t9pQDVC1qMAQXgeQFYA7uGh4aH3jF1FLh7Ni",
+          "dest_owner": "4hsKF72nSAkKAUPy8S2udAL46Mu1JHtAS4XrwQo9JrPn",
+          "amount_tokens": 34199203.1206,
+          "is_burn": 0,
+          "tx": "4HqrCE722CuuSbdeRusgNUK2Fn2487mvUiM5QWsadWmpt4GJKy3iA6ZpPnCXjxkWMuP2tR9jnjkN5vKMGULwKSKa"
+        }
+      ]
+    },
+    "93WrcfqDMnjWs48cs9ttoPXNeeWsNyb8EeaaYn9nfr97": {
+      "wallet": "93WrcfqDMnjWs48cs9ttoPXNeeWsNyb8EeaaYn9nfr97",
+      "signatures_analyzed": 16,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795557606,
+      "last_tx_blockTime": 1795557854,
+      "first_tx_utc": "2026-11-24T22:00:06+00:00",
+      "last_tx_utc": "2026-11-24T22:04:14+00:00",
+      "funders": [
+        {
+          "funder": "FCbku6DPXivQyBmv264QNd2g5kTrvy3hhJg4btscQLnF",
+          "sol": 1.06073,
+          "blockTime": 1795557606,
+          "tx": "2iqxKz5JFkRVckjiB7KMNn8Z5SYTnLTymFDziMhWXuV8XRSJR5BRFKRL71w5KYtiTEGLGT4NGDnx7ZftPdCQKr16"
+        },
+        {
+          "funder": "GPcPUvocqUf9yYXdbAdZ8fSryJXGXMUBKQ13gfwvECkm",
+          "sol": 0.005,
+          "blockTime": 1795557606,
+          "tx": "2iqxKz5JFkRVckjiB7KMNn8Z5SYTnLTymFDziMhWXuV8XRSJR5BRFKRL71w5KYtiTEGLGT4NGDnx7ZftPdCQKr16",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "BeXBQqw4e3PfctmxUdTjarWBKQwQ5yWpvz91EfCVXxiz",
+          "sol": 0.005,
+          "blockTime": 1795557854,
+          "tx": "2hxmZrUBGftt3hS7uTMLyoZKHtAAtPWu3j3oGqgEas9hkpN55BudDiGYqbeBtdZU5Z9TGjVHRipvTPQAEuP6QgG5",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "DBRLtu3Swp2owE4VPf46Yks2xdWuMJfiY7g453cqF5GS",
+          "sol": 0.00296,
+          "blockTime": 1795557607,
+          "tx": "7ASbGXUyJmu3874xM4Je6koV2nvZ88FK8MYzicUd1pMGHUrYwtP446J8HvjqoUana7H8W4HW1eSJJdcb1D2jkDb"
+        },
+        {
+          "target": "3J6paF927qZE6eEEw6YFmmBqLTaFQCzZwtgfy8KCJiKk",
+          "sol": 0.98765,
+          "blockTime": 1795557607,
+          "tx": "7ASbGXUyJmu3874xM4Je6koV2nvZ88FK8MYzicUd1pMGHUrYwtP446J8HvjqoUana7H8W4HW1eSJJdcb1D2jkDb"
+        },
+        {
+          "target": "3BpXnfJaUTiwXnJNe7Ej1rcbzqTTQUvLShZaWazebsVR",
+          "sol": 0.00469,
+          "blockTime": 1795557607,
+          "tx": "7ASbGXUyJmu3874xM4Je6koV2nvZ88FK8MYzicUd1pMGHUrYwtP446J8HvjqoUana7H8W4HW1eSJJdcb1D2jkDb"
+        },
+        {
+          "target": "9rPYyANsfQZw3DnDmKE3YCQF5E8oD89UXoHn9JFEhJUz",
+          "sol": 0.00469,
+          "blockTime": 1795557607,
+          "tx": "7ASbGXUyJmu3874xM4Je6koV2nvZ88FK8MYzicUd1pMGHUrYwtP446J8HvjqoUana7H8W4HW1eSJJdcb1D2jkDb"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "H3QjoYC5zPqzmbAnCc2GXXptcsdCPTvfo5WGgMX5pump",
+          "blockTimeMs": 1795557607000,
+          "source_owner": "3J6paF927qZE6eEEw6YFmmBqLTaFQCzZwtgfy8KCJiKk",
+          "dest_owner": "93WrcfqDMnjWs48cs9ttoPXNeeWsNyb8EeaaYn9nfr97",
+          "amount_tokens": 34199203.1206,
+          "is_burn": 0,
+          "tx": "7ASbGXUyJmu3874xM4Je6koV2nvZ88FK8MYzicUd1pMGHUrYwtP446J8HvjqoUana7H8W4HW1eSJJdcb1D2jkDb"
+        }
+      ]
+    },
+    "9UshT277aseXvpygfw4mRE62wmB2eyMHoLXEXu7A447V": {
+      "wallet": "9UshT277aseXvpygfw4mRE62wmB2eyMHoLXEXu7A447V",
+      "signatures_analyzed": 3,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795557629,
+      "last_tx_blockTime": 1795557802,
+      "first_tx_utc": "2026-11-24T22:00:29+00:00",
+      "last_tx_utc": "2026-11-24T22:03:22+00:00",
+      "funders": [
+        {
+          "funder": "G1hiMqRZzw6YkkNYHhrY6QBHUGypyAN2ZErMtiAm3DsF",
+          "sol": 0.005,
+          "blockTime": 1795557696,
+          "tx": "3kCDGo1C3AAkJ4wEd8Ef3q8WdZCeJL1erdpQNuna4zH8EE7qS6h1Pd9Y2AKSEvzfBqnVueGrVXhLZXQYEj7x3B1Z",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "HJJobwQrUiR5g1icPPug8anUtBWvsuiGitie1mQtAYZL",
+          "sol": 0.02,
+          "blockTime": 1795557629,
+          "tx": "3fHzVJnyfea3sz7WnxB9iY4tdi33z8mQqhDFKDxex1PxQWAMQc5uCyjEgjpUheVfG5zyNMCxZBBPHdq2Uk44PwHD"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "DtZCexBUaTKAwEAMFFSdqc1u7RTv92yBfxi99Uq4pump",
+          "blockTimeMs": 1795557629000,
+          "source_owner": "HJJobwQrUiR5g1icPPug8anUtBWvsuiGitie1mQtAYZL",
+          "dest_owner": "9UshT277aseXvpygfw4mRE62wmB2eyMHoLXEXu7A447V",
+          "amount_tokens": 714856.7622,
+          "is_burn": 0,
+          "tx": "3fHzVJnyfea3sz7WnxB9iY4tdi33z8mQqhDFKDxex1PxQWAMQc5uCyjEgjpUheVfG5zyNMCxZBBPHdq2Uk44PwHD"
+        }
+      ]
+    },
+    "D9m1mpXLcoamo6DNYPBh884GXJdrhXi7ZMiELc4hTBA4": {
+      "wallet": "D9m1mpXLcoamo6DNYPBh884GXJdrhXi7ZMiELc4hTBA4",
+      "signatures_analyzed": 14,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795557582,
+      "last_tx_blockTime": 1795586065,
+      "first_tx_utc": "2026-11-24T21:59:42+00:00",
+      "last_tx_utc": "2026-11-25T05:54:25+00:00",
+      "funders": [
+        {
+          "funder": "7jgg5DWFCiY5HL3pCiQAgPvuSpkbz7mNk86gWyS5LHxw",
+          "sol": 0.005,
+          "blockTime": 1795557582,
+          "tx": "2gdWHFo6SwFJhokNTBf2K63yGbTxYMsibDkcwBQjfy9msUPAVLrxfH96aEihQeZZPnyYmVhAiuMXwn5UT1j8n1Kv",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "FJfgRrkPEeT8rTQ69yE5SmpPjZBEtmb3qCBPeNj4BpME",
+          "sol": 0.6569,
+          "blockTime": 1795557584,
+          "tx": "AL84d1iCXXpCyNz4yoN6iNvwtxJDsYd1KrYMjnvD64FDXnvByY3ZETb11CdEa9x644VUkvZ1TMdLV39gj62syPe"
+        },
+        {
+          "target": "3Mqk6qHEj7r3TFNFYjCP85a5venbp2mefYQTSKVVchBC",
+          "sol": 0.00312,
+          "blockTime": 1795557584,
+          "tx": "AL84d1iCXXpCyNz4yoN6iNvwtxJDsYd1KrYMjnvD64FDXnvByY3ZETb11CdEa9x644VUkvZ1TMdLV39gj62syPe"
+        },
+        {
+          "target": "GXPFM2caqTtQYC2cJ5yJRi9VDkpsYZXzYdwYpGnLmtDL",
+          "sol": 0.00312,
+          "blockTime": 1795557584,
+          "tx": "AL84d1iCXXpCyNz4yoN6iNvwtxJDsYd1KrYMjnvD64FDXnvByY3ZETb11CdEa9x644VUkvZ1TMdLV39gj62syPe"
+        },
+        {
+          "target": "8RMkBCGpVhv8QWPeaZ78NYSoUqozagp9FDHS5v9H1aZT",
+          "sol": 0.16827,
+          "blockTime": 1795586065,
+          "tx": "CTcSrcw8EBFbLHY6ouKvCaKvcxfRT5KTropFjvg6vRiBbGCWuCPjLBmeP1me79WPARjTjuqeoLjaDuFthBaQqpz"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "FJ1nGD9MEidxwNBFjVWjAQ5WX8WJb3WSdCa2hKJ2pump",
+          "blockTimeMs": 1795557584000,
+          "source_owner": "FJfgRrkPEeT8rTQ69yE5SmpPjZBEtmb3qCBPeNj4BpME",
+          "dest_owner": "D9m1mpXLcoamo6DNYPBh884GXJdrhXi7ZMiELc4hTBA4",
+          "amount_tokens": 22991830.1634,
+          "is_burn": 0,
+          "tx": "AL84d1iCXXpCyNz4yoN6iNvwtxJDsYd1KrYMjnvD64FDXnvByY3ZETb11CdEa9x644VUkvZ1TMdLV39gj62syPe"
+        }
+      ]
+    },
+    "BsVHAPAvsYvuBL9NRGp6GSn1gxrycYVGD7w3DMQpkP7N": {
+      "wallet": "BsVHAPAvsYvuBL9NRGp6GSn1gxrycYVGD7w3DMQpkP7N",
+      "signatures_analyzed": 19,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795554262,
+      "last_tx_blockTime": 1795558574,
+      "first_tx_utc": "2026-11-24T21:04:22+00:00",
+      "last_tx_utc": "2026-11-24T22:16:14+00:00",
+      "funders": [
+        {
+          "funder": "5bS2ZUDW9WtBCdLJ2h6286VjrXy9rfkvKLiUsSFGwrMV",
+          "sol": 0.04343,
+          "blockTime": 1795554262,
+          "tx": "4JB7dCyeqyfz5bA1Xd1YSG1YwoRmLFstaeT6w1qujsXnRqU2UiWTgkUXcJQpc2t3CmBNxbr68MNWR4Hc2D934rJz"
+        },
+        {
+          "funder": "5m98XrHcnse5U4oabHBDjzV6pXs6sBuBzVXGJxqzF7R2",
+          "sol": 0.04343,
+          "blockTime": 1795554262,
+          "tx": "3gFaVuJpQgQQPdzSFpuRVBzzXEjEgxMAoctQi71vTKXuoaV7USwFaUC91qupyNfEsp1FDfzqMgEW3Ko6tg5jxQ4b"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "2edYQ22vDWGm98GQoFTJXw5sVdjEdPFKiL9tNNdqxnw2",
+          "sol": 1.39618,
+          "blockTime": 1795558574,
+          "tx": "yw9t5kHTF5nJBcpByertStWKcnSaWrfd6NRnoLctPuhJP2wKim8ZyE1MnuZUCfLsFSmNNp8PQzgvEXSFvthWB7X"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "3fnue9pzkFTWKr46uCSnwG15VMTNZj2FtGNUPrkBDyCe": {
+      "wallet": "3fnue9pzkFTWKr46uCSnwG15VMTNZj2FtGNUPrkBDyCe",
+      "signatures_analyzed": 25,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795557637,
+      "last_tx_blockTime": 1795563001,
+      "first_tx_utc": "2026-11-24T22:00:37+00:00",
+      "last_tx_utc": "2026-11-24T23:30:01+00:00",
+      "funders": [
+        {
+          "funder": "197kBw8419tnrAm9apkP3TEbHpqjzGEH6D13T9nQPtm",
+          "sol": 1.16,
+          "blockTime": 1795557637,
+          "tx": "5BCMs9YtZzQShGWmWkMDLK9mPsZXDwvzqsewXCvpB6xBTdZWnxeD8eDCeH1nc2gHUhQj9xBLgVKtjAUbBk6CFVQf"
+        },
+        {
+          "funder": "5JUuoUzezVHCH15ySYB3U697fAPejggmQcqEHgwrQgES",
+          "sol": 0.005,
+          "blockTime": 1795557637,
+          "tx": "5BCMs9YtZzQShGWmWkMDLK9mPsZXDwvzqsewXCvpB6xBTdZWnxeD8eDCeH1nc2gHUhQj9xBLgVKtjAUbBk6CFVQf",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "EBSABtR3urkns6Fj5UTtSfcq9fYPYN6VSQ6DJhgwBs8M",
+          "sol": 0.00326,
+          "blockTime": 1795557637,
+          "tx": "49HvKaYz82EoLpv1dCJVc1oM87gLjxokJGd86GHovaN9Lap1Qgqx18Qz2Q1PSEvgDZSs9LD8NmtpRbdEVdZxJiUK"
+        },
+        {
+          "target": "EpvXSmKchcobXK3TSGi341aq7pAXNgyqQW1aHy7U244K",
+          "sol": 1.08642,
+          "blockTime": 1795557637,
+          "tx": "49HvKaYz82EoLpv1dCJVc1oM87gLjxokJGd86GHovaN9Lap1Qgqx18Qz2Q1PSEvgDZSs9LD8NmtpRbdEVdZxJiUK"
+        },
+        {
+          "target": "9M4giFFMxmFGXtc3feFzRai56WbBqehoSeRE5GK7gf7",
+          "sol": 0.00516,
+          "blockTime": 1795557637,
+          "tx": "49HvKaYz82EoLpv1dCJVc1oM87gLjxokJGd86GHovaN9Lap1Qgqx18Qz2Q1PSEvgDZSs9LD8NmtpRbdEVdZxJiUK"
+        },
+        {
+          "target": "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+          "sol": 0.00516,
+          "blockTime": 1795557637,
+          "tx": "49HvKaYz82EoLpv1dCJVc1oM87gLjxokJGd86GHovaN9Lap1Qgqx18Qz2Q1PSEvgDZSs9LD8NmtpRbdEVdZxJiUK"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "aGbF4zhM6dWdtFDePQq9Vcd7U2B8pCmmBcUFvLzpump",
+          "blockTimeMs": 1795557637000,
+          "source_owner": "EpvXSmKchcobXK3TSGi341aq7pAXNgyqQW1aHy7U244K",
+          "dest_owner": "3fnue9pzkFTWKr46uCSnwG15VMTNZj2FtGNUPrkBDyCe",
+          "amount_tokens": 37499602.7899,
+          "is_burn": 0,
+          "tx": "49HvKaYz82EoLpv1dCJVc1oM87gLjxokJGd86GHovaN9Lap1Qgqx18Qz2Q1PSEvgDZSs9LD8NmtpRbdEVdZxJiUK"
+        }
+      ]
+    },
+    "5wZqFAmunFK8DyUMFaq3xpa7UXnCkieRMuLjSjJ4BsGH": {
+      "wallet": "5wZqFAmunFK8DyUMFaq3xpa7UXnCkieRMuLjSjJ4BsGH",
+      "signatures_analyzed": 296,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795470137,
+      "last_tx_blockTime": 1795561449,
+      "first_tx_utc": "2026-11-23T21:42:17+00:00",
+      "last_tx_utc": "2026-11-24T23:04:09+00:00",
+      "funders": [
+        {
+          "funder": "3d8dMcwyiHD5ma2ch5LQ3rZrqi5Jba7PU1GzBLwCkRbY",
+          "sol": 0.005,
+          "blockTime": 1795561449,
+          "tx": "3qAk4HkRCnrqcvCC6qL4wXMQuyteMprUsDS9LwzDSSznuU15aF2sKdz6xLeqx83LiF41UHVR2PXjAzDPXvCZMWjr",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "jkmdKXwLi7T4ja7uCMDbzmfk5nw1zoZGVnSvLzq8MA7",
+          "sol": 0.0104,
+          "blockTime": 1795470137,
+          "tx": "2GhYDy8c2MwzvchjNERMqds9ARQcw75SbNR5vcBNE6Y3hXhfU83jXNmgEsYeoCPEHybCAhFHwBgP6coXkH714Ex8"
+        },
+        {
+          "target": "CyFasMF36nuM6e8SVDM7pRrehL1UbF9fJoZ2kXEMCvhZ",
+          "sol": 0.09249,
+          "blockTime": 1795470137,
+          "tx": "2GhYDy8c2MwzvchjNERMqds9ARQcw75SbNR5vcBNE6Y3hXhfU83jXNmgEsYeoCPEHybCAhFHwBgP6coXkH714Ex8"
+        },
+        {
+          "target": "moonBtH9HvLHjLqi9ivyrMVKgFUsSfrz9BwQ9khhn1u",
+          "sol": 0.0025,
+          "blockTime": 1795470137,
+          "tx": "2GhYDy8c2MwzvchjNERMqds9ARQcw75SbNR5vcBNE6Y3hXhfU83jXNmgEsYeoCPEHybCAhFHwBgP6coXkH714Ex8"
+        },
+        {
+          "target": "FbyoW17gqHLnUm7k225cXDK8F1YPKgdjbZnEJ2ViMp82",
+          "sol": 1.0,
+          "blockTime": 1795470137,
+          "tx": "2GhYDy8c2MwzvchjNERMqds9ARQcw75SbNR5vcBNE6Y3hXhfU83jXNmgEsYeoCPEHybCAhFHwBgP6coXkH714Ex8"
+        },
+        {
+          "target": "EKf31WZ2NPSjpzHftENFEkV7jAp9tSFjkfVoQYJQ6DD3",
+          "sol": 0.0026,
+          "blockTime": 1795470138,
+          "tx": "4XP1yJBrEvAJnt8qRMvoVMRsbyGLYkV1DZXkNb8WHDzAWRDtgL9kPgQ84b8qSuxWtrsKqjgheTQBjTATBDecp5Hw"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "DBs7j6crdV4h7SqhWgePzYituU6wxGyetSHNqSyUKVzq": {
+      "wallet": "DBs7j6crdV4h7SqhWgePzYituU6wxGyetSHNqSyUKVzq",
+      "signatures_analyzed": 37,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795556573,
+      "last_tx_blockTime": 1795560514,
+      "first_tx_utc": "2026-11-24T21:42:53+00:00",
+      "last_tx_utc": "2026-11-24T22:48:34+00:00",
+      "funders": [
+        {
+          "funder": "8G5Q4wVdGFVLKm9LaWqRCH8S3RriCuoF2WJAhk5bC4DE",
+          "sol": 1.0,
+          "blockTime": 1795556573,
+          "tx": "24Yuz9BTdRrWnnHSMPR2iafYpvUwD2fWNhF3ZTvkZp2o9X9JyBiiP6k3AvdLUAot7cQYJrwsignPgxv45DhFFNqh"
+        },
+        {
+          "funder": "AxiomRYAid8ZDhS1bJUAzEaNSr69aTWB9ATfdDLfUbnc",
+          "sol": 0.005,
+          "blockTime": 1795560514,
+          "tx": "4cAfPERr6dgpFzRThVMRMszrHdUUAQjpEcf7s39Vq4kFcKZZBAJMB1TQ75NsBKjmmTk1pujCW5AY6AM1erJhkcGe",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "moonXwpKwoVkMegt5Bc776cSW793X1irL5hHV1vJ3JA",
+          "sol": 0.0025,
+          "blockTime": 1795557021,
+          "tx": "3KqSEz1Xw9Yv7agC9aydwQ2NM7SHFm3u2eecG116WqaUUmamijtLuQqLKKfB3LkVcP1a7fW69qyxYRDjkwsG77zd"
+        },
+        {
+          "target": "GUQZ8tSNnbVXS3bbqHfxB5U6FP78qg71TsPQL1tWh3Wp",
+          "sol": 1.0125,
+          "blockTime": 1795557021,
+          "tx": "3KqSEz1Xw9Yv7agC9aydwQ2NM7SHFm3u2eecG116WqaUUmamijtLuQqLKKfB3LkVcP1a7fW69qyxYRDjkwsG77zd"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "FUpkQgNn5DULHXFUfDuuh6QFS7SoErs8E3ipCVNgRjKG": {
+      "wallet": "FUpkQgNn5DULHXFUfDuuh6QFS7SoErs8E3ipCVNgRjKG",
+      "signatures_analyzed": 304,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795555071,
+      "last_tx_blockTime": 1795585652,
+      "first_tx_utc": "2026-11-24T21:17:51+00:00",
+      "last_tx_utc": "2026-11-25T05:47:32+00:00",
+      "funders": [
+        {
+          "funder": "44K1b9bWvdPSUJZyRpi7gaodY9ZjeNUd7hVSg5iYaHvz",
+          "sol": 0.005,
+          "blockTime": 1795555071,
+          "tx": "55vcjnihiED9UiYDcPffJPKEWSFhKwjYPDx3DPJ4vj5shbaebZqqfqqinbtrWdbZ8x3FbDdnRkCC7VqJr3pTJL8c",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.005,
+          "blockTime": 1795555123,
+          "tx": "2iRbpA5TezvKixss7fz1US2EnU1kWaL6zkRcuU6ue2nPscSxvN5MefoWo9VrR4Lt3bVo9o4tdvr3DTPaQhYfA8G6",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "2HpPVXv1xuprm1M3Xfpb1nMC8TMmENAbvA7Xc4ksSvSz",
+          "sol": 0.005,
+          "blockTime": 1795585652,
+          "tx": "2z2wuRSMH9CiNGnEYbHv9csF7WhxzTV7kXAWf9LQ3BtHxPzvcuLUfrpy8jhxGb7poZXiUzmpRpPLqEXC1cgRQYGN",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "BGaq1vMLcR6QBVDc4wgZ2vFQhbpa4pK1b1nkxDeQ4dxU": {
+      "wallet": "BGaq1vMLcR6QBVDc4wgZ2vFQhbpa4pK1b1nkxDeQ4dxU",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795479801,
+      "last_tx_blockTime": 1795588344,
+      "first_tx_utc": "2026-11-24T00:23:21+00:00",
+      "last_tx_utc": "2026-11-25T06:32:24+00:00",
+      "funders": [
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.005,
+          "blockTime": 1795479801,
+          "tx": "3Sfe5ux2fghFv42uv19PVJfV5ydJHoqXiNDSnPvaUiRj3vcuLRBhtCaaxgGqqJchyUkkdhQAQyMUBd5X4LVNrgu8",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "4p8uwkZYG1TBqHwfaJvSgBG4x2jCXyeWJuERG6n2HZok": {
+      "wallet": "4p8uwkZYG1TBqHwfaJvSgBG4x2jCXyeWJuERG6n2HZok",
+      "signatures_analyzed": 72,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795554050,
+      "last_tx_blockTime": 1795558776,
+      "first_tx_utc": "2026-11-24T21:00:50+00:00",
+      "last_tx_utc": "2026-11-24T22:19:36+00:00",
+      "funders": [
+        {
+          "funder": "8ag1FigXwaKwfjhS1sN6JdEQNzFS5XggYQf2heef1kMr",
+          "sol": 0.005,
+          "blockTime": 1795558776,
+          "tx": "3RAaJexFVjkfp7j83HCHjVqaBmrQGGA1G79k8AdeWuTLRqeNkBpyEoYRAjeZyqArtRqMPvkPvdoUrwZaXFtAxtiJ",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "82pEcv83P8cCECC42AdMrc28LcXnUGMTiMTkWdA6u9VJ",
+          "sol": 0.03119,
+          "blockTime": 1795554050,
+          "tx": "4JKozhXhtW3yvF2nBbQpoJ6f7NLqFn9QCGPWMrCMhzPCzp7qh4747q7fyy5PcQLzWTBWeSty6t8jNpAaKjvY1G2V"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "EykpseWxmMhyvJ2L3wcJ5bbaKJ4HooZFAFhC8M2TJ1hB": {
+      "wallet": "EykpseWxmMhyvJ2L3wcJ5bbaKJ4HooZFAFhC8M2TJ1hB",
+      "signatures_analyzed": 74,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795557878,
+      "last_tx_blockTime": 1795558283,
+      "first_tx_utc": "2026-11-24T22:04:38+00:00",
+      "last_tx_utc": "2026-11-24T22:11:23+00:00",
+      "funders": [
+        {
+          "funder": "CMncsxPUZDa9Jqpdjrd2UouHV6h5ALkAyEJCnyXmaEad",
+          "sol": 0.005,
+          "blockTime": 1795557878,
+          "tx": "2SN5T4ty4HFBW9Vc55npP7ngcyseeJmhwMuDn8jw61ac7Q7LqbRCC5Yz3apGC9XSDFKiDu5K8sRtoLdMtGwG23am",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "5Suyrn62nN4yRR8yBwhV82DLEQK7FLGLhMW2EDPgYRhN",
+          "sol": 0.005,
+          "blockTime": 1795558283,
+          "tx": "3TN1gz3uugJA83TzF21Geyp4tCV8sFeSqe6g2NQG3EN95auxGC8tdkNvxEqfXCWgq7CqtskKfhK8fQ8VGLPiWJoR",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "BQRmhXCH7ug3sZy2Gugw696qUVeA9iYvpcm8pU6kvXZ",
+          "sol": 0.58124,
+          "blockTime": 1795557880,
+          "tx": "3BXH5z4Q7mpJW66LRqFYFehiEfwqV8d6AnyCWoVore5SmyrPbq2mEmuJaqeNvQv43z61dJmMJ9FBfvQpxafEUrtA"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "5w6aKssdfmDKVocuXicKBG2MK8hLJr4KGjbrFUkEpump",
+          "blockTimeMs": 1795557880000,
+          "source_owner": "BQRmhXCH7ug3sZy2Gugw696qUVeA9iYvpcm8pU6kvXZ",
+          "dest_owner": "EykpseWxmMhyvJ2L3wcJ5bbaKJ4HooZFAFhC8M2TJ1hB",
+          "amount_tokens": 20147008.3804,
+          "is_burn": 0,
+          "tx": "3BXH5z4Q7mpJW66LRqFYFehiEfwqV8d6AnyCWoVore5SmyrPbq2mEmuJaqeNvQv43z61dJmMJ9FBfvQpxafEUrtA"
+        }
+      ]
+    },
+    "977i68W86tr4k2WNJ7fzESRuP9SpqUddAYMgU53f9c8P": {
+      "wallet": "977i68W86tr4k2WNJ7fzESRuP9SpqUddAYMgU53f9c8P",
+      "signatures_analyzed": 164,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795482391,
+      "last_tx_blockTime": 1795588850,
+      "first_tx_utc": "2026-11-24T01:06:31+00:00",
+      "last_tx_utc": "2026-11-25T06:40:50+00:00",
+      "funders": [
+        {
+          "funder": "GfebZydszCJa7fQjmbwExoSng1TFyKDAUnXJ8wZC3unD",
+          "sol": 0.005,
+          "blockTime": 1795482391,
+          "tx": "2N9bTt6NEVB7kGNjWZigcyJeD4ZEt4BkwP16EHpcThZPQ8pg6qBDsvCVoAM9ftVJA7LBNBVaWK4Bjh9i3QPYg3vv",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "MqK111NaHpBxxk66aEDJJtFjqjQyou5T4XSmYW5kJ3z",
+          "sol": 0.005,
+          "blockTime": 1795482578,
+          "tx": "5YeDuW6nsQTDopoJKiySdhxNK2xKRSMMrkLMAZqETJJP2dbJfHvTsfyNthy8vr4pkwyjbA3HaMNuVU3N7bDzspgr",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "64fcNUtAAockLpMJZ1DudHCMHJhLRBmgrmGvbrwmQzQw",
+          "sol": 0.005,
+          "blockTime": 1795588850,
+          "tx": "2mKhACzfoZofB1Q88iion6FAEye95rmPYCLnGwzJe6C4NQ27tfcP7dVfFjpjuvVznNrq9kXLumdZ5J6yCEKCcbEm",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "rNRnmGWGwEgsDh6SUptegCjbVTiXBvHWYZsXnqnA321": {
+      "wallet": "rNRnmGWGwEgsDh6SUptegCjbVTiXBvHWYZsXnqnA321",
+      "signatures_analyzed": 18,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795551015,
+      "last_tx_blockTime": 1795564357,
+      "first_tx_utc": "2026-11-24T20:10:15+00:00",
+      "last_tx_utc": "2026-11-24T23:52:37+00:00",
+      "funders": [
+        {
+          "funder": "JCSEoiRDmDwDDMgryyQfrCsbaXuZvgLB1TXLfFiVeGeM",
+          "sol": 0.005,
+          "blockTime": 1795551015,
+          "tx": "39tJcLSz7qrmZ4DRTxNE2Ucd4yn1ThNCKh8NjarsoYeQmXCPqbrxTydHSdabFoqWqak83FcCJ7NQYqLFj6kwQtDG",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "7eeBjWpZ4r4YLULgwf7YQp1vbnewDyuzuD5u4nsTpTTT",
+          "sol": 1.4888,
+          "blockTime": 1795564357,
+          "tx": "5UKgCHoeGTv6mvQrSpcaQpAudVYtQmFusnU4mmRK6KEcCGSzZUDS9o3WSb9nr4d2V4y8oeBkhj7AWGbPABx6Agih"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "fd6yEUxzvuhqooXeVDpEJEwa3cF5qDhoweB7qCvW4AK": {
+      "wallet": "fd6yEUxzvuhqooXeVDpEJEwa3cF5qDhoweB7qCvW4AK",
+      "signatures_analyzed": 529,
+      "pages_fetched": 3,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795469227,
+      "last_tx_blockTime": 1795590209,
+      "first_tx_utc": "2026-11-23T21:27:07+00:00",
+      "last_tx_utc": "2026-11-25T07:03:29+00:00",
+      "funders": [
+        {
+          "funder": "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT",
+          "sol": 0.005,
+          "blockTime": 1795469227,
+          "tx": "46uYu2VV7jNSUDcu1Z34Z3PRTge45mT6QPAnziH2rrxtxQYmg2PrHBgRkZ1o6WAC5Mwwh4narJAUGx9wMGHue5S9",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "5aXw8UF8uwHXUChwAZGzP53YETPZZ4J3wJ5K7ea5JzNH": {
+      "wallet": "5aXw8UF8uwHXUChwAZGzP53YETPZZ4J3wJ5K7ea5JzNH",
+      "signatures_analyzed": 11,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795476693,
+      "last_tx_blockTime": 1795557847,
+      "first_tx_utc": "2026-11-23T23:31:33+00:00",
+      "last_tx_utc": "2026-11-24T22:04:07+00:00",
+      "funders": [
+        {
+          "funder": "AxiomRYAid8ZDhS1bJUAzEaNSr69aTWB9ATfdDLfUbnc",
+          "sol": 0.005,
+          "blockTime": 1795476693,
+          "tx": "5NmrCQRkpZN4UgWY6cxQ6Td8HX8iCEWiEGuvtdeeshgMbjFd5BPnDTb2cihn7T2oCCGgLDVBoX1NYo4Yxsa2cFz1",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "8tyzMZwjQCjGwfoEJ5coWsPYEZTneiCzpSjvfkCLKGSc",
+          "sol": 0.005,
+          "blockTime": 1795557847,
+          "tx": "iePF7oTqiLNSLbwdFo4P7ZLV2NBHnerGGobmNo5XRfUFMJLwVEEkwmtDFvCQWnsVzicmz7wxqy9zsBf8QLXGsxy",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "jzsZxxJGXW7c2a8DPofdpUBpp17PR8VXCba44GnPFP7",
+          "sol": 0.00995,
+          "blockTime": 1795477608,
+          "tx": "2Ad8WUuiNXbwuAXsoXKw9At9G2B4LiDXsEFDVrkkZRgAnaXxUHeo17rmWiovwBMBsM7VLmT1dRM2TLCsoRFCgMfT"
+        },
+        {
+          "target": "moon17L6BgxXRX5uHKudAmqVF96xia9h8ygcmG2sL3F",
+          "sol": 0.0025,
+          "blockTime": 1795477608,
+          "tx": "2Ad8WUuiNXbwuAXsoXKw9At9G2B4LiDXsEFDVrkkZRgAnaXxUHeo17rmWiovwBMBsM7VLmT1dRM2TLCsoRFCgMfT"
+        },
+        {
+          "target": "EYnCHtW7vbrZ64iRnwB4b3cQEysHsPNP2mEkTfVFVHM6",
+          "sol": 0.91125,
+          "blockTime": 1795477608,
+          "tx": "2Ad8WUuiNXbwuAXsoXKw9At9G2B4LiDXsEFDVrkkZRgAnaXxUHeo17rmWiovwBMBsM7VLmT1dRM2TLCsoRFCgMfT"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "9V8RLPpM1mJUAtKGdMXgHhF35RY1197VkZJPpB5ioQKz": {
+      "wallet": "9V8RLPpM1mJUAtKGdMXgHhF35RY1197VkZJPpB5ioQKz",
+      "signatures_analyzed": 13,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795551159,
+      "last_tx_blockTime": 1795559591,
+      "first_tx_utc": "2026-11-24T20:12:39+00:00",
+      "last_tx_utc": "2026-11-24T22:33:11+00:00",
+      "funders": [
+        {
+          "funder": "JCSEoiRDmDwDDMgryyQfrCsbaXuZvgLB1TXLfFiVeGeM",
+          "sol": 0.005,
+          "blockTime": 1795551159,
+          "tx": "TTuxbDHkXtNQHhV6VNVdEymmszrgKQzipYiKXnoXf7JBTp8bFRNdpsSrF75bFajEWZ9nXKVsEyynDhTgjXtYCy6",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "DoBxTt3zAY9MuEmAFsKhPZZT7MRqBynQcVnEnt3kXPd5",
+          "sol": 0.08489,
+          "blockTime": 1795559591,
+          "tx": "2UfGvbXKARuGmfQ9onE51a5FpVvc9gnm6W4AtdpukGa8JfgKVG4JkfBETyMaBqP4GpwJvha2dpRmf19MnjBNqG4q"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "TgupbLySHoSEmJT9R7hADd5Ni4KY7RtEhFcgAf8p3sm": {
+      "wallet": "TgupbLySHoSEmJT9R7hADd5Ni4KY7RtEhFcgAf8p3sm",
+      "signatures_analyzed": 136,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795543937,
+      "last_tx_blockTime": 1795560093,
+      "first_tx_utc": "2026-11-24T18:12:17+00:00",
+      "last_tx_utc": "2026-11-24T22:41:33+00:00",
+      "funders": [
+        {
+          "funder": "DoAsxPQgiyAxyaJNvpAAUb2ups6rbJRdYrCPyWxwRxBb",
+          "sol": 0.02048,
+          "blockTime": 1795560093,
+          "tx": "2ew7RHpYV3gfnohBFtZ2K9UEdDcEHM4ZMjofKAtbpkB5152ozVAyrf59Cw5nYFzBD2AvXFRiwEaJL1FeMvW9vEvD"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "ja6Ubg9goQ22fdGV14dT4G8wCbwaPYDrUbp8iTK9xZ7",
+          "sol": 0.05525,
+          "blockTime": 1795543937,
+          "tx": "4KYAyCmjthtxDSMyTyJKqtwmGhH1aYr7k6LTr9uvyC9LoHQPKhfWZQQQ2UQLzPYNFfPfr6pEuSnrTnfs7HyJCwjh"
+        },
+        {
+          "target": "moonCJg8476LNFLptX1qrK8PdRsA1HD1R6XWyu9MB93",
+          "sol": 0.0025,
+          "blockTime": 1795543937,
+          "tx": "4KYAyCmjthtxDSMyTyJKqtwmGhH1aYr7k6LTr9uvyC9LoHQPKhfWZQQQ2UQLzPYNFfPfr6pEuSnrTnfs7HyJCwjh"
+        },
+        {
+          "target": "4FqcC1L2KptGVdddX6vbbjB4ZobZB3UjmKXETp9Qugb5",
+          "sol": 5.0625,
+          "blockTime": 1795543937,
+          "tx": "4KYAyCmjthtxDSMyTyJKqtwmGhH1aYr7k6LTr9uvyC9LoHQPKhfWZQQQ2UQLzPYNFfPfr6pEuSnrTnfs7HyJCwjh"
+        },
+        {
+          "target": "FXdi6FSLB4PqR1pV9ZJZXF1urSvjjiPMmYyZ15Wdquzj",
+          "sol": 0.00585,
+          "blockTime": 1795543937,
+          "tx": "4F8FPgAu4jxZugNVgz7nqLRvYuhgTiwUL9WWo8keCRkF4kYsXiTAjZWsScCMuRohzVi3qSabzUbTqc1gKxCg6nDg"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "4BDcQsBNME2i8knapnDLKf2BGpyRvgWFyDeyEmjZpMoF",
+          "blockTimeMs": 1795543937000,
+          "source_owner": "4FqcC1L2KptGVdddX6vbbjB4ZobZB3UjmKXETp9Qugb5",
+          "dest_owner": "TgupbLySHoSEmJT9R7hADd5Ni4KY7RtEhFcgAf8p3sm",
+          "amount_tokens": 153285714.2857,
+          "is_burn": 0,
+          "tx": "4KYAyCmjthtxDSMyTyJKqtwmGhH1aYr7k6LTr9uvyC9LoHQPKhfWZQQQ2UQLzPYNFfPfr6pEuSnrTnfs7HyJCwjh"
+        }
+      ]
+    },
+    "HADu6rGcCuV2VrU786rHieEJDMzzAmZqBVuE6GbxqSrD": {
+      "wallet": "HADu6rGcCuV2VrU786rHieEJDMzzAmZqBVuE6GbxqSrD",
+      "signatures_analyzed": 8,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795554278,
+      "last_tx_blockTime": 1795558409,
+      "first_tx_utc": "2026-11-24T21:04:38+00:00",
+      "last_tx_utc": "2026-11-24T22:13:29+00:00",
+      "funders": [
+        {
+          "funder": "CQd5ietrLXq34QMTBEVcSyVDFdcddNg9NNbM1nfwAv84",
+          "sol": 0.01342,
+          "blockTime": 1795554278,
+          "tx": "45GJZ49VhqoYV5jGbCjfvob5LEpFWztx2KF6UYDqw5Y8mvohsCK4MUZ1YYdjVDy6idgPTkevnfpQxR5sALx9kKjj"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "RHSnGghMabzZTWoaeoEY3pMS7BfY4eAfQzQuZtyv2qm",
+          "sol": 0.04523,
+          "blockTime": 1795558409,
+          "tx": "4iJvLbc4XRwJfEno9CMfGR25LJVpvu5hzSAxY1LzXxXjGrXVz1wYinNtmmnvcBdpwPhbpV8SgMeydWJNNrJuJxER"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "98cMz45RY63joNoBGVGLzuDCFZtx4CcXdHNRBfmwSgm": {
+      "wallet": "98cMz45RY63joNoBGVGLzuDCFZtx4CcXdHNRBfmwSgm",
+      "signatures_analyzed": 6,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795557150,
+      "last_tx_blockTime": 1795558234,
+      "first_tx_utc": "2026-11-24T21:52:30+00:00",
+      "last_tx_utc": "2026-11-24T22:10:34+00:00",
+      "funders": [
+        {
+          "funder": "A77HErqtfN1hLLpvZ9pCtu66FEtM8BveoaKbbMoZ4RiR",
+          "sol": 0.9975,
+          "blockTime": 1795557150,
+          "tx": "3yb78meKq8BmFQLrWSm95EXrkSPrTrWJcc77iSr6HYbnEXwQRZ2EnntXTXEMKmsr8j5Ev99H9NMBCbvvrpL6GP1p"
+        },
+        {
+          "funder": "BEPFW3xVahWuxkKbanv4f68jCN7qv1WXPFFnSkdLcS5G",
+          "sol": 0.005,
+          "blockTime": 1795558234,
+          "tx": "5j1HZkNtAjYZfKw42FUX6BPXM3rWMjgQTm9fMEUT8E4hoMw3R8S5HDyymcmTvNVupW4m3ndpQryd7EUttGbnnMkX",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "4TQLFNWK8AovT1gFvda5jfw2oJeRMKEmw7aH6MGBJ3or",
+          "sol": 0.005,
+          "blockTime": 1795557826,
+          "tx": "39Kirgr1CYWPEwtiR5U26gvnV4jf7AKJSaAFPgxYExGmTtfk55M2MovLmQ1jZmqwfykN4va7XWJ7pJ5xxSXYonqo"
+        },
+        {
+          "target": "6ReQTVpeBmtsANc6D4wpbN9XRR8atkvaQDeoopTZAqD5",
+          "sol": 0.00281,
+          "blockTime": 1795557826,
+          "tx": "39Kirgr1CYWPEwtiR5U26gvnV4jf7AKJSaAFPgxYExGmTtfk55M2MovLmQ1jZmqwfykN4va7XWJ7pJ5xxSXYonqo"
+        },
+        {
+          "target": "2BEZwUELo4NAiLnoVm3o58GpniMeEmScCzyryWcvdycG",
+          "sol": 0.93827,
+          "blockTime": 1795557826,
+          "tx": "39Kirgr1CYWPEwtiR5U26gvnV4jf7AKJSaAFPgxYExGmTtfk55M2MovLmQ1jZmqwfykN4va7XWJ7pJ5xxSXYonqo"
+        },
+        {
+          "target": "5cjcW9wExnJJiqgLjq7DEG75Pm6JBgE1hNv4B2vHXUW6",
+          "sol": 0.00446,
+          "blockTime": 1795557826,
+          "tx": "39Kirgr1CYWPEwtiR5U26gvnV4jf7AKJSaAFPgxYExGmTtfk55M2MovLmQ1jZmqwfykN4va7XWJ7pJ5xxSXYonqo"
+        },
+        {
+          "target": "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+          "sol": 0.00446,
+          "blockTime": 1795557826,
+          "tx": "39Kirgr1CYWPEwtiR5U26gvnV4jf7AKJSaAFPgxYExGmTtfk55M2MovLmQ1jZmqwfykN4va7XWJ7pJ5xxSXYonqo"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "4W1JzZsHSgfBABHa9fd5nnJQned5Sn5kxxCW8DJspump",
+          "blockTimeMs": 1795557826000,
+          "source_owner": "2BEZwUELo4NAiLnoVm3o58GpniMeEmScCzyryWcvdycG",
+          "dest_owner": "98cMz45RY63joNoBGVGLzuDCFZtx4CcXdHNRBfmwSgm",
+          "amount_tokens": 32541101.2916,
+          "is_burn": 0,
+          "tx": "39Kirgr1CYWPEwtiR5U26gvnV4jf7AKJSaAFPgxYExGmTtfk55M2MovLmQ1jZmqwfykN4va7XWJ7pJ5xxSXYonqo"
+        }
+      ]
+    },
+    "4n6XhGZV4itbUwg6yU7xWTqmtH3mzAuQBBD7KK8LFn5s": {
+      "wallet": "4n6XhGZV4itbUwg6yU7xWTqmtH3mzAuQBBD7KK8LFn5s",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795572724,
+      "last_tx_blockTime": 1795590013,
+      "first_tx_utc": "2026-11-25T02:12:04+00:00",
+      "last_tx_utc": "2026-11-25T07:00:13+00:00",
+      "funders": [
+        {
+          "funder": "8hiMr15igzE9NeWg1NcBy3sYBXXTmmWTG25tekpVs1sg",
+          "sol": 0.005,
+          "blockTime": 1795572724,
+          "tx": "2JbxBKxvsBWEGjhANZiEVEFw6NDGHaRunAcGxnA7LEjrBaxr2pmuEP4SNKDuibhMkvzST4jtvms1chuZGPnWXyt1",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "V51gFmWSXsg9U27qMYEbUdiG95HWqDR1vJw9ZwHiPk2",
+          "sol": 0.005,
+          "blockTime": 1795590013,
+          "tx": "5Bh5wQMx7RALkieworTDYo85gNvTbi8gnu3nQtbspADkA4UpvVSfVv2DLsUCxo6LsJjgapa3oAH5U6krES9eD4aw",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "7ZMNATMEgTRLFtQpDL8LmVxhvDErCZqaee3L6fGYYKA1": {
+      "wallet": "7ZMNATMEgTRLFtQpDL8LmVxhvDErCZqaee3L6fGYYKA1",
+      "signatures_analyzed": 150,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795475520,
+      "last_tx_blockTime": 1795585318,
+      "first_tx_utc": "2026-11-23T23:12:00+00:00",
+      "last_tx_utc": "2026-11-25T05:41:58+00:00",
+      "funders": [
+        {
+          "funder": "AxiomRYAid8ZDhS1bJUAzEaNSr69aTWB9ATfdDLfUbnc",
+          "sol": 0.005,
+          "blockTime": 1795475520,
+          "tx": "31AN2yf52GfPeauF6AC2CX4aiXbcWkRtrxGfSkP9uaPzPwdKWDBjpk6iPFXZJMSkvCt953PvxbTpAT7a3PsDD69f",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "8ngDHqA3R6jW8fWXnsUn2n2n7PncbvKzuM3PDwmgkwWf",
+          "sol": 0.005,
+          "blockTime": 1795585318,
+          "tx": "5f88VyXWi2h5hui25xGrG5gzByb7gGXnKJvqyEupXcaaVADpstXFTr9WR8TdGqHDJWHJCDNaKy7vCPg6xJvMiSgk",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "846ah7iBSu9ApuCyEhA5xpnjHHX7d4QJKetWLbwzmJZ8",
+          "sol": 0.015,
+          "blockTime": 1795477413,
+          "tx": "4ozUxuntiQv28ACivgKD2fBwfPgKnHDKG5cF2tZsSDv8rPQg5dLxRDdx522rxdeiWQqDxZzGBiKz95wbmaPCH6zy"
+        },
+        {
+          "target": "B7hu5i42TCw7LSczZ7CQJKty9sDgrWHxicqNzSNpitTE",
+          "sol": 0.00444,
+          "blockTime": 1795477413,
+          "tx": "4ozUxuntiQv28ACivgKD2fBwfPgKnHDKG5cF2tZsSDv8rPQg5dLxRDdx522rxdeiWQqDxZzGBiKz95wbmaPCH6zy"
+        },
+        {
+          "target": "4jBEnCXDaKwjKVk8GRfUQ22KwFF4a8UfAVD5yF8Bpqty",
+          "sol": 1.48148,
+          "blockTime": 1795477413,
+          "tx": "4ozUxuntiQv28ACivgKD2fBwfPgKnHDKG5cF2tZsSDv8rPQg5dLxRDdx522rxdeiWQqDxZzGBiKz95wbmaPCH6zy"
+        },
+        {
+          "target": "5YxQFdt3Tr9zJLvkFccqXVUwhdTWJQc1fFg2YPbxvxeD",
+          "sol": 0.00704,
+          "blockTime": 1795477413,
+          "tx": "4ozUxuntiQv28ACivgKD2fBwfPgKnHDKG5cF2tZsSDv8rPQg5dLxRDdx522rxdeiWQqDxZzGBiKz95wbmaPCH6zy"
+        },
+        {
+          "target": "Eh7hTLi6iMbT55jAEYVgtN5QaSb6z9Ytzwxs2LGG5qg4",
+          "sol": 0.00704,
+          "blockTime": 1795477413,
+          "tx": "4ozUxuntiQv28ACivgKD2fBwfPgKnHDKG5cF2tZsSDv8rPQg5dLxRDdx522rxdeiWQqDxZzGBiKz95wbmaPCH6zy"
+        },
+        {
+          "target": "D1JxwncLuHNaLm8C7GM64qS5wqENU2WK3sA9GmP44nBc",
+          "sol": 0.00585,
+          "blockTime": 1795477413,
+          "tx": "4ozUxuntiQv28ACivgKD2fBwfPgKnHDKG5cF2tZsSDv8rPQg5dLxRDdx522rxdeiWQqDxZzGBiKz95wbmaPCH6zy"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "GgUUavGUXpUk7QSqBWuUL54z1J3tyFht8sWE4qYTegxp": {
+      "wallet": "GgUUavGUXpUk7QSqBWuUL54z1J3tyFht8sWE4qYTegxp",
+      "signatures_analyzed": 17,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795555282,
+      "last_tx_blockTime": 1795560795,
+      "first_tx_utc": "2026-11-24T21:21:22+00:00",
+      "last_tx_utc": "2026-11-24T22:53:15+00:00",
+      "funders": [
+        {
+          "funder": "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy",
+          "sol": 0.005,
+          "blockTime": 1795555282,
+          "tx": "3CJmEg3jSxqo6AjjpG1RnkLuoMVpu2RLbdsjLDuFzWHfgzX6S6B2GeRmcRWimrnqc92pS3ZtbwehYRcv2FxhX9ZT",
+          "note": "co_signer_fee_payer"
+        },
+        {
+          "funder": "4Ro4ecbyyL4KkNDQhnQR9k4kcQBChCQxKYbwbqqSrZSN",
+          "sol": 0.12595,
+          "blockTime": 1795557180,
+          "tx": "5p4kLhfqE32opMSmvS2PmX2mu73RGPXL8FvdMziSp7xvhdQnwrZ6KMq2Uo79jaztZnLxZNcReM5t7RwiHEobpkGX"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "8DF29ZErjxGNzwecvZtqtrQJpet1Ufzjty5v6hmRNhsR",
+          "sol": 0.01763,
+          "blockTime": 1795560795,
+          "tx": "4ihG7agttK7BxMRZAT9PjPTH5TnVLv88SgWRpGNnTex7FXAe3Z6esHHc4zmBwUxVoLNgrxeDJ35ixFixqwDiD5mJ"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "9nDQ9xAKyCvVTWwYRpg1TsxZ3zxhThP5Dpvv84L9bL7D": {
+      "wallet": "9nDQ9xAKyCvVTWwYRpg1TsxZ3zxhThP5Dpvv84L9bL7D",
+      "signatures_analyzed": 311,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795473763,
+      "last_tx_blockTime": 1795562105,
+      "first_tx_utc": "2026-11-23T22:42:43+00:00",
+      "last_tx_utc": "2026-11-24T23:15:05+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "6EvoG9GtkMSk4yW6EZBzVkRBA3MCNyYX4XAih3dc389D",
+          "sol": 0.198,
+          "blockTime": 1795473763,
+          "tx": "3ELkMMVjRqcfhLQuD7M58zBwgabN6cARBrMJDLR2hY6KUeK64phtkxoeSUb9asjstyFXj6zdXh9oZEk4qwAqFt7j"
+        },
+        {
+          "target": "5vPNE6VFyXmCmzmWotdxmRk57LEWiXxuAfZL3hKbi2LH",
+          "sol": 0.002,
+          "blockTime": 1795473763,
+          "tx": "3ELkMMVjRqcfhLQuD7M58zBwgabN6cARBrMJDLR2hY6KUeK64phtkxoeSUb9asjstyFXj6zdXh9oZEk4qwAqFt7j"
+        },
+        {
+          "target": "EqGzowSp6cKAsMSRyyrFTaBxnZEVeNY81LC18YFy8Cx9",
+          "sol": 0.00299,
+          "blockTime": 1795562105,
+          "tx": "2qiGA5dRytwBXABFBZjWbG5fSCukHxfgHCTCefjtBzBjVbfpMZFvFdMrTKXxG9Dn8enuoL9z6QroCfqq4Gxg2iPC"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "JA9vtzj6v6UinqqXccw7CYt2dn3vyuoU3W47bbHSijuu": {
+      "wallet": "JA9vtzj6v6UinqqXccw7CYt2dn3vyuoU3W47bbHSijuu",
+      "signatures_analyzed": 11,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795557023,
+      "last_tx_blockTime": 1795558300,
+      "first_tx_utc": "2026-11-24T21:50:23+00:00",
+      "last_tx_utc": "2026-11-24T22:11:40+00:00",
+      "funders": [
+        {
+          "funder": "BmFdpraQhkiDQE6SnfG5omcA1VwzqfXrwtNYBwWTymy6",
+          "sol": 0.98451,
+          "blockTime": 1795557023,
+          "tx": "4HbXZtEf6weEKz44LqjMvPVPHNgqRJ3BkX5j9dbbKPH6CFbXwrMp7Y345MjzH6BxNQ5J8zkNsvjLbeGgrcVeJ9Yf"
+        },
+        {
+          "funder": "3yqhWRZDQN5PzrYQEo9wE7CeZQpCopXw8sgL9kGEgDfb",
+          "sol": 0.005,
+          "blockTime": 1795558300,
+          "tx": "4s9AH1xMXrPxTZYcFzEATC74CRTYZfsWq9wesw4Q7HZpta22dMSCckSWVU8BeomWPeY5rQ5xtwDcXD9hpwhfCVP3",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "Ay6KUVHC5RSTkfGtXP5GGYGuTpnzsAwh8rB1D7qohr7H",
+          "sol": 0.1975,
+          "blockTime": 1795557451,
+          "tx": "2w4VLMksE5NAxWEAXHo49DpUgoy77ozkxjsAdH2GGAC3uRnx1scxjhwZDMq6e8MqCp1sWrBDjtcjDYu5RugVRhxC"
+        },
+        {
+          "target": "3fWdpSnEhAy7tU5jwEAGVgLEFSeLhD8pWdMD7Mb5aNqn",
+          "sol": 1.06758,
+          "blockTime": 1795558300,
+          "tx": "4s9AH1xMXrPxTZYcFzEATC74CRTYZfsWq9wesw4Q7HZpta22dMSCckSWVU8BeomWPeY5rQ5xtwDcXD9hpwhfCVP3"
+        }
+      ],
+      "spl_transfers": [
+        {
+          "mint": "CYmg1Ag55NbTX6ZGkvGRdjcrGBKSm62fApLCgtinpump",
+          "blockTimeMs": 1795557451000,
+          "source_owner": "Ay6KUVHC5RSTkfGtXP5GGYGuTpnzsAwh8rB1D7qohr7H",
+          "dest_owner": "JA9vtzj6v6UinqqXccw7CYt2dn3vyuoU3W47bbHSijuu",
+          "amount_tokens": 7017717.9476,
+          "is_burn": 0,
+          "tx": "2w4VLMksE5NAxWEAXHo49DpUgoy77ozkxjsAdH2GGAC3uRnx1scxjhwZDMq6e8MqCp1sWrBDjtcjDYu5RugVRhxC"
+        }
+      ]
+    },
+    "6NpEK7wZ8EFA1skBrbhZq7JVtSXPfbcHxJoBKdeJ6GTK": {
+      "wallet": "6NpEK7wZ8EFA1skBrbhZq7JVtSXPfbcHxJoBKdeJ6GTK",
+      "signatures_analyzed": 334,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795469199,
+      "last_tx_blockTime": 1795558629,
+      "first_tx_utc": "2026-11-23T21:26:39+00:00",
+      "last_tx_utc": "2026-11-24T22:17:09+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "9RV1tGN4mP1XKJixyYgTpZisHkgx2Bcg9A9pqLNGTmdv",
+          "sol": 0.10049,
+          "blockTime": 1795469199,
+          "tx": "3B7WFUGVHuRe5JdHojeuDh4Mxin1Jv9QvFrx8eEFfxLTpHFbJ9jVviFeaE13aay9Ck3Pmv4GVuu3ZVYPvetGxwFX"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "EreMVXUKUtHLZFXYtPoHovwM8dA2FCPJ9f42ZbpcaWMC": {
+      "wallet": "EreMVXUKUtHLZFXYtPoHovwM8dA2FCPJ9f42ZbpcaWMC",
+      "signatures_analyzed": 529,
+      "pages_fetched": 3,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795534612,
+      "last_tx_blockTime": 1795574040,
+      "first_tx_utc": "2026-11-24T15:36:52+00:00",
+      "last_tx_utc": "2026-11-25T02:34:00+00:00",
+      "funders": [
+        {
+          "funder": "Biw4eeaiYYYq6xSqEd7GzdwsrrndxA8mqdxfAtG3PTUU",
+          "sol": 0.21219,
+          "blockTime": 1795534612,
+          "tx": "4WM8XvHKf8DG7si5QmY1cSWg3LWJ7odHC4VJkHEQfGty8iZtdNUpd4JG4JS98u1pGKdFJxA5rQoU5bohthyQX12i"
+        },
+        {
+          "funder": "B1NANCEacYzkzud15v726G96UBX9h7KMBhyK3dAjioBR",
+          "sol": 0.005,
+          "blockTime": 1795534773,
+          "tx": "3QfaSENJQwCDcFfPB35ikWVxuVNM6EkYNMHaUp2H3CxEVmMhjiduMRNo3tWUFvRDKP266UJnWbD7pJUtKAwkAPX9",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "FfV6VUco7y4PiiQ5tfJCnAaU6W6Htr8rEfEdhCbFjmgz": {
+      "wallet": "FfV6VUco7y4PiiQ5tfJCnAaU6W6Htr8rEfEdhCbFjmgz",
+      "signatures_analyzed": 0,
+      "pages_fetched": 0,
+      "history_completeness": "RPC_RATE_LIMITED_OR_EMPTY",
+      "first_tx_blockTime": null,
+      "last_tx_blockTime": null,
+      "first_tx_utc": "",
+      "last_tx_utc": "",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "5RuWbrJmyhnqnysnBZmdFr5o2zT8e6T1o1onEnx9aAXQ": {
+      "wallet": "5RuWbrJmyhnqnysnBZmdFr5o2zT8e6T1o1onEnx9aAXQ",
+      "signatures_analyzed": 0,
+      "pages_fetched": 0,
+      "history_completeness": "RPC_RATE_LIMITED_OR_EMPTY",
+      "first_tx_blockTime": null,
+      "last_tx_blockTime": null,
+      "first_tx_utc": "",
+      "last_tx_utc": "",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "AMkUTwhEyWKK8znmH8q6c25qKZgX7zokdpgmPr1x37zn": {
+      "wallet": "AMkUTwhEyWKK8znmH8q6c25qKZgX7zokdpgmPr1x37zn",
+      "signatures_analyzed": 0,
+      "pages_fetched": 0,
+      "history_completeness": "RPC_RATE_LIMITED_OR_EMPTY",
+      "first_tx_blockTime": null,
+      "last_tx_blockTime": null,
+      "first_tx_utc": "",
+      "last_tx_utc": "",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "DcVa5kaNzq9puM5nyhBh7L25QPkKNZSQWCMdXpc3kKWE": {
+      "wallet": "DcVa5kaNzq9puM5nyhBh7L25QPkKNZSQWCMdXpc3kKWE",
+      "signatures_analyzed": 0,
+      "pages_fetched": 0,
+      "history_completeness": "RPC_RATE_LIMITED_OR_EMPTY",
+      "first_tx_blockTime": null,
+      "last_tx_blockTime": null,
+      "first_tx_utc": "",
+      "last_tx_utc": "",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "6SUZCqkSU1T4JK3MYQ7jRFwuk7PgyVmzDHv1QEGtLCo4": {
+      "wallet": "6SUZCqkSU1T4JK3MYQ7jRFwuk7PgyVmzDHv1QEGtLCo4",
+      "signatures_analyzed": 0,
+      "pages_fetched": 0,
+      "history_completeness": "RPC_RATE_LIMITED_OR_EMPTY",
+      "first_tx_blockTime": null,
+      "last_tx_blockTime": null,
+      "first_tx_utc": "",
+      "last_tx_utc": "",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "gVDXhoGbePACvSqN7CZBtQXFW9eyJwsgudPEwSydAkx": {
+      "wallet": "gVDXhoGbePACvSqN7CZBtQXFW9eyJwsgudPEwSydAkx",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795577205,
+      "last_tx_blockTime": 1795583357,
+      "first_tx_utc": "2026-11-25T03:26:45+00:00",
+      "last_tx_utc": "2026-11-25T05:09:17+00:00",
+      "funders": [
+        {
+          "funder": "8hiMr15igzE9NeWg1NcBy3sYBXXTmmWTG25tekpVs1sg",
+          "sol": 0.005,
+          "blockTime": 1795577205,
+          "tx": "4sEg57Am6Z3hWBETtSbLAUkoETpKrxDHZD45KArACqTHNvZtufdiWPVHAoMTyBSAQq2GEWSuxsV4h7BRKWXjR4UR",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "4xBN9y8kk6SuMRv9Ao1xWjDdSprETwYo4qWH37vMgBaT",
+          "sol": 71.9652,
+          "blockTime": 1795583357,
+          "tx": "4JjnhoughyknTRwLvYGdhumY5USRXk46VAfxAmba7KTETvRMf2u2ZywK9f1sCqaAwqbNx5XZLXG2UpqEjhmLLGAu"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "429nhLprX8iFhSxjNQYEcyHLSquZAYbHUNbzq99GaqLU": {
+      "wallet": "429nhLprX8iFhSxjNQYEcyHLSquZAYbHUNbzq99GaqLU",
+      "signatures_analyzed": 0,
+      "pages_fetched": 0,
+      "history_completeness": "RPC_RATE_LIMITED_OR_EMPTY",
+      "first_tx_blockTime": null,
+      "last_tx_blockTime": null,
+      "first_tx_utc": "",
+      "last_tx_utc": "",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "4Cf6c4eyGfEEvdsA8qS1vjAND3vEyvbeoFtBxDEtQ5zn": {
+      "wallet": "4Cf6c4eyGfEEvdsA8qS1vjAND3vEyvbeoFtBxDEtQ5zn",
+      "signatures_analyzed": 0,
+      "pages_fetched": 0,
+      "history_completeness": "RPC_RATE_LIMITED_OR_EMPTY",
+      "first_tx_blockTime": null,
+      "last_tx_blockTime": null,
+      "first_tx_utc": "",
+      "last_tx_utc": "",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "HTVZVEQMBsNanubDPTs3CxDAEGNFQHJY8c1441iy2S5r": {
+      "wallet": "HTVZVEQMBsNanubDPTs3CxDAEGNFQHJY8c1441iy2S5r",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795585044,
+      "last_tx_blockTime": 1795590240,
+      "first_tx_utc": "2026-11-25T05:37:24+00:00",
+      "last_tx_utc": "2026-11-25T07:04:00+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "FFdBLYqL9rs5fUT38ArE8GV2L3BziEgG5LJUu6sshfkF": {
+      "wallet": "FFdBLYqL9rs5fUT38ArE8GV2L3BziEgG5LJUu6sshfkF",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795521895,
+      "last_tx_blockTime": 1795586768,
+      "first_tx_utc": "2026-11-24T12:04:55+00:00",
+      "last_tx_utc": "2026-11-25T06:06:08+00:00",
+      "funders": [
+        {
+          "funder": "AGpLGBM4tWTc8zQgmrjwK9tppGeeYHn17nrrpckvobd8",
+          "sol": 0.005,
+          "blockTime": 1795586768,
+          "tx": "3qCXDuzswjLythjEhUFcf95YN2dTF1WCpVpXdEWeM9sjyVPsFQPRu6VTNUfo8M77H64n9C64dWcQhnnJc4sa9GhK",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "jxtek34rjoHj8wAYyBKXJTYBMnC9FZLscSkqYUHZHM7",
+          "sol": 0.01382,
+          "blockTime": 1795521895,
+          "tx": "44jhRffZSJ5ejZqejDPBuY9BbgGK5TkyLtS65CoQWrYmSebyiCvVh6k3oPxH8V6o9SjBeNjsKsA8Ak1g5pNQDpQ3"
+        },
+        {
+          "target": "EPXAMZxpnWMjJxwwxpce5XEXBvQzVmWuktBLTjG9yjSX",
+          "sol": 0.00922,
+          "blockTime": 1795521895,
+          "tx": "44jhRffZSJ5ejZqejDPBuY9BbgGK5TkyLtS65CoQWrYmSebyiCvVh6k3oPxH8V6o9SjBeNjsKsA8Ak1g5pNQDpQ3"
+        },
+        {
+          "target": "jJmCqX8u6Zpk96BWqQ53uxLCa8Jb1nrJhDkUSGL6vr7",
+          "sol": 0.01258,
+          "blockTime": 1795521896,
+          "tx": "2RuQg3tXyGeJkokibhBzrCBk5ATQvSpw9GM4SdY8USeCtnPuTnekQWm6HUrfqFSbinNCuL66u8birqrr4niiR2UU"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "6cc8qKYLTK9PtyGM44Vs1ZMovFSthXMS6eCztKHKTSNt": {
+      "wallet": "6cc8qKYLTK9PtyGM44Vs1ZMovFSthXMS6eCztKHKTSNt",
+      "signatures_analyzed": 321,
+      "pages_fetched": 2,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795501559,
+      "last_tx_blockTime": 1795590230,
+      "first_tx_utc": "2026-11-24T06:25:59+00:00",
+      "last_tx_utc": "2026-11-25T07:03:50+00:00",
+      "funders": [
+        {
+          "funder": "AxiomRXZAq1Jgjj9pHmNqVP7Lhu67wLXZJZbaK87TTSk",
+          "sol": 0.04248,
+          "blockTime": 1795501559,
+          "tx": "5JLV2doTifJXqUTiLQUzHx2R6bUUeYsmk3Zk5irspqp2UQAz3mcAEhWLhKN2dQw2pyCuwD9S5xZCokaf9ZzXPzzb"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "7dJawZQeixj6pjzE9KYjdEdn9VUYoi5TnvZDq3fFgUpe",
+          "sol": 1.98,
+          "blockTime": 1795504504,
+          "tx": "475RLpykSVhmyghQczPfsbi5fMRm7GiV41YHf1pbeDpbbSPS6ASxMXh7qt1T8wEZV9KyM5C2QSf2SwMkQo5Rqw9"
+        },
+        {
+          "target": "5vPNE6VFyXmCmzmWotdxmRk57LEWiXxuAfZL3hKbi2LH",
+          "sol": 0.02,
+          "blockTime": 1795504504,
+          "tx": "475RLpykSVhmyghQczPfsbi5fMRm7GiV41YHf1pbeDpbbSPS6ASxMXh7qt1T8wEZV9KyM5C2QSf2SwMkQo5Rqw9"
+        },
+        {
+          "target": "3Tu1Y9aNveLFN4WTAwnAwXL6tbUp5MMe3RxyybG4jTAS",
+          "sol": 0.00953,
+          "blockTime": 1795590230,
+          "tx": "3k83aqiBiCDmA9wDBX18yRMggejSV6tnPrWDygc4tyVh4Xkj65YD9EPBHHUHXAKMW4VgRmSEGXLv63smh4GibrPn"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "6Z91Dgiz9E44bMW11rQuMBjt1NwwPoQGXFNZieGfVtAb": {
+      "wallet": "6Z91Dgiz9E44bMW11rQuMBjt1NwwPoQGXFNZieGfVtAb",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795586789,
+      "last_tx_blockTime": 1795590226,
+      "first_tx_utc": "2026-11-25T06:06:29+00:00",
+      "last_tx_utc": "2026-11-25T07:03:46+00:00",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "7aCWyTh9oT9CERjc8BLSNAXiSgtk44T7YgPs4phLNo61": {
+      "wallet": "7aCWyTh9oT9CERjc8BLSNAXiSgtk44T7YgPs4phLNo61",
+      "signatures_analyzed": 0,
+      "pages_fetched": 0,
+      "history_completeness": "RPC_RATE_LIMITED_OR_EMPTY",
+      "first_tx_blockTime": null,
+      "last_tx_blockTime": null,
+      "first_tx_utc": "",
+      "last_tx_utc": "",
+      "funders": [],
+      "outbound_targets": [],
+      "spl_transfers": []
+    },
+    "B8xVhNAdjvE8WBP9KfsxDZL3pYtg8SPQb1PeLU9R22oM": {
+      "wallet": "B8xVhNAdjvE8WBP9KfsxDZL3pYtg8SPQb1PeLU9R22oM",
+      "signatures_analyzed": 92,
+      "pages_fetched": 1,
+      "history_completeness": "COMPLETE_GENESIS_REACHED",
+      "first_tx_blockTime": 1795473614,
+      "last_tx_blockTime": 1795571241,
+      "first_tx_utc": "2026-11-23T22:40:14+00:00",
+      "last_tx_utc": "2026-11-25T01:47:21+00:00",
+      "funders": [
+        {
+          "funder": "ENkDeqoReYK1dYQBZ9fGzN4hmcKqKFqzmwMHczPFEWQJ",
+          "sol": 0.07918,
+          "blockTime": 1795473614,
+          "tx": "48dTeBXvtdeRLP99cGKMdDraiiDQ8GQjuCn27NjYBoKU1xHQ833jn69y9xjMRSDZz4kqBvddTnswrcGU5iFeMySM"
+        },
+        {
+          "funder": "6nWLZMUuFxZEPhCBnQYnRZmUGKPoxwsRCs6SQJfeFuxL",
+          "sol": 0.005,
+          "blockTime": 1795571241,
+          "tx": "zJwEM7arp6mgoGZ3gt3LFsY3UsngharyHQbGshDnbcM242FZ13iY2eYRn7cpX4CDQrodAcVV9DHpfoAV7N1vZjR",
+          "note": "co_signer_fee_payer"
+        }
+      ],
+      "outbound_targets": [
+        {
+          "target": "85mawrPByhjz2DqKYtUeyC7H5v8n6vH35hmxNVSZTefz",
+          "sol": 0.03,
+          "blockTime": 1795473883,
+          "tx": "chgBY7jXTBLWCffdBf7FihAzcRrrmf1DNAmHRsDbNthb6MPqxUHqLYxiGE46kKULpCSo5x2aZ5VE3wMCbFG4EY1"
+        },
+        {
+          "target": "CejBFmpyPwKAyvWSuT6QvmqWgY1wBCgQDP8hgQWS5M2G",
+          "sol": 0.00889,
+          "blockTime": 1795473883,
+          "tx": "chgBY7jXTBLWCffdBf7FihAzcRrrmf1DNAmHRsDbNthb6MPqxUHqLYxiGE46kKULpCSo5x2aZ5VE3wMCbFG4EY1"
+        },
+        {
+          "target": "D7icS8sdAPpkdkdm1JQaPhXXU5fLFN1CTsm1VnWt41Pg",
+          "sol": 2.96296,
+          "blockTime": 1795473883,
+          "tx": "chgBY7jXTBLWCffdBf7FihAzcRrrmf1DNAmHRsDbNthb6MPqxUHqLYxiGE46kKULpCSo5x2aZ5VE3wMCbFG4EY1"
+        },
+        {
+          "target": "EHAAiTxcdDwQ3U4bU6YcMsQGaekdzLS3B5SmYo46kJtL",
+          "sol": 0.01407,
+          "blockTime": 1795473883,
+          "tx": "chgBY7jXTBLWCffdBf7FihAzcRrrmf1DNAmHRsDbNthb6MPqxUHqLYxiGE46kKULpCSo5x2aZ5VE3wMCbFG4EY1"
+        }
+      ],
+      "spl_transfers": []
+    },
+    "57jABUoJuSqAFxu8z3thZ5qGpVkBEZeHZeYMDzL9i8FA": {
+      "wallet": "57jABUoJuSqAFxu8z3thZ5qGpVkBEZeHZeYMDzL9i8FA",
+      "signatures_analyzed": 600,
+      "pages_fetched": 3,
+      "history_completeness": "PARTIAL_PAGINATED_600_SIGS",
+      "first_tx_blockTime": 1795556381,
+      "last_tx_blockTime": 1795589916,
+      "first_tx_utc": "2026-11-24T21:39:41+00:00",
+      "last_tx_utc": "2026-11-25T06:58:36+00:00",
+      "funders": [],
+      "outbound_targets": [
+        {
+          "target": "4ACfpUFoaSD9bfPdeu6DBt89gB6ENTeHBXCAi87NhDEE",
+          "sol": 0.2,
+          "blockTime": 1795589916,
+          "tx": "65g5XhuUe7DGtR8oho8pj5GoRoqPJSr9zsSJMJq5XDCv7ai7ZcmzqeJbUkk6dsS7zStrBfAhXB5SmYZ4JEGrBYuV"
+        }
+      ],
+      "spl_transfers": []
+    }
+  },
+  "funder_types": {
+    "FHpcNSe6tb2n15bAdq4BkeYWGyZKFD7yLYrH92ng7wCT": {
+      "type": "CEX_OR_SERVICE_HOTWALLET",
+      "100tx_span_sec": 33
+    },
+    "54Pz1e35z9uoFdnxtzjp7xZQoFiofqhdayQWBMN7dsuy": {
+      "type": "ACTIVE_PRIVATE_OPERATOR",
+      "100tx_span_sec": 2583
+    },
+    "8DfHuYFv7VQ6wgcGtVDN2vtFn5ezF52hHNtPWYcqm8hU": {
+      "type": "ACTIVE_PRIVATE_OPERATOR",
+      "100tx_span_sec": 1278
+    },
+    "5F1seMKUqSNhv45f6FhB2cFmgJbk8U1avJw7M6TexUq1": {
+      "type": "ACTIVE_PRIVATE_OPERATOR",
+      "100tx_span_sec": 2460
+    },
+    "AxiomRXZAq1Jgjj9pHmNqVP7Lhu67wLXZJZbaK87TTSk": {
+      "type": "CEX_OR_SERVICE_HOTWALLET",
+      "100tx_span_sec": 365
+    },
+    "HckQ93Xqjjo8mwt5pNPWvyCTZXQZ858rvzmm7ZRrZg9t": {
+      "type": "CEX_OR_SERVICE_HOTWALLET",
+      "100tx_span_sec": 137
+    },
+    "8hiMr15igzE9NeWg1NcBy3sYBXXTmmWTG25tekpVs1sg": {
+      "type": "CEX_OR_SERVICE_HOTWALLET",
+      "100tx_span_sec": 506
+    },
+    "6L7JuHvdVrgDcVV43DdjHAEdQaHwb4H3ittNL31WupyQ": {
+      "type": "ACTIVE_PRIVATE_OPERATOR",
+      "100tx_span_sec": 11644
+    },
+    "Biw4eeaiYYYq6xSqEd7GzdwsrrndxA8mqdxfAtG3PTUU": {
+      "type": "ACTIVE_PRIVATE_OPERATOR",
+      "100tx_span_sec": 1022
+    },
+    "AxiomRYAid8ZDhS1bJUAzEaNSr69aTWB9ATfdDLfUbnc": {
+      "type": "CEX_OR_SERVICE_HOTWALLET",
+      "100tx_span_sec": 496
+    },
+    "8oXxAHso8rs9fWWNazyzcsK4qWi3qjD9o3aNKVLQ9WZP": {
+      "type": "ACTIVE_PRIVATE_OPERATOR",
+      "100tx_span_sec": 11079
+    },
+    "GPcPUvocqUf9yYXdbAdZ8fSryJXGXMUBKQ13gfwvECkm": {
+      "type": "ACTIVE_PRIVATE_OPERATOR",
+      "100tx_span_sec": 5658
+    },
+    "JCSEoiRDmDwDDMgryyQfrCsbaXuZvgLB1TXLfFiVeGeM": {
+      "type": "PRIVATE_DEDICATED_FUNDER",
+      "sampled_sigs": 47
+    }
+  }
+}

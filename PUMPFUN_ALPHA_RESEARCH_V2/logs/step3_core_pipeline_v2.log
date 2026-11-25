@@ -1,0 +1,37 @@
+2026-11-25 08:04:20,109 [INFO] Loading V2 chronological dataset, RPC paginated profiles, creator histories, and frozen V1...
+2026-11-25 08:04:23,630 [INFO] Verified 0 leakage violations across 3250 point-in-time signal snapshots!
+2026-11-25 08:04:23,633 [INFO] Uncensored 5m->4h dataset: N=392 | hit_2x_1h=6 (1.53%) | hit_2x_4h=20 (5.10%) | hit_3x_4h=15 (3.83%)
+2026-11-25 08:04:24,234 [INFO] FROZEN V2 MODEL LOCKED: sha256=b19b820fc533a18eec6c9c6a0cc033b83b0952918e030fa3de99f34a8a4fc460
+2026-11-25 08:04:33,037 [INFO] Wrote EARLY_SIGNALS_V2.csv: 3250 rows × 89 cols
+2026-11-25 08:04:33,056 [INFO] Wrote TOKEN_METRICS_V2.csv: 650 rows × 38 cols
+2026-11-25 08:04:33,060 [INFO] Wrote CONTROL_GROUP_V2.csv: 203 rows × 18 cols
+2026-11-25 08:04:33,091 [INFO] Wrote WALLET_CLUSTERS_V2.csv: 3220 rows × 8 cols
+2026-11-25 08:04:33,099 [INFO] Wrote INSIDER_ANALYSIS_V2.csv: 650 rows × 12 cols
+2026-11-25 08:04:33,127 [INFO] Wrote SUPPLY_CONCENTRATION_V2.csv: 650 rows × 15 cols
+2026-11-25 08:04:33,164 [INFO] Wrote REALIZED_PNL_V2.csv: 2520 rows × 24 cols
+2026-11-25 08:04:33,167 [INFO] Wrote WALK_FORWARD_RESULTS.csv: 20 rows × 20 cols
+2026-11-25 08:04:33,168 [INFO] Wrote MODEL_COMPARISON.csv: 42 rows × 16 cols
+2026-11-25 08:04:33,183 [INFO] Saved cache/v2_core_summary.json.
+2026-11-25 08:37:02,667 [INFO] Loading V2 chronological dataset, RPC paginated profiles, creator histories, and frozen V1...
+2026-11-25 08:37:07,480 [INFO] Verified 0 leakage violations across 3250 point-in-time signal snapshots!
+2026-11-25 08:37:07,511 [INFO] Uncensored 5m->4h dataset: N=526 | hit_2x_1h=12 (2.28%) | hit_2x_4h=28 (5.32%) | hit_3x_4h=21 (3.99%)
+2026-11-25 08:37:08,954 [INFO] FROZEN V2 MODEL LOCKED: sha256=97a9684e2028732126c0528a2b0a7f8b31a19b5350d47a39564e69849910b932
+2026-11-25 08:37:22,196 [INFO] Wrote EARLY_SIGNALS_V2.csv: 3250 rows × 89 cols
+2026-11-25 08:37:22,239 [INFO] Wrote TOKEN_METRICS_V2.csv: 650 rows × 38 cols
+2026-11-25 08:37:22,246 [INFO] Wrote CONTROL_GROUP_V2.csv: 203 rows × 18 cols
+2026-11-25 08:37:22,290 [INFO] Wrote WALLET_CLUSTERS_V2.csv: 3220 rows × 8 cols
+2026-11-25 08:37:22,298 [INFO] Wrote INSIDER_ANALYSIS_V2.csv: 650 rows × 12 cols
+2026-11-25 08:37:22,309 [INFO] Wrote SUPPLY_CONCENTRATION_V2.csv: 650 rows × 15 cols
+2026-11-25 08:37:22,399 [INFO] Wrote REALIZED_PNL_V2.csv: 2520 rows × 24 cols
+2026-11-25 08:37:22,405 [INFO] Wrote WALK_FORWARD_RESULTS.csv: 20 rows × 20 cols
+2026-11-25 08:37:22,409 [INFO] Wrote MODEL_COMPARISON.csv: 42 rows × 16 cols
+2026-11-25 08:37:22,434 [INFO] Saved cache/v2_core_summary.json.
+2026-11-25 08:37:25,512 [INFO] Verified Frozen V2 Model SHA-256: 97a9684e2028732126c0528a2b0a7f8b31a19b5350d47a39564e69849910b932 (frozen at 2026-11-25T07:37:08.952104+00:00)
+2026-11-25 08:37:31,344 [INFO] Fetched 110 100% UNSEEN Post-Freeze Nov 25 chronological emissions.
+2026-11-25 08:38:11,564 [INFO] Step 4 Out-of-Time + Paper Trading completed in 46.1s.
+2026-11-25 08:42:33,672 [INFO] Verified Frozen V2 Model SHA-256: 97a9684e2028732126c0528a2b0a7f8b31a19b5350d47a39564e69849910b932 (frozen at 2026-11-25T07:37:08.952104+00:00)
+2026-11-25 08:42:35,960 [INFO] Evaluating 100 100% UNSEEN Post-Freeze emissions (100 uncensored 1h/4h + 0 live censored).
+2026-11-25 08:45:17,136 [INFO] Verified Frozen V2 Model SHA-256: 97a9684e2028732126c0528a2b0a7f8b31a19b5350d47a39564e69849910b932 (frozen at 2026-11-25T07:37:08.952104+00:00)
+2026-11-25 08:45:19,814 [INFO] Evaluating 100 100% UNSEEN Post-Freeze emissions (100 uncensored 1h/4h + 0 live censored).
+2026-11-25 08:45:19,821 [INFO] Loaded cached unseen OOT evaluation table (100 tokens).
+2026-11-25 08:45:46,829 [INFO] Step 4 Out-of-Time + Paper Trading completed in 29.7s.

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>PUMPFUN ALPHA V2 — Validated Causal Research & Paper Trading Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script src="dashboard_v2_data.js"></script>
+<style>
+  :root { --bg:#090d16; --panel:#111827; --border:#1f2937; --text:#e5e7eb; --muted:#9ca3af; --green:#10b981; --blue:#3b82f6; --amber:#f59e0b; --red:#ef4444; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:system-ui,-apple-system,sans-serif; background:var(--bg); color:var(--text); line-height:1.5; }
+  header { padding:16px 24px; background:#0f172a; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; }
+  h1 { font-size:1.2rem; color:#fff; }
+  .badge { background:rgba(16,185,129,0.18); color:var(--green); border:1px solid rgba(16,185,129,0.4); padding:2px 9px; border-radius:99px; font-size:0.74rem; margin-left:8px; }
+  nav { display:flex; gap:8px; padding:10px 24px 0; background:#0b1120; border-bottom:1px solid var(--border); flex-wrap:wrap; }
+  .tab { background:transparent; color:var(--muted); border:1px solid transparent; border-bottom:none; padding:8px 14px; cursor:pointer; font-weight:600; border-radius:8px 8px 0 0; }
+  .tab.active { background:var(--panel); color:var(--green); border-color:var(--border); }
+  main { padding:20px 24px; max-width:1600px; margin:0 auto; }
+  .view { display:none; } .view.active { display:block; }
+  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:14px; margin-bottom:18px; }
+  .kpi { background:var(--panel); border:1px solid var(--border); padding:14px; border-radius:10px; }
+  .kpi .l { font-size:0.72rem; color:var(--muted); text-transform:uppercase; }
+  .kpi .v { font-size:1.45rem; font-weight:700; color:#fff; margin-top:4px; }
+  .kpi .s { font-size:0.75rem; color:var(--green); margin-top:2px; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-bottom:18px; }
+  @media(max-width:1050px){ .grid2{grid-template-columns:1fr;} }
+  .card { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:16px; margin-bottom:18px; }
+  .card h3 { font-size:0.94rem; margin-bottom:12px; color:#f9fafb; }
+  .twrap { overflow-x:auto; max-height:440px; overflow-y:auto; }
+  table { width:100%; border-collapse:collapse; font-size:0.79rem; }
+  th,td { padding:7px 10px; border-bottom:1px solid var(--border); text-align:left; white-space:nowrap; }
+  th { position:sticky; top:0; background:#0f172a; color:var(--muted); }
+  .pill { padding:2px 7px; border-radius:4px; font-weight:600; font-size:0.72rem; }
+  .pg { background:rgba(16,185,129,0.2); color:#34d399; }
+  .pa { background:rgba(245,158,11,0.2); color:#fbbf24; }
+  .pr { background:rgba(239,68,68,0.2); color:#f87171; }
+  canvas { max-height:310px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>PUMPFUN ALPHA V2 <span class="badge">ZERO-LEAKAGE • FIFO PNL • WALK-FORWARD • PAPER TRADING</span></h1>
+  <div style="font-size:0.78rem;color:#9ca3af;" id="hdrMeta"></div>
+</header>
+<nav>
+  <button class="tab active" onclick="sw(1,this)">1. V1 vs V2 & Ablations</button>
+  <button class="tab" onclick="sw(2,this)">2. Walk-Forward Folds</button>
+  <button class="tab" onclick="sw(3,this)">3. Chronological Signals V2</button>
+  <button class="tab" onclick="sw(4,this)">4. 8-Cat Wallets & FIFO PnL</button>
+  <button class="tab" onclick="sw(5,this)">5. Unseen Out-Of-Time & Paper Trading</button>
+</nav>
+<main>
+  <section id="v1" class="view active">
+    <div class="kpis" id="kpis1"></div>
+    <div class="grid2">
+      <div class="card"><h3>Porównanie Modelu V2 vs Zamrożony V1 i Benchmarki (ROC-AUC & Precision@10 na hit_2x_4h)</h3><canvas id="cComp"></canvas></div>
+      <div class="card"><h3>Ablation Study — Wpływ Usunięcia Komponentów na ROC-AUC i PR-AUC</h3><canvas id="cAbl"></canvas></div>
+    </div>
+    <div class="card"><h3>Pełna Tabela Porównawcza i Ablacyjna (identyczne timestampy i zasady wyboru)</h3><div class="twrap" id="tComp"></div></div>
+  </section>
+  <section id="v2" class="view">
+    <div class="card"><h3>Wyniki Walk-Forward Osobno Dla Każdego Okresu Testowego (z kontrolą Embargo)</h3><div class="twrap" id="tWf"></div></div>
+  </section>
+  <section id="v3" class="view">
+    <div class="card"><h3>Chronologiczny Zbiór Tokenów V2 (3 Niezależne Wyniki + Confidence + Censoring)</h3><div class="twrap" id="tTok"></div></div>
+  </section>
+  <section id="v4" class="view">
+    <div class="grid2">
+      <div class="card"><h3>8-Kategorialna Klasyfikacja Relacji Portfeli V2</h3><canvas id="cCats"></canvas></div>
+      <div class="card"><h3>Rekonstrukcja Zrealizowanego PnL Metodą FIFO (REALIZED_PNL_V2)</h3><div class="twrap" id="tFifo"></div></div>
+    </div>
+  </section>
+  <section id="v5" class="view">
+    <div class="kpis" id="kpis5"></div>
+    <div class="card"><h3>Out-Of-Time Test na Nowych Nieznanych Emisjach (po zamrożeniu wag V2!)</h3><div class="twrap" id="tOot"></div></div>
+    <div class="card"><h3>Moduł Paper Trading — Zarejestrowane Alerty Bez Prawdziwych Zakupów</h3><div class="twrap" id="tPap"></div></div>
+  </section>
+</main>
+<script>
+const D = window.PUMP_V2_DATA;
+function sw(i,b){ document.querySelectorAll('.view').forEach(v=>v.classList.remove('active')); document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active')); document.getElementById('v'+i).classList.add('active'); b.classList.add('active'); }
+document.getElementById('hdrMeta').innerHTML = `Frozen V2 SHA256: <code>${D.core.frozen_model.frozen_sha256.slice(0,16)}...</code> | Przecieki danych: <b>${D.core.leakage_violations}</b>`;
+
+const br = D.core.base_rates_5m;
+const v2m = D.model_comp_4h.find(x=>x.strategy==='Pump_Potential_V2') || {};
+const v1m = D.model_comp_4h.find(x=>x.strategy==='Pump_Potential_V1_Frozen') || {};
+document.getElementById('kpis1').innerHTML = `
+  <div class="kpi"><div class="l">Chronologiczne Tokeny V2</div><div class="v">${D.core.chronological_dataset_total}</div><div class="s">0% selekcji wg przyszłego ATH</div></div>
+  <div class="kpi"><div class="l">Rzeczywisty Base Rate (hit_2x_4h)</div><div class="v">${((br.hit_2x_4h||0)*100).toFixed(2)}%</div><div class="s">hit_3x_4h: ${((br.hit_3x_4h||0)*100).toFixed(2)}%</div></div>
+  <div class="kpi"><div class="l">V2 ROC-AUC vs V1 Frozen</div><div class="v">${v2m.roc_auc||'-'}</div><div class="s">V1 Frozen na tych samych danych: ${v1m.roc_auc||'-'}</div></div>
+  <div class="kpi"><div class="l">V2 Lift@10 (Walk-Forward OOS)</div><div class="v">${v2m.lift_at_10||'-'}x</div><div class="s">Precision@10: ${((v2m.precision_at_10||0)*100).toFixed(1)}%</div></div>
+`;
+
+const mainStrats = D.model_comp_4h.filter(x=>x.group!=='Ablation_V2');
+new Chart(document.getElementById('cComp'), {
+  type:'bar',
+  data:{ labels:mainStrats.map(x=>x.strategy.replace('Pump_Potential_','')), datasets:[
+    {label:'ROC-AUC', data:mainStrats.map(x=>x.roc_auc), backgroundColor:'#10b981'},
+    {label:'Precision@10', data:mainStrats.map(x=>x.precision_at_10), backgroundColor:'#3b82f6'}
+  ]}, options:{scales:{x:{ticks:{color:'#e5e7eb',font:{size:10}}},y:{ticks:{color:'#9ca3af'}}}}
+});
+
+const ablStrats = D.model_comp_4h.filter(x=>x.strategy==='Pump_Potential_V2' || x.group==='Ablation_V2');
+new Chart(document.getElementById('cAbl'), {
+  type:'bar',
+  data:{ labels:ablStrats.map(x=>x.strategy.replace('Ablation_No_','- ').replace('Pump_Potential_','')), datasets:[
+    {label:'ROC-AUC', data:ablStrats.map(x=>x.roc_auc), backgroundColor:'#f59e0b'},
+    {label:'PR-AUC', data:ablStrats.map(x=>x.pr_auc), backgroundColor:'#8b5cf6'}
+  ]}, options:{scales:{x:{ticks:{color:'#e5e7eb',font:{size:10}}},y:{ticks:{color:'#9ca3af'}}}}
+});
+
+document.getElementById('tComp').innerHTML = `<table><thead><tr><th>Strategia</th><th>Grupa</th><th>N</th><th>Base Rate</th><th>P@5</th><th>P@10</th><th>P@20</th><th>Lift@10</th><th>ROC-AUC</th><th>PR-AUC</th><th>Śr. Zwrot Zdarzeniowy Top10</th></tr></thead><tbody>` +
+  D.model_comp_4h.map(r=>`<tr><td><b>${r.strategy}</b></td><td>${r.group}</td><td>${r.n_obs}</td><td>${(r.base_rate*100).toFixed(2)}%</td><td>${(r.precision_at_5*100).toFixed(0)}%</td><td>${(r.precision_at_10*100).toFixed(0)}%</td><td>${(r.precision_at_20*100).toFixed(0)}%</td><td><b>${r.lift_at_10||0}x</b></td><td>${r.roc_auc}</td><td>${r.pr_auc}</td><td>${r.top10_mean_event_net_ret_pct}%</td></tr>`).join('') + `</tbody></table>`;
+
+document.getElementById('tWf').innerHTML = `<table><thead><tr><th>Fold</th><th>Okres Testowy UTC</th><th>Embargo</th><th>Strategia</th><th>N</th><th>Pozytywne</th><th>P@10</th><th>Lift@10</th><th>ROC-AUC</th><th>Śr. Zwrot Zdarzeniowy Top10</th></tr></thead><tbody>` +
+  D.walk_forward.map(w=>`<tr><td>Fold ${w.fold}</td><td>${w.test_period_start_utc} → ${w.test_period_end_utc}</td><td>${w.embargo_status}</td><td><b>${w.strategy}</b></td><td>${w.n_obs}</td><td>${w.positives}</td><td>${(w.precision_at_10*100).toFixed(0)}%</td><td>${w.lift_at_10||0}x</td><td>${w.roc_auc||'-'}</td><td>${w.top10_mean_event_net_ret_pct}%</td></tr>`).join('') + `</tbody></table>`;
+
+document.getElementById('tTok').innerHTML = `<table><thead><tr><th>Ticker</th><th>Start UTC</th><th>Potential V2</th><th>Manip. Risk</th><th>Insider Risk</th><th>Confidence</th><th>Status 4h</th><th>Status 24h</th><th>Mnożnik 4h</th><th>Sim 4h Net%</th><th>Powody Oceny</th></tr></thead><tbody>` +
+  D.tokens.map(t=>`<tr><td><b>${t.symbol||'-'}</b></td><td>${t.created_utc}</td><td><span class="pill pg">${t.pump_potential_v2_5m||'-'}</span></td><td>${t.manipulation_risk_v2_5m}</td><td>${t.insider_supply_risk_v2_5m}</td><td>${t.score_confidence_level}</td><td>${t.status_4h}</td><td>${t.status_24h}</td><td>${t.reliable_market_mult_4h||'censored'}</td><td>${t.sim_4h_net_ret_pct!==null?t.sim_4h_net_ret_pct+'%':'censored'}</td><td>${t.score_reasons||''}</td></tr>`).join('') + `</tbody></table>`;
+
+new Chart(document.getElementById('cCats'), {
+  type:'bar',
+  data:{ labels:D.cluster_cats.map(c=>c.category), datasets:[{label:'Liczba grup/rekordów', data:D.cluster_cats.map(c=>c.count), backgroundColor:'#3b82f6'}]},
+  options:{indexAxis:'y', scales:{x:{ticks:{color:'#9ca3af'}},y:{ticks:{color:'#e5e7eb',font:{size:10}}}}}
+});
+
+document.getElementById('tFifo').innerHTML = `<table><thead><tr><th>Ticker</th><th>Portfel</th><th>FIFO Realized SOL</th><th>FIFO Unrealized SOL</th><th>Nieprzypisane Sprzedaże SOL</th><th>Kompletność FIFO</th><th>Sygnatury RPC</th><th>Kompletność RPC</th></tr></thead><tbody>` +
+  D.fifo_top.map(f=>`<tr><td><b>${f.symbol}</b></td><td><code>${f.wallet.slice(0,6)}..${f.wallet.slice(-4)}</code></td><td><span class="pill ${f.fifo_realized_pnl_sol>=0?'pg':'pr'}">${f.fifo_realized_pnl_sol} SOL</span></td><td>${f.fifo_unrealized_pnl_sol} SOL</td><td>${f.unattributed_sell_proceeds_sol} SOL</td><td>${f.pnl_completeness}</td><td>${f.rpc_signatures_analyzed}</td><td>${f.rpc_history_completeness}</td></tr>`).join('') + `</tbody></table>`;
+
+document.getElementById('kpis5').innerHTML = `
+  <div class="kpi"><div class="l">Nowe Nieznane Tokeny (Post-Freeze)</div><div class="v">${D.oot.total_unseen_tokens_observed||0}</div><div class="s">Uncensored 1h: ${D.oot.uncensored_1h_count||0} | Censored 4h: ${D.oot.censored_4h_count||0}</div></div>
+  <div class="kpi"><div class="l">Live Base Rate (hit_2x_1h)</div><div class="v">${D.oot.real_base_rate_hit_2x_1h!==null?((D.oot.real_base_rate_hit_2x_1h||0)*100).toFixed(2)+'%':'-'}</div><div class="s">Na pełnym strumieniu obserwowanym</div></div>
+  <div class="kpi"><div class="l">Zapisane Alerty Paper Trading</div><div class="v">${D.paper_alerts.length}</div><div class="s">Zero prawdziwych transakcji</div></div>
+`;
+
+document.getElementById('tOot').innerHTML = `<table><thead><tr><th>Ticker</th><th>Start UTC</th><th>V2 Frozen</th><th>V1 Frozen</th><th>Manip. Risk</th><th>Status 1h</th><th>Status 4h</th><th>hit_2x_1h</th><th>Mnożnik 1h</th><th>Sim 1h Net%</th><th>Powody</th></tr></thead><tbody>` +
+  D.oot_tokens.map(o=>`<tr><td><b>${o.symbol||'-'}</b></td><td>${o.created_utc}</td><td><span class="pill pg">${o.pump_potential_v2_frozen}</span></td><td>${o.pump_potential_v1_frozen}</td><td>${o.manipulation_risk_v2}</td><td>${o.status_1h}</td><td><span class="pill pa">${o.status_4h}</span></td><td>${o.hit_2x_1h!==null?o.hit_2x_1h:'censored'}</td><td>${o.reliable_market_mult_1h||'censored'}</td><td>${o.sim_1h_net_ret_pct!==null?o.sim_1h_net_ret_pct+'%':'censored'}</td><td>${o.score_reasons}</td></tr>`).join('') + `</tbody></table>`;
+
+document.getElementById('tPap').innerHTML = `<table><thead><tr><th>Czas Alertu UTC</th><th>Ticker</th><th>Tier</th><th>Potential V2</th><th>Manip. Risk</th><th>Insider Risk</th><th>Cena Wejścia</th><th>Płynność</th><th>Kupujący</th><th>Eval 15m</th><th>Eval 1h</th><th>Powody</th></tr></thead><tbody>` +
+  D.paper_alerts.map(p=>`<tr><td>${(p.alert_timestamp_utc||'').slice(0,19)}</td><td><b>${p.symbol||'-'}</b></td><td>${p.alert_tier}</td><td><span class="pill pg">${p.pump_potential_v2}</span></td><td>${p.manipulation_risk_v2}</td><td>${p.insider_supply_risk_v2}</td><td>$${p.entry_price_usd}</td><td>$${p.implied_liquidity_usd}</td><td>${p.unique_buyers}</td><td>${p.eval_15m_status}</td><td>${p.eval_1h_status}</td><td>${p.score_reasons}</td></tr>`).join('') + `</tbody></table>`;
+</script>
+</body>
+</html>
