@@ -35,6 +35,7 @@ from amm_reconstruction.amm_reconstructor import reconstruct_reserve_state_at, c
 from wallet_intelligence.wallet_intel_v2_2 import WalletIntelligenceEngineV22
 from feature_engine.feature_engine import SharedFeatureEngineV22, CausalMarketRegimeTracker
 from scoring.confluence_scorer import score_multi_signal_confluence
+from paper_trading.wallet_history_v2_2 import WalletHistoryRecorder
 
 
 class PaperTradingEngineV22:
@@ -61,6 +62,8 @@ class PaperTradingEngineV22:
 
         self.open_positions: dict[str, dict] = {}
         self._rehydrate_from_append_only_logs()
+        # Live wallet track records for H2/H3 (append-only, rehydrated, outcomes only after +4h)
+        self.wallet_history = WalletHistoryRecorder(self.storage_dir, self.wallets, http=self.http)
 
     def _append_jsonl(self, path: Path, record: dict) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -142,6 +145,7 @@ class PaperTradingEngineV22:
             source_health_status=source_health_status,
             is_tape_complete=True,
         )
+        self.wallet_history.record_observation(snap, trades, decision_cutoff_ms)
         conf = score_multi_signal_confluence(snap)
         env = snap["envelope"]
         sig_gen_ms = int(env["signal_generated_at_ms"])
@@ -472,7 +476,8 @@ class PaperTradingEngineV22:
                     pid, {"mint": m_open}, (r_tr_u["data"] or {}).get("trades", []), r_tr_u["acquired_at_ms"]
                 )
 
-        self.log_uptime_event("HEARTBEAT_CYCLE_DONE", session_id, note=f"evaluated={evaluated}, opened={opened}, rejected={rejected}")
+        resolved = self.wallet_history.resolve_due()
+        self.log_uptime_event("HEARTBEAT_CYCLE_DONE", session_id, note=f"evaluated={evaluated}, opened={opened}, rejected={rejected}, wallet_outcomes_resolved={resolved}, wallet_pending={len(self.wallet_history.pending)}")
         return self.build_paper_trading_status_summary()
 
     def build_paper_trading_status_summary(self) -> dict:
