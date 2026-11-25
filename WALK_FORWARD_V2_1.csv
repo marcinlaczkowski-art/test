@@ -1,0 +1,4 @@
+fold_id,train_count,val_count,test_count,embargo_hours,zero_token_overlap_verified,selected_l2_on_val,val_pr_auc,test_start_utc,test_end_utc,signals_evaluated,positive_hits_2x_4h,base_rate_2x_4h,roc_auc,pr_auc,precision_at_5,precision_at_10,precision_at_20,recall_top25pct,lift_at_10,top10_median_future_max_mult_4h,top10_median_drawdown_4h_pct,top10_mean_net_return_0_25_sol_pct,top10_median_net_return_0_25_sol_pct,top10_mean_net_return_1_0_sol_pct
+WF_Fold_1_EarlyNov,104,48,53,4.0,1,20.0,0.0938,2026-11-17T04:45:20+00:00,2026-11-20T22:56:54+00:00,53,3,0.0566,0.3533,0.0569,0.0,0.0,0.0,0.0,0.0,1.0,0.0,-5.31,-4.45,-9.61
+WF_Fold_2_MidNov,152,53,84,4.0,1,20.0,0.0624,2026-11-21T07:16:47+00:00,2026-11-24T16:59:32+00:00,84,5,0.0595,0.6987,0.1928,0.4,0.2,0.1,0.4,3.36,1.0,-14.12,6.01,-3.97,1.6
+WF_Fold_3_LateNov,206,84,330,4.0,1,20.0,0.1114,2026-11-24T22:00:28+00:00,2026-11-24T22:11:15+00:00,330,20,0.0606,0.5208,0.1136,0.2,0.1,0.05,0.2,1.65,1.0,-1.82,-4.45,-5.29,-16.1

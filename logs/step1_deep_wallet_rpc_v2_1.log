@@ -1,0 +1,16 @@
+2026-11-25 09:16:44,458 [INFO] Starting deep RPC full-tx reconstruction for 85 priority wallets (up to 25 full txs/wallet)...
+2026-11-25 09:16:57,908 [INFO] Deep wallet RPC checkpoint: 10/85 (14.1s)
+2026-11-25 09:17:15,017 [INFO] Deep wallet RPC checkpoint: 20/85 (31.2s)
+2026-11-25 09:17:33,003 [INFO] Deep wallet RPC checkpoint: 30/85 (49.1s)
+2026-11-25 09:17:53,458 [INFO] Deep wallet RPC checkpoint: 40/85 (69.6s)
+2026-11-25 09:18:18,235 [INFO] Deep wallet RPC checkpoint: 50/85 (94.4s)
+2026-11-25 09:18:43,112 [INFO] Deep wallet RPC checkpoint: 60/85 (119.3s)
+2026-11-25 09:19:08,246 [INFO] Deep wallet RPC checkpoint: 70/85 (144.4s)
+2026-11-25 09:19:17,364 [INFO] Deep wallet RPC checkpoint: 80/85 (153.5s)
+2026-11-25 09:19:27,980 [INFO] Deep wallet RPC checkpoint: 85/85 (164.1s)
+2026-11-25 09:19:32,455 [INFO] Deep Wallet RPC V2.1 finished in 168.6s: wallets=85 | full_parsed_txs=1,831 (across 44,399 sigs) | 100% history_complete=8!
+2026-11-25 09:21:57,350 [INFO] Starting deep RPC full-tx reconstruction for 85 priority wallets (up to 25 full txs/wallet)...
+2026-11-25 09:22:09,094 [INFO] Deep wallet RPC checkpoint: 10/30 (12.3s)
+2026-11-25 09:22:18,974 [INFO] Deep wallet RPC checkpoint: 20/30 (22.2s)
+2026-11-25 09:22:36,625 [INFO] Deep wallet RPC checkpoint: 30/30 (39.8s)
+2026-11-25 09:22:43,469 [INFO] Deep Wallet RPC V2.1 finished in 46.7s: wallets=107 | full_parsed_txs=2,338 (across 52,902 sigs) | 100% history_complete=11!

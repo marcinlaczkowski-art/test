@@ -1,0 +1,91 @@
+{
+  "total_tests": 12,
+  "passed_tests": 12,
+  "failed_tests": 0,
+  "runtime_sec": 0.913,
+  "results": [
+    {
+      "test_id": "01_no_unclosed_candles",
+      "passed": true,
+      "details": "Unclosed 1m candle [120s..180s) ignored at T=150s; FeatureLeakageError blocked +1ms violation."
+    },
+    {
+      "test_id": "02_no_future_volume",
+      "passed": true,
+      "details": "Injected $500k trade at signal_ts+1ms completely ignored (buy_vol=210.0)."
+    },
+    {
+      "test_id": "03_no_future_sol_mid_hour",
+      "passed": true,
+      "details": "Verified 0% SOL kline close leak at +1s, +15m, +30m, +59m59s; bar unlocked strictly at +3600s."
+    },
+    {
+      "test_id": "04_no_future_creator_outcomes",
+      "passed": true,
+      "details": "Creator launch at -20m showed win_rate='unknown' at T=+3m and unlocked only after +4h."
+    },
+    {
+      "test_id": "05_no_future_wallet_history_and_social",
+      "passed": true,
+      "details": "Future wallet outcomes (+10s/+20s) excluded at signal_ts; future social event blocked."
+    },
+    {
+      "test_id": "06_training_oot_paper_live_parity",
+      "passed": true,
+      "tokens_verified": 25,
+      "modes_verified": [
+        "training",
+        "validation",
+        "oot",
+        "paper_trading",
+        "live"
+      ],
+      "max_abs_feature_diff": 0.0,
+      "details": "100.0% exact bit-for-bit parity (max_diff=0.0) across all 5 modes on 25 tokens; empty ticker history returns 'insufficient_history' (never forced to 1)."
+    },
+    {
+      "test_id": "07_no_double_counting_wallets_or_trades",
+      "passed": true,
+      "details": "3x duplicated swap tape yielded identical buyer counts, volume, supply, and FIFO PnL."
+    },
+    {
+      "test_id": "08_supply_concentration_validation",
+      "passed": true,
+      "valid_tokens_count": 649,
+      "invalid_blocked_count": 1,
+      "max_valid_holder_sum_pct": 99.8002,
+      "details": "Synthetic 105.4% anomaly blocked as INVALID_SUPPLY_RECONSTRUCTION; all 649 valid cohort tokens <= 100% (max=99.80%, blocked=1)."
+    },
+    {
+      "test_id": "09_fifo_realized_pnl_validation",
+      "passed": true,
+      "details": "Exact 2-lot FIFO realized PnL (+4.999625 SOL) & remaining cost basis verified; unmatched sell flagged UNKNOWN_COST_BASIS."
+    },
+    {
+      "test_id": "10_amm_fees_and_price_impact",
+      "passed": true,
+      "sample_2_5x_tp_net_returns_by_sol_size": {
+        "0.1": 141.4086,
+        "0.25": 139.6333,
+        "0.5": 135.4359,
+        "1.0": 127.0199,
+        "2.0": 111.6788
+      },
+      "details": "Constant-product curve impact monotonic across [0.1, 0.25, 0.5, 1.0, 2.0] SOL; net < executable <= mid-price verified."
+    },
+    {
+      "test_id": "11_zero_token_split_leakage",
+      "passed": true,
+      "wf_folds_verified": 3,
+      "train_oot_overlap": 0,
+      "v1_oot_overlap": 0,
+      "details": "0 overlapping mints across all 3 Walk-Forward folds (>=4h embargo), V2/V2.1 650-cohort, V1 deep cohort, and 190 unseen OOT tokens."
+    },
+    {
+      "test_id": "12_censored_observations_handling",
+      "passed": true,
+      "oot_24h_censored_rows_verified": 190,
+      "details": "Unelapsed horizons strictly labeled 'censored' (never coerced to 0); verified on synthetic +90m cutoff and 190 OOT 24h rows."
+    }
+  ]
+}

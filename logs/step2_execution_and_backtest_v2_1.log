@@ -1,0 +1,53 @@
+2026-11-25 09:27:35,537 [INFO] === STEP 2 V2.1: CAUSAL ENGINE, SUPPLY/FIFO, EXECUTION SIMULATOR & WALK-FORWARD ===
+2026-11-25 09:28:06,575 [INFO] === STEP 2 V2.1: CAUSAL ENGINE, SUPPLY/FIFO, EXECUTION SIMULATOR & WALK-FORWARD ===
+2026-11-25 09:28:10,053 [INFO] Saved populated UnifiedStateBundle checkpoint -> state_post_wf_v2_1.json (creators=290, wallets=4149, tickers=650)
+2026-11-25 09:28:10,080 [INFO] Uncensored complete 4h tokens for Walk-Forward: 650 / 650 (censored/unknown strictly excluded, NEVER set to 0!)
+2026-11-25 09:30:33,175 [INFO] === STEP 2 V2.1: CAUSAL ENGINE, SUPPLY/FIFO, EXECUTION SIMULATOR & WALK-FORWARD ===
+2026-11-25 09:30:36,717 [INFO] Saved populated UnifiedStateBundle checkpoint -> state_post_wf_v2_1.json (creators=290, wallets=4149, tickers=650)
+2026-11-25 09:30:36,725 [INFO] Uncensored complete 4h tokens for Walk-Forward: 650 / 650 (censored/unknown strictly excluded, NEVER set to 0!)
+2026-11-25 09:30:37,881 [INFO] STEP 2 V2.1 COMPLETE in 4.7s!
+  - EARLY_SIGNALS_V2_1: 2600 rows | TOKEN_METRICS_V2_1: 650 rows
+  - SUPPLY_CONCENTRATION_V2_1: invalid_blocked=1, max_valid_holder_sum_pct=99.80% (<=100% invariant holds!)
+  - REALIZED_PNL_V2_1: 9194 wallet-token rows (UNKNOWN_COST_BASIS=1354)
+  - WALK_FORWARD_V2_1: 3 folds | MODEL_COMPARISON_V2_1: 17 rows (9 models + 8 ablations)
+  - Noisy groups identified by WF ablation: ['creator_history']
+2026-11-25 09:36:27,302 [INFO] === STEP 3 V2.1: HIGH-COMPLETENESS UNSEEN OOT EVALUATION & PAPER TRADING ===
+2026-11-25 09:36:28,590 [INFO] Polite OOT harvest starting for 190 strictly unseen chronological tokens (sem=3)...
+2026-11-25 09:36:50,882 [INFO] OOT harvest progress: 48/190 (23.6s)
+2026-11-25 09:37:15,738 [INFO] OOT harvest progress: 96/190 (48.4s)
+2026-11-25 09:40:39,682 [INFO] === STEP 3 V2.1: HIGH-COMPLETENESS UNSEEN OOT EVALUATION & PAPER TRADING ===
+2026-11-25 09:40:40,922 [INFO] Polite OOT harvest starting for 190 strictly unseen chronological tokens (sem=3)...
+2026-11-25 09:40:41,457 [INFO] OOT harvest progress: 48/190 (1.8s)
+2026-11-25 09:40:42,122 [INFO] OOT harvest progress: 96/190 (2.4s)
+2026-11-25 09:41:22,114 [INFO] OOT harvest progress: 144/190 (294.8s)
+2026-11-25 09:41:34,672 [INFO] OOT harvest progress: 144/190 (55.0s)
+2026-11-25 09:46:34,602 [INFO] OOT harvest progress: 190/190 (607.3s)
+2026-11-25 09:46:35,652 [INFO] OOT harvest progress: 190/190 (356.0s)
+2026-11-25 09:47:00,098 [INFO] === STEP 3 V2.1: HIGH-COMPLETENESS UNSEEN OOT EVALUATION & PAPER TRADING ===
+2026-11-25 09:47:01,470 [INFO] Polite OOT harvest starting for 190 strictly unseen chronological tokens (sem=3)...
+2026-11-25 09:47:01,987 [INFO] OOT harvest progress: 48/190 (1.9s)
+2026-11-25 09:47:02,653 [INFO] OOT harvest progress: 96/190 (2.6s)
+2026-11-25 09:47:03,318 [INFO] OOT harvest progress: 144/190 (3.2s)
+2026-11-25 09:47:26,105 [INFO] OOT harvest progress: 190/190 (26.0s)
+2026-11-25 09:50:07,974 [INFO] STEP 3 V2.1 COMPLETE in 568.3s!
+  - OOT 1h complete: 190/190 (elapsed completeness=100.0%, pos=2)
+  - OOT 4h complete: 190/190 (elapsed completeness=100.0%, pos=2, ROC-AUC=0.6809, PR-AUC=0.0309)
+  - Paper Trading V2.1: 25 candidates logged (12 alerts)
+2026-11-25 09:50:09,838 [INFO] STEP 3 V2.1 COMPLETE in 822.5s!
+  - OOT 1h complete: 190/190 (elapsed completeness=100.0%, pos=2)
+  - OOT 4h complete: 190/190 (elapsed completeness=100.0%, pos=2, ROC-AUC=0.6809, PR-AUC=0.0309)
+  - Paper Trading V2.1: 25 candidates logged (12 alerts)
+2026-11-25 09:50:57,691 [INFO] STEP 3 V2.1 COMPLETE in 237.6s!
+  - OOT 1h complete: 190/190 (elapsed completeness=100.0%, pos=2)
+  - OOT 4h complete: 190/190 (elapsed completeness=100.0%, pos=2, ROC-AUC=0.6809, PR-AUC=0.0309)
+  - Paper Trading V2.1: 25 candidates logged (12 alerts)
+2026-11-25 10:10:55,886 [INFO] === STEP 3 V2.1: HIGH-COMPLETENESS UNSEEN OOT EVALUATION & PAPER TRADING ===
+2026-11-25 10:10:57,391 [INFO] Polite OOT harvest starting for 190 strictly unseen chronological tokens (sem=3)...
+2026-11-25 10:10:57,904 [INFO] OOT harvest progress: 48/190 (2.0s)
+2026-11-25 10:10:58,576 [INFO] OOT harvest progress: 96/190 (2.7s)
+2026-11-25 10:10:59,248 [INFO] OOT harvest progress: 144/190 (3.4s)
+2026-11-25 10:11:04,514 [INFO] OOT harvest progress: 190/190 (8.6s)
+2026-11-25 10:11:05,706 [INFO] STEP 3 V2.1 COMPLETE in 9.8s!
+  - OOT 1h complete: 190/190 (elapsed completeness=100.0%, pos=2)
+  - OOT 4h complete: 190/190 (elapsed completeness=100.0%, pos=2, ROC-AUC=0.5612, PR-AUC=0.0173)
+  - Paper Trading V2.1: 25 candidates logged (12 alerts)
