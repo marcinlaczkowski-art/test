@@ -1,0 +1,34 @@
+2026-11-25 00:01:08,032 [INFO] Loading raw universe, cohort selection, DexScreener, Creators, Holdings, and RPC funding...
+2026-11-25 00:01:08,255 [INFO] Running semantic TF-IDF + SVD clustering across 8462 tokens...
+2026-11-25 00:01:10,129 [INFO] Reconstructing candles, trades, wallets, clusters, and supply checkpoints for 444 deep cohort tokens...
+2026-11-25 00:01:15,841 [INFO] Wrote ALL_TOKENS.csv: 8462 rows × 33 cols
+2026-11-25 00:01:15,851 [INFO] Wrote PUMP_EVENTS.csv: 198 rows × 80 cols
+2026-11-25 00:01:15,858 [INFO] Wrote TOP_100_PUMPS.csv: 100 rows × 80 cols
+2026-11-25 00:01:15,876 [INFO] Wrote TOKEN_METRICS.csv: 444 rows × 75 cols
+2026-11-25 00:01:15,880 [INFO] Wrote CONTROL_GROUP.csv: 158 rows × 20 cols
+2026-11-25 00:01:15,914 [INFO] Wrote WALLET_INTELLIGENCE.csv: 4903 rows × 14 cols
+2026-11-25 00:01:15,922 [INFO] Wrote WALLET_CLUSTERS.csv: 608 rows × 13 cols
+2026-11-25 00:01:15,945 [INFO] Wrote SUPPLY_CONCENTRATION.csv: 3108 rows × 13 cols
+2026-11-25 00:01:15,973 [INFO] Wrote INSIDER_PROFIT_ANALYSIS.csv: 608 rows × 19 cols
+2026-11-25 00:01:15,979 [INFO] Wrote INSIDER_RISK.csv: 444 rows × 18 cols
+2026-11-25 00:01:15,985 [INFO] Wrote CREATOR_ANALYSIS.csv: 689 rows × 13 cols
+2026-11-25 00:01:15,988 [INFO] Wrote HOURLY_PATTERNS.csv: 164 rows × 19 cols
+2026-11-25 00:01:16,061 [INFO] Wrote NAME_ANALYSIS.csv: 8462 rows × 24 cols
+2026-11-25 00:01:16,068 [INFO] Wrote SOCIAL_ANALYSIS.csv: 444 rows × 18 cols
+2026-11-25 00:12:41,735 [INFO] Loading raw universe, cohort selection, DexScreener, Creators, Holdings, and RPC funding...
+2026-11-25 00:12:41,960 [INFO] Running semantic TF-IDF + SVD clustering across 8462 tokens...
+2026-11-25 00:12:43,833 [INFO] Reconstructing candles, trades, wallets, clusters, and supply checkpoints for 493 deep cohort tokens...
+2026-11-25 00:12:49,025 [INFO] Wrote ALL_TOKENS.csv: 8462 rows × 33 cols
+2026-11-25 00:12:49,035 [INFO] Wrote PUMP_EVENTS.csv: 192 rows × 80 cols
+2026-11-25 00:12:49,041 [INFO] Wrote TOP_100_PUMPS.csv: 100 rows × 80 cols
+2026-11-25 00:12:49,062 [INFO] Wrote TOKEN_METRICS.csv: 493 rows × 75 cols
+2026-11-25 00:12:49,067 [INFO] Wrote CONTROL_GROUP.csv: 207 rows × 20 cols
+2026-11-25 00:12:49,099 [INFO] Wrote WALLET_INTELLIGENCE.csv: 4630 rows × 14 cols
+2026-11-25 00:12:49,111 [INFO] Wrote WALLET_CLUSTERS.csv: 1154 rows × 13 cols
+2026-11-25 00:12:49,137 [INFO] Wrote SUPPLY_CONCENTRATION.csv: 3451 rows × 13 cols
+2026-11-25 00:12:49,152 [INFO] Wrote INSIDER_PROFIT_ANALYSIS.csv: 1154 rows × 19 cols
+2026-11-25 00:12:49,174 [INFO] Wrote INSIDER_RISK.csv: 493 rows × 18 cols
+2026-11-25 00:12:49,181 [INFO] Wrote CREATOR_ANALYSIS.csv: 689 rows × 13 cols
+2026-11-25 00:12:49,183 [INFO] Wrote HOURLY_PATTERNS.csv: 164 rows × 19 cols
+2026-11-25 00:12:49,257 [INFO] Wrote NAME_ANALYSIS.csv: 8462 rows × 24 cols
+2026-11-25 00:12:49,264 [INFO] Wrote SOCIAL_ANALYSIS.csv: 493 rows × 18 cols

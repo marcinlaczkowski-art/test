@@ -1,0 +1,74 @@
+{
+  "probe_utc": "2026-11-24T22:22:02.882295+00:00",
+  "window_start_utc": "2026-10-25T22:22:02.882295+00:00",
+  "endpoints": {
+    "pumpfun_frontend_v3_coins": {
+      "status": 200,
+      "sample": "[{\"mint\":\"GwytBanGx9eS55TpbG3w6veLtT8PKRcs3SXiS7nFpump\",\"initialized\":true,\"name\":\"Doomed Rocket\",\"symbol\":\"DOOROC\",\"image_uri\":\"https://ipfs.io/ipfs/Qmf7PVZWybdtj8kKjW8M5w8Jx5D519kd1Na9tTTZ3pHZ9B\",\"metadata_uri\":\"https://ipfs.io/ipfs/QmNxmVJ9pke8guDzc8M18mTzSpM5drnUx52ct5i6q7Fxsx\",\"bonding_curve\":\"HriiJnAAw7xdqBpau8Hr9iVUNNPDKBfQeLTSdotYkef1\",\"associated_bonding_curve\":\"7wDL4P2EWGPYhxRGGiPXHwniHjTWWgTPeTpahMe5z99L\",\"creator\":\"v5QivFWoCjBY3VQJ7SLsHJbBqEw2jT1WepjmwHu6cMZ\",\"created_timestamp\":1795"
+    },
+    "pumpfun_frontend_v3_mcap": {
+      "status": 200,
+      "sample": "[{\"mint\":\"9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump\",\"initialized\":true,\"name\":\"Fartcoin \",\"symbol\":\"Fartcoin \",\"image_uri\":\"https://ipfs.io/ipfs/QmQr3Fz4h1etNsF7oLGMRHiCzhB5y9a7GjyodnF7zLHK1g\",\"metadata_uri\":\"https://ipfs.io/ipfs/QmYfe8zVGHA1heej47AkBX3Nnetg2h2kqj5yymz1xyKeHb\",\"twitter\":\"https://x.com/fartcoinofsol\",\"bonding_curve\":\"TBHe5tJnuT4CQbHorJ1uVdfUoaYGPKgfCpiv2jgesVN\",\"associated_bonding_curve\":\"4oPaRNdUyHNPn7oba9RnY66mkCUeUMZNVLmJ2X6J5a4Z\",\"creator\":\"HyYNVYmnFmi87NsQqWzLJhUTPBKQUfg"
+    },
+    "pumpfun_frontend_v2_coins": {
+      "status": 403,
+      "error": "{\n  \"error\": \"access_denied\",\n  \"rule_id\": \"0.18\",\n  \"host\": \"pump.fun\",\n  \"message\": \"request cannot be processed\"\n}"
+    },
+    "pumpfun_frontend_v1_coins": {
+      "status": 530,
+      "error": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1016/\",\"title\":\"Error 1016: Origin DNS error\",\"status\":530,\"detail\":\"Cloudflare is unable to resolve the origin DNS for this domain. The DNS A, AAAA, or CNAME record is missing or return"
+    },
+    "pumpfun_advanced_api": {
+      "status": 530,
+      "error": "{\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1016/\",\"title\":\"Error 1016: Origin DNS error\",\"status\":530,\"detail\":\"Cloudflare is unable to resolve the origin DNS for this domain. The DNS A, AAAA, or CNAME record is missing or return"
+    },
+    "dexscreener_search_pump": {
+      "status": 200,
+      "sample": "{\"schemaVersion\":\"1.0.0\",\"pairs\":[{\"chainId\":\"solana\",\"dexId\":\"pumpfun\",\"url\":\"https://dexscreener.com/solana/3ajpqjtuqfghnxxnzhsn3kpnmafclfb2fya5ue4xxvve\",\"pairAddress\":\"3AJPqJtuQFGhnXxnZhsn3kPNMAfcLfb2fya5ue4XXvve\",\"baseToken\":{\"address\":\"6RdyVqtcitQTch96epzEyDu9WjnN6HaGGKvYzsx5pump\",\"name\":\"PUMP\",\"symbol\":\"PUMP\"},\"quoteToken\":{\"address\":\"So11111111111111111111111111111111111111112\",\"name\":\"Wrapped SOL\",\"symbol\":\"SOL\"},\"priceNative\":\"0.00000002118\",\"priceUsd\":\"0.000001473\",\"txns\":{\"m5\":{\"buys\""
+    },
+    "dexscreener_token_profiles": {
+      "status": 200,
+      "sample": "[{\"url\":\"https://dexscreener.com/solana/w4lvmpe5cpi3n7bwptcqrtgkt74yfvyrqbvxxnczblk\",\"chainId\":\"solana\",\"tokenAddress\":\"w4Lvmpe5Cpi3n7bwpTCQRTgKT74YFVyRqBVxXnCZBLK\",\"icon\":\"https://cdn.dexscreener.com/cms/images/T1zRgdWeS2KIuBMm?width=64&height=64&fit=crop&quality=95&format=auto\",\"header\":\"https://cdn.dexscreener.com/cms/images/s3xnQA54s8sTbMQs?width=600&height=200&fit=crop&quality=95&format=auto\",\"openGraph\":\"https://cdn.dexscreener.com/token-images/og/solana/w4Lvmpe5Cpi3n7bwpTCQRTgKT74YFVyRqBV"
+    },
+    "dexscreener_token_boosts": {
+      "status": 200,
+      "sample": "[{\"url\":\"https://dexscreener.com/solana/5ldowscyvd3a6zs4m8gcqg5nu16eltwrxhcifi1bpump\",\"chainId\":\"solana\",\"tokenAddress\":\"5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump\",\"description\":\"Kiss the ring. Hold the line. $DONJENSEN, the Don of Solana memes \ud83c\udf39\",\"icon\":\"addtJFJdConBA_5K\",\"header\":\"https://cdn.dexscreener.com/cms/images/hcvbb-b6w2ANu3UR?width=900&height=300&fit=crop&quality=95&format=auto\",\"openGraph\":\"https://cdn.dexscreener.com/token-images/og/solana/5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1"
+    },
+    "geckoterminal_solana_trending": {
+      "status": 200,
+      "sample": "{\"data\":[{\"id\":\"solana_FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC\",\"type\":\"pool\",\"attributes\":{\"base_token_price_usd\":\"0.0201705872153733507325339389029835816972290110188531163276040304\",\"base_token_price_native_currency\":\"0.000289737715048592\",\"quote_token_price_usd\":\"69.620874068991209303423211335444166466948726012\",\"quote_token_price_native_currency\":\"1.0\",\"base_token_price_quote_token\":\"0.000289737715\",\"quote_token_price_base_token\":\"3451.397412423\",\"address\":\"FnzKY6x7entQ1eR3D225dQyT7ybfk"
+    },
+    "geckoterminal_solana_new": {
+      "status": 200,
+      "sample": "{\"data\":[{\"id\":\"solana_AswARAAF5mLvad8t8ofV2spYGz9ut4wyENv66EvkW1SJ\",\"type\":\"pool\",\"attributes\":{\"base_token_price_usd\":\"0.0000079572155240774737065130183855937219254371831544913863737238725\",\"base_token_price_native_currency\":\"0.000000114204748788422\",\"quote_token_price_usd\":\"69.674996954978950785619933768588059874468297221\",\"quote_token_price_native_currency\":\"1.0\",\"base_token_price_quote_token\":\"0.0000001142047488\",\"quote_token_price_base_token\":\"8756203.31561361\",\"address\":\"AswARAAF5mLvad8t8"
+    },
+    "geckoterminal_pumpswap_pools": {
+      "status": 200,
+      "sample": "{\"data\":[{\"id\":\"solana_7v3yUnuNayZ6KwbAxJSd3TXnk2WT92q18zJiB677nNso\",\"type\":\"pool\",\"attributes\":{\"base_token_price_usd\":\"0.0013637532863634535616207970799255107919115944881331150102684614\",\"base_token_price_native_currency\":\"0.0000193617287069541\",\"quote_token_price_usd\":\"69.662475760977761877136344827315286527592237559\",\"quote_token_price_native_currency\":\"1.0\",\"base_token_price_quote_token\":\"0.00001936172871\",\"quote_token_price_base_token\":\"51648.2807467927\",\"address\":\"7v3yUnuNayZ6KwbAxJSd3TXn"
+    },
+    "geckoterminal_pumpfun_pools": {
+      "status": 200,
+      "sample": "{\"data\":[{\"id\":\"raydium\",\"type\":\"dex\",\"attributes\":{\"name\":\"Raydium\"}},{\"id\":\"orca\",\"type\":\"dex\",\"attributes\":{\"name\":\"Orca\"}},{\"id\":\"raydium-clmm\",\"type\":\"dex\",\"attributes\":{\"name\":\"Raydium (CLMM)\"}},{\"id\":\"fluxbeam\",\"type\":\"dex\",\"attributes\":{\"name\":\"FluxBeam\"}},{\"id\":\"meteora\",\"type\":\"dex\",\"attributes\":{\"name\":\"Meteora\"}},{\"id\":\"dexlab\",\"type\":\"dex\",\"attributes\":{\"name\":\"Dexlab\"}},{\"id\":\"daos-fun\",\"type\":\"dex\",\"attributes\":{\"name\":\"Daos.fun\"}},{\"id\":\"pumpswap\",\"type\":\"dex\",\"attributes\":{\"name"
+    },
+    "solana_rpc_mainnet": {
+      "status": 200,
+      "sample": "{\"jsonrpc\":\"2.0\",\"result\":473510171,\"id\":1}\n"
+    },
+    "ankr_solana_rpc": {
+      "status": 403,
+      "error": "{\"error\":\"message: API key is not allowed to access blockchain, json-rpc code: -32052, rest code: 403\"}"
+    },
+    "publicnode_solana_rpc": {
+      "status": 200,
+      "sample": "{\"jsonrpc\":\"2.0\",\"result\":473510171,\"id\":1}\n"
+    },
+    "reddit_pumpfun": {
+      "status": 403,
+      "error": "<body class=theme-beta><div><style>.theme-light,:root{--rem360:22.5rem;--rem320:20rem;--rem192:12rem;--rem144:9rem;--rem128:8rem;--rem96:6rem;--rem90:5.625rem;--rem88:5.5rem;--rem64:4rem;--rem56:3.5rem;--rem48:3rem;--rem40:2.5rem;--rem36:2.25rem;--rem32:2rem;--rem28:1.75rem;--rem26:1.625rem;--rem24:"
+    },
+    "binance_solusdt_klines": {
+      "status": 200,
+      "sample": "[[1792886400000,\"102.37000000\",\"102.77000000\",\"100.37000000\",\"101.40000000\",\"914039.38200000\",1792972799999,\"92793702.45650000\",290010,\"482108.30600000\",\"48947989.14395000\",\"0\"],[1792972800000,\"101.39000000\",\"102.73000000\",\"99.88000000\",\"100.95000000\",\"1646178.00200000\",1793059199999,\"166524176.24107000\",607797,\"875071.23100000\",\"88536684.42349000\",\"0\"],[1793059200000,\"100.94000000\",\"101.88000000\",\"99.16000000\",\"101.35000000\",\"1324293.01100000\",1793145599999,\"133127615.53186000\",434626,\"727004.9"
+    }
+  }
+}

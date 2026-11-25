@@ -1,0 +1,33 @@
+2026-11-24 23:35:27,058 [INFO] Universe breakdown: Group A (30d launches) = 2722, Older active in 30d = 1920
+2026-11-24 23:35:27,068 [INFO] Selected Deep Cohort: Total=444 | Group A Pump Candidates=220 | Group B Older Candidates=66 | Matched Controls=158
+2026-11-24 23:35:27,073 [INFO] Fetching DexScreener batch pool/liquidity/social enrichment for 444 cohort tokens...
+2026-11-24 23:35:37,224 [INFO] DexScreener returned active DEX/curve pair records for 105/444 tokens.
+2026-11-24 23:35:37,224 [INFO] Starting candle & millisecond trade acquisition for 444 cohort tokens...
+2026-11-24 23:35:42,266 [INFO] Cohort progress: 25/444 tokens processed (15.7s)
+2026-11-24 23:36:59,168 [INFO] Cohort progress: 75/444 tokens processed (92.6s)
+2026-11-24 23:38:32,469 [INFO] Cohort progress: 125/444 tokens processed (185.9s)
+2026-11-24 23:40:07,389 [INFO] Cohort progress: 175/444 tokens processed (280.8s)
+2026-11-24 23:41:01,525 [INFO] Cohort progress: 225/444 tokens processed (335.0s)
+2026-11-24 23:42:08,552 [INFO] Cohort progress: 275/444 tokens processed (402.0s)
+2026-11-24 23:43:15,974 [INFO] Cohort progress: 325/444 tokens processed (469.4s)
+2026-11-24 23:44:22,868 [INFO] Cohort progress: 375/444 tokens processed (536.3s)
+2026-11-24 23:45:20,551 [INFO] Cohort progress: 425/444 tokens processed (594.0s)
+2026-11-24 23:45:40,962 [INFO] Cohort progress: 444/444 tokens processed (614.4s)
+2026-11-24 23:45:40,966 [INFO] Step 2 completed in 614.4s.
+2026-11-25 00:04:23,471 [INFO] Universe breakdown: Group A (30d launches) = 2515, Older active in 30d = 1553
+2026-11-25 00:04:23,481 [INFO] Selected Deep Cohort: Total=493 | Group A Pump Candidates=220 | Group B Older Candidates=66 | Matched Controls=207
+2026-11-25 00:04:23,487 [INFO] Fetching DexScreener batch pool/liquidity/social enrichment for 403 uncached cohort tokens...
+2026-11-25 00:04:34,594 [INFO] DexScreener returned active DEX/curve pair records for 372/493 tokens.
+2026-11-25 00:04:34,595 [INFO] Starting candle & millisecond trade acquisition for 493 cohort tokens...
+2026-11-25 00:04:44,894 [INFO] Cohort progress: 25/493 tokens processed (21.9s)
+2026-11-25 00:05:55,785 [INFO] Cohort progress: 75/493 tokens processed (92.8s)
+2026-11-25 00:07:22,799 [INFO] Cohort progress: 125/493 tokens processed (179.8s)
+2026-11-25 00:08:47,703 [INFO] Cohort progress: 175/493 tokens processed (264.7s)
+2026-11-25 00:08:50,063 [INFO] Cohort progress: 225/493 tokens processed (267.1s)
+2026-11-25 00:10:03,522 [INFO] Cohort progress: 275/493 tokens processed (340.5s)
+2026-11-25 00:10:35,628 [INFO] Cohort progress: 325/493 tokens processed (372.6s)
+2026-11-25 00:11:07,233 [INFO] Cohort progress: 375/493 tokens processed (404.2s)
+2026-11-25 00:11:46,768 [INFO] Cohort progress: 425/493 tokens processed (443.8s)
+2026-11-25 00:12:26,389 [INFO] Cohort progress: 475/493 tokens processed (483.4s)
+2026-11-25 00:12:39,865 [INFO] Cohort progress: 493/493 tokens processed (496.9s)
+2026-11-25 00:12:39,869 [INFO] Step 2 completed in 496.9s.

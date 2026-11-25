@@ -1,0 +1,12 @@
+2026-11-24 23:49:14,231 [INFO] Fetching missing creator histories for 289 cohort creators (already cached: 400)...
+2026-11-24 23:49:21,372 [INFO] Creator database complete: 689 creators saved.
+2026-11-24 23:49:22,048 [INFO] Identified 420 priority wallets for holdings/PnL & 143 for Solana RPC funding forensics.
+2026-11-24 23:49:22,050 [INFO] Querying profile-api.pump.fun for 420 wallets (cached: 0)...
+2026-11-24 23:54:45,728 [INFO] Saved holdings & portfolio PnL for 420 wallets.
+2026-11-24 23:54:45,729 [INFO] Tracing on-chain SOL funding via Solana RPC for 143 wallets (cached: 0)...
+2026-11-24 23:54:46,102 [INFO] RPC funding progress: 15/143 wallets traced
+2026-11-24 23:54:47,331 [INFO] RPC funding progress: 60/143 wallets traced
+2026-11-24 23:54:48,631 [INFO] RPC funding progress: 105/143 wallets traced
+2026-11-24 23:54:49,832 [INFO] RPC funding progress: 143/143 wallets traced
+2026-11-24 23:54:49,989 [INFO] RPC forensics complete: 143 wallets traced, 0 shared funders classified.
+2026-11-24 23:54:49,993 [INFO] Step 3 completed in 335.9s.

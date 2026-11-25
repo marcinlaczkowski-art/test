@@ -1,0 +1,12 @@
+2026-11-24 23:29:57,092 [INFO] Executing 230 primary sweep requests...
+2026-11-24 23:30:06,219 [INFO] After primary sweeps: 4458 unique tokens.
+2026-11-24 23:30:06,220 [INFO] Executing 828 stratified search queries...
+2026-11-24 23:30:07,612 [INFO] Progress 0/828 -> 4461 unique tokens
+2026-11-24 23:31:14,063 [INFO] Progress 250/828 -> 4511 unique tokens
+2026-11-24 23:32:21,981 [INFO] Progress 500/828 -> 4560 unique tokens
+2026-11-24 23:33:01,046 [INFO] Progress 750/828 -> 4575 unique tokens
+2026-11-24 23:33:19,489 [INFO] Fetching creator launch histories for 400 creators (unbiased 30d control & serial dev data)...
+2026-11-24 23:33:38,716 [INFO] Cross-source DexScreener/GeckoTerminal discovered 100 pump mints (28 new).
+2026-11-24 23:33:39,903 [INFO] TOTAL UNIQUE PUMP.FUN TOKENS HARVESTED: 8462
+2026-11-24 23:33:41,093 [INFO] Saved SOLUSDT market context: 888 hourly bars, 44 daily bars.
+2026-11-24 23:33:41,103 [INFO] Summary in 224.0s: Total=8462 | Group A (New 30d)=2726 (Migrated=1395, ATH>=$15k=1317) | Older Active/Pumped in 30d=2244
