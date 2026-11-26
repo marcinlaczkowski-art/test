@@ -16,11 +16,47 @@ services:
       driver: json-file
       options: { max-size: "10m", max-file: "3" }
 
+  # Velocity scanner: >=40 buyers in first 60 s -> paper entry (read-only, no keys)
+  velocity:
+    build:
+      context: .
+      dockerfile: Dockerfile.paper
+    command: ["python", "PUMPFUN_ALPHA_RESEARCH_V2_2/paper_trading/velocity_scanner.py", "--dir", "/data/paper"]
+    restart: unless-stopped
+    volumes:
+      - /opt/pumpfun-data:/data
+    mem_limit: 256m
+    cpus: 0.3
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
+  # Operator tracker: follows the burner-wallet chain, observation + paper entries only
+  optracker:
+    build:
+      context: .
+      dockerfile: Dockerfile.paper
+    command: ["python", "PUMPFUN_ALPHA_RESEARCH_V2_2/tools/operator_tracker.py", "--dir", "/data/paper",
+              "--seed", "24msJny8MUFNbRXYDVFtTULAVxz44aWi2SNddgRTvfh1"]
+    restart: unless-stopped
+    environment:
+      - SOLANA_RPC_URL=${SOLANA_RPC_URL:-https://api.mainnet-beta.solana.com}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID:-}
+    volumes:
+      - /opt/pumpfun-data:/data
+    mem_limit: 256m
+    cpus: 0.3
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+
   web:
     image: nginx:1.27-alpine
     restart: unless-stopped
     volumes:
       - ./:/srv:ro
+      - /opt/pumpfun-data/paper:/live:ro
       - ./deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
     mem_limit: 128m
     networks: [n8n_default]

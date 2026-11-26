@@ -103,9 +103,17 @@ class Alerts:
         self.path = path
         self.tg_token = os.environ.get("TELEGRAM_BOT_TOKEN")
         self.tg_chat = os.environ.get("TELEGRAM_CHAT_ID")
+        self.recent = []
+        if Path(path).exists():  # historia alertow po restarcie
+            for line in Path(path).read_text(encoding="utf-8").splitlines()[-100:]:
+                try:
+                    self.recent.insert(0, json.loads(line))
+                except json.JSONDecodeError:
+                    pass
 
     def send(self, kind, text, **data):
         log(f"[{kind}] {text}")
+        self.recent = ([{"ts": int(time.time() * 1000), "kind": kind, "text": text, **data}] + self.recent)[:100]
         with open(self.path, "a", encoding="utf-8") as f:
             f.write(json.dumps({"ts": int(time.time() * 1000), "kind": kind, "text": text, **data}) + "\n")
         if self.tg_token and self.tg_chat:
@@ -130,6 +138,20 @@ class Tracker:
 
     def save(self):
         self.state_path.write_text(json.dumps(self.st, indent=1), encoding="utf-8")
+        # podsumowanie dla dashboardu /live.html
+        toks = [{"mint": m, **t} for m, t in self.st["tokens"].items() if t["status"] != "OLD"]
+        toks.sort(key=lambda t: -(t.get("seen_ts") or 0))
+        done = [t["result"] for t in toks if t.get("status") == "DONE"]
+        summ = {"updated_at_ms": int(time.time() * 1000), "buyers_needed": self.buyers_needed,
+                "heads": [{"wallet": w, **h} for w, h in self.st["heads"].items()],
+                "operator_wallets_n": len(self.st["operator_wallets"]),
+                "tokens": toks[:200], "closed_n": len(done),
+                "avg_result": round(sum(done) / len(done), 4) if done else None,
+                "win_rate": round(sum(r > 0 for r in done) / len(done), 3) if done else None,
+                "alerts": self.alerts.recent[:50]}
+        p = self.state_path.parent / "operator_summary.json"
+        p.with_suffix(".tmp").write_text(json.dumps(summ), encoding="utf-8")
+        os.replace(p.with_suffix(".tmp"), p)
 
     def add_head(self, wallet, parent=None):
         if wallet in self.st["heads"]:
@@ -221,6 +243,7 @@ class Tracker:
             if t["status"] == "WATCH":
                 buyers = {(x.get("trader") or {}).get("address") for x in tr if x.get("side") == "buy"} - op
                 t0 = int(tr[0]["blockTimeMs"]) / 1000
+                t["buyers"] = len(buyers)
                 if now - t0 > WATCH_MAX_S:
                     t["status"] = "SKIP"
                     log(f"{mint[:8]}.. pominiety: {len(buyers)} kupujacych, minelo {WATCH_MAX_S // 60} min")

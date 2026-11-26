@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PUMPFUN Live Paper</title>
+<style>
+  :root { --bg:#090d16; --panel:#111827; --border:#1f2937; --text:#e2e8f0; --muted:#94a3b8; --accent:#38bdf8; --ok:#10b981; --warn:#f59e0b; --bad:#ef4444; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:'Segoe UI',system-ui,sans-serif; background:var(--bg); color:var(--text); padding:16px; line-height:1.45; }
+  header { display:flex; justify-content:space-between; align-items:flex-start; gap:12px; flex-wrap:wrap; border-bottom:1px solid var(--border); padding-bottom:12px; margin-bottom:14px; }
+  h1 { font-size:1.2rem; } h2 { font-size:1rem; margin:4px 0 8px; } h3 { font-size:.9rem; margin:14px 0 6px; color:#cbd5e1; }
+  a { color:#58a6ff; }
+  .sub { font-size:.8rem; color:var(--muted); margin-bottom:10px; }
+  .panel { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:14px; margin-bottom:16px; }
+  .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:8px; margin-bottom:10px; }
+  .kpi { border:1px solid var(--border); border-radius:6px; padding:8px 10px; }
+  .kpi .k { font-size:.7rem; color:var(--muted); text-transform:uppercase; } .kpi .v { font-size:1.05rem; font-weight:700; margin-top:2px; }
+  .wrap { overflow-x:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.78rem; }
+  th, td { padding:6px 8px; border-bottom:1px solid var(--border); text-align:left; white-space:nowrap; }
+  th { background:#0f172a; color:#cbd5e1; }
+  .pos { color:var(--ok); } .neg { color:var(--bad); } .mut { color:var(--muted); }
+  .warn { color:var(--warn); font-size:.8rem; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>PUMPFUN — Live Paper (tylko papier, bez prawdziwych transakcji)</h1>
+    <div class="sub">Odświeżanie co 15 s • <a href="index.html">← dashboard V2.2</a></div>
+  </div>
+  <div class="sub" id="clock"></div>
+</header>
+
+<div class="panel">
+  <h2>1. Skaner tempa kupujących</h2>
+  <div class="sub" id="v-rule"></div>
+  <div class="kpis" id="v-kpis"></div>
+  <h3>Otwarte pozycje (papier)</h3><div class="wrap"><table id="v-open"></table></div>
+  <h3>Zamknięte pozycje (ostatnie 100)</h3><div class="wrap"><table id="v-closed"></table></div>
+  <h3>Ostatnio sprawdzone tokeny</h3><div class="wrap"><table id="v-checks"></table></div>
+</div>
+
+<div class="panel">
+  <h2>2. Tracker operatora (tylko obserwacja)</h2>
+  <div class="sub">Łańcuch jednorazowych portfeli: portfel → nowy coin → przelew salda na kolejny portfel. Wejście papierowe przy progu kupujących.</div>
+  <div class="kpis" id="o-kpis"></div>
+  <h3>Śledzone portfele</h3><div class="wrap"><table id="o-heads"></table></div>
+  <h3>Coiny operatora</h3><div class="wrap"><table id="o-tokens"></table></div>
+  <h3>Alerty</h3><div class="wrap"><table id="o-alerts"></table></div>
+</div>
+
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const coin = (mint, label) => mint ? `<a href="https://pump.fun/coin/${encodeURIComponent(mint)}" target="_blank" rel="noopener noreferrer">${esc(label || mint.slice(0,8)+'…')}</a>` : '';
+const dex = mint => mint ? `<a href="https://dexscreener.com/solana/${encodeURIComponent(mint)}" target="_blank" rel="noopener noreferrer">chart</a>` : '';
+const wal = (w) => w ? `<a href="https://solscan.io/account/${encodeURIComponent(w)}" target="_blank" rel="noopener noreferrer">${esc(w.slice(0,6))}…</a> <a class="mut" href="https://pump.fun/profile/${encodeURIComponent(w)}" target="_blank" rel="noopener noreferrer">pf</a>` : '';
+const pct = v => v == null ? '–' : `<span class="${v > 0 ? 'pos' : 'neg'}">${(v*100).toFixed(1)}%</span>`;
+const x = v => v == null ? '–' : `${Number(v).toFixed(2)}×`;
+const t = ms => ms ? new Date(ms > 1e12 ? ms : ms*1000).toLocaleTimeString('pl-PL') : '–';
+const ago = ms => ms ? Math.round((Date.now() - ms)/1000) + ' s temu' : '–';
+const linkify = s => esc(s).replace(/https:\/\/pump\.fun\/coin\/([1-9A-HJ-NP-Za-km-z]{32,48})/g, (m, id) => `<a href="https://pump.fun/coin/${id}" target="_blank" rel="noopener noreferrer">pump.fun/${id.slice(0,8)}…</a>`);
+function table(id, head, rows) {
+  document.getElementById(id).innerHTML = `<thead><tr>${head.map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody>${
+    rows.length ? rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('') : `<tr><td class="mut" colspan="${head.length}">brak</td></tr>`}</tbody>`;
+}
+function kpis(id, items) {
+  document.getElementById(id).innerHTML = items.map(([k,v]) => `<div class="kpi"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('');
+}
+async function getJson(u) {
+  try { const r = await fetch(u + '?t=' + Date.now(), {cache:'no-store'}); return r.ok ? await r.json() : null; } catch { return null; }
+}
+async function refresh() {
+  document.getElementById('clock').textContent = new Date().toLocaleString('pl-PL');
+  const v = await getJson('live/velocity_summary.json');
+  if (!v) { document.getElementById('v-rule').innerHTML = '<span class="warn">Brak danych — skaner (usługa velocity) jeszcze nie działa.</span>'; }
+  else {
+    const R = v.rule, C = v.counts;
+    document.getElementById('v-rule').innerHTML = `Reguła: ≥ ${R.buyers} kupujących w ${R.window_s} s, twórca nie zrzucił ≥90% w 20 s, nie operator • wyjście: połowa przy ${R.take_x}×, trailing ${R.trail*100}%, max ${R.max_hold_s/60} min • koszt ${R.cost_per_side*100}%/stronę • aktualizacja ${ago(v.updated_at_ms)}${Date.now()-v.updated_at_ms > 120000 ? ' <span class="warn">(skaner chyba stoi)</span>' : ''}`;
+    kpis('v-kpis', [['sprawdzone tokeny', C.scanned], ['sygnały (wejścia)', C.PASS], ['za mało kupujących', C.FEW_BUYERS],
+      ['twórca zrzucił', C.CREATOR_DUMP_20S], ['operator', C.OPERATOR], ['zamknięte', v.closed_n],
+      ['trafność', v.win_rate == null ? '–' : (v.win_rate*100).toFixed(0)+'%'], ['średni wynik', pct(v.avg_result)], ['mediana', pct(v.median_result)]]);
+    table('v-open', ['token','wykres','twórca','wejście','wiek przy wejściu','kupujący','teraz','szczyt','połowa'],
+      v.open.map(p => [coin(p.mint, p.symbol), dex(p.mint), wal(p.creator), t(p.entry_ts), p.entry_age_s+' s', p.buyers, x(p.x_now), x(p.x_peak), p.half ? 'tak' : '–']));
+    table('v-closed', ['token','wykres','wejście','kupujący','szczyt','wynik','powód'],
+      v.closed.map(p => [coin(p.mint, p.symbol), dex(p.mint), t(p.entry_ts), p.buyers, x(p.x_peak), pct(p.result), esc(p.exit_reason)]));
+    table('v-checks', ['token','twórca','wiek','kupujący','twórca sprzedał w 20 s','decyzja'],
+      v.recent_checks.map(c => [coin(c.mint, c.symbol), wal(c.creator), c.age_s+' s', c.buyers, (c.creator_sold_share_20s*100).toFixed(0)+'%',
+        c.reason === 'PASS' ? '<span class="pos">WEJŚCIE</span>' : esc(c.reason)]));
+  }
+  const o = await getJson('live/operator_summary.json');
+  if (!o) { kpis('o-kpis', [['status', '<span class="warn">brak danych — tracker nie działa</span>']]); }
+  else {
+    kpis('o-kpis', [['portfeli operatora', o.operator_wallets_n], ['coinów (nowych)', o.tokens.length], ['zamknięte', o.closed_n],
+      ['trafność', o.win_rate == null ? '–' : (o.win_rate*100).toFixed(0)+'%'], ['średni wynik', pct(o.avg_result)], ['aktualizacja', ago(o.updated_at_ms)]]);
+    table('o-heads', ['portfel','typ','ostatnia aktywność','następca'],
+      o.heads.map(h => [wal(h.wallet), h.collector ? 'zbiorczy' : 'jednorazowy', t(h.last_activity), wal(h.successor)]));
+    table('o-tokens', ['coin','wykres','portfel','wykryty','status','kupujący','szczyt','wynik'],
+      o.tokens.map(k => [coin(k.mint), dex(k.mint), wal(k.wallet), t(k.seen_ts), esc(k.status), k.buyers ?? '–', k.peak && k.entry ? x(k.peak/k.entry) : '–', pct(k.result)]));
+    table('o-alerts', ['czas','typ','treść'], o.alerts.map(a => [t(a.ts), esc(a.kind), linkify(a.text)]));
+  }
+}
+refresh(); setInterval(refresh, 15000);
+</script>
+</body>
+</html>
